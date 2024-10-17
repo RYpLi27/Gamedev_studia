@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New EnemyTargetAction", menuName = "ScriptableObjects/Enemy Target")]
-public class EnemyTargetAction : Action
+[CreateAssetMenu(fileName = "New TargetProjectile", menuName = "ScriptableObjects/Target Projectile")]
+public class TargetProjectile : Action
 {
-    public float damage;
+    public bool isFriendly;
     public float projectileSpeed;
     public float flightTime;
     public GameObject projectile;
@@ -15,6 +15,8 @@ public class EnemyTargetAction : Action
     public override void Cast(Transform target, Transform firePoint) {
         Rigidbody rb = Instantiate(projectile, firePoint.position, Quaternion.identity).GetComponent<Rigidbody>();
         Destroy(rb.gameObject, flightTime);
+
+        rb.GetComponent<ApplyHit>().SetValues(value, isFriendly);
 
         Vector3 targetPosition =  target.position - firePoint.position;
         rb.AddForce(targetPosition.normalized * projectileSpeed, ForceMode.Impulse);

@@ -14,4 +14,10 @@ public class LevelInfo : MonoBehaviour
         get { return enemyCount; }
         set { enemyCount = value; }
     }
+
+    private int allyCount;
+    public int AllyCount {
+        get { return allyCount; }
+        set { allyCount = value; }
+    }
 }

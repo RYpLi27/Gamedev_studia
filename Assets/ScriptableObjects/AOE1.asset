@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: EnemyTarget1
+  m_Script: {fileID: 11500000, guid: 0c27b7d0b3505e84993c8862ad404ff0, type: 3}
+  m_Name: AOE1
   m_EditorClassIdentifier: 
-  value: 1
-  actionName: EnemyTarget
-  actionInterval: 1
-  projectileSpeed: 15
-  flightTime: 1.25
-  projectile: {fileID: 1195932937051774752, guid: d5f47b4ae79d61d4699cdece3ff747ab,
+  value: 2
+  castDelay: 0.2
+  actionName: AOE1
+  actionInterval: 2
+  isFriendly: 0
+  range: 7
+  hitEffect: {fileID: 7495029756419776810, guid: 4b752a49118fb624f9702051fc78cc57,
     type: 3}

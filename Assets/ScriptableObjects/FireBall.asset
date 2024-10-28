@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: EnemyTarget1
+  m_Name: FireBall
   m_EditorClassIdentifier: 
   value: 1
-  actionName: EnemyTarget
+  castDelay: 0.2
+  actionName: Fire Ball
   actionInterval: 1
   projectileSpeed: 15
   flightTime: 1.25

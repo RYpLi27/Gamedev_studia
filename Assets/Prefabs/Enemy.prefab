@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8326148500041904183}
   - component: {fileID: 247690122073683477}
   - component: {fileID: 8232173931879941466}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -149,3 +149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
+  goldDropRate: 100
+  lootPool:
+  - {fileID: 5269932743237361592, guid: 71d184467d147e94992cb8fa28c6fbd2, type: 3}

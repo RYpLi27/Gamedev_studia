@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
     [Header("Stats")]
     [SerializeField] private float maxHealth;
+
+    [Header("Only for enemy")]
+    [SerializeField] private float goldDropRate;
+    [SerializeField] private GameObject[] lootPool;
     private float currentHealth;
 
     void Start() {
@@ -37,6 +42,10 @@ public class HealthSystem : MonoBehaviour
     void Death() {
         if(gameObject.CompareTag("Enemy")) {
             LevelInfo.instance.EnemyCount--;
+
+            if(Random.Range(0, 100) <= goldDropRate) {
+                Instantiate(lootPool[0], new Vector3(transform.position.x, 0 , transform.position.z), Quaternion.identity);
+            }
         } else if(gameObject.CompareTag("Ally")) {
             LevelInfo.instance.AllyCount--;
         }

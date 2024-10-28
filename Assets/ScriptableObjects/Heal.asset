@@ -9,14 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: AllyTarget1
+  m_Script: {fileID: 11500000, guid: fd97b4ae74a1c1e40a77593c433c524a, type: 3}
+  m_Name: Heal
   m_EditorClassIdentifier: 
   value: 2
-  actionName: AllyTarget1
+  castDelay: 0.5
+  actionName: Heal
   actionInterval: 1
-  isFriendly: 1
-  projectileSpeed: 15
-  flightTime: 1.25
-  projectile: {fileID: 2039516057748291495, guid: bcf16120eb97dbf48bcdd4ebc5469668,
+  healParticle: {fileID: 4633321008956953779, guid: b4189593887aa254290916ea07fecddb,
     type: 3}

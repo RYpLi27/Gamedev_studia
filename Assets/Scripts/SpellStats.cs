@@ -7,21 +7,41 @@ public class SpellStats : MonoBehaviour
 {
     [SerializeField] private bool destroyOnPenetration;
     [SerializeField] private int penetrationAmmount;
-    [SerializeField] private bool isFriendly;
+    [SerializeField] private bool isHeal;
+    [SerializeField] private bool fromEnemy;
     private float value;
 
     void OnTriggerEnter(Collider col)
     {
-        if(col.CompareTag("Enemy") && isFriendly == false) {
-            col.GetComponent<HealthSystem>().TakeDamage(value);
-
-            DestroyCheck();
-        } else if(col.CompareTag("Ally") && isFriendly == true) {
+        if(isHeal == true) {
             col.GetComponent<HealthSystem>().Heal(value);
 
             DestroyCheck();
         } else if(col.CompareTag("Obstacle")) {
             Destroy(gameObject);
+        } else {
+            switch(fromEnemy, col.tag) {
+                case (false, "Enemy"):
+                    col.GetComponent<HealthSystem>().TakeDamage(value);
+
+                    DestroyCheck();
+                break;
+
+                case (true, "Ally"):
+                    col.GetComponent<HealthSystem>().TakeDamage(value);
+
+                    DestroyCheck();
+                break;
+
+                case (true, "Hero"):
+                    col.GetComponent<HealthSystem>().TakeDamage(value);
+
+                    DestroyCheck();
+                break;
+
+                default:
+                break;
+            }
         }
     }
 

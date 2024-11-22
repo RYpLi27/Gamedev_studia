@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: FireBall
+  m_Name: FireBallHero
   m_EditorClassIdentifier: 
   value: 1
   castDelay: 0.2

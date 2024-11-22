@@ -7,11 +7,8 @@ public class HealthSystem : MonoBehaviour
 {
     [Header("Stats")]
     [SerializeField] private float maxHealth;
-
-    [Header("Only for enemy")]
-    [SerializeField] private float goldDropRate;
-    [SerializeField] private GameObject[] lootPool;
     private float currentHealth;
+    private bool alreadyDead;
 
     void Start() {
         currentHealth = maxHealth;
@@ -26,7 +23,8 @@ public class HealthSystem : MonoBehaviour
     public void TakeDamage(float ammount) {
         currentHealth -= ammount;
 
-        if(currentHealth <= 0) {
+        if(currentHealth <= 0 && alreadyDead == false) {
+            alreadyDead = true;
             Death();
         }
     }
@@ -39,13 +37,19 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
+    public bool InHealingRange() {
+        if(currentHealth <= maxHealth * .5f) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     void Death() {
         if(gameObject.CompareTag("Enemy")) {
             LevelInfo.instance.EnemyCount--;
 
-            if(Random.Range(0, 100) <= goldDropRate) {
-                Instantiate(lootPool[0], new Vector3(transform.position.x, 0 , transform.position.z), Quaternion.identity);
-            }
+            gameObject.GetComponent<LootPool>().DropLoot();
         } else if(gameObject.CompareTag("Ally")) {
             LevelInfo.instance.AllyCount--;
         }

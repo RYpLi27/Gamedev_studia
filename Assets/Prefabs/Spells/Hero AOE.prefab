@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3660976498740537231}
   - component: {fileID: 4414626910236955748}
   m_Layer: 0
-  m_Name: AOE Area
+  m_Name: Hero AOE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
     private bool isOpen;
 
-    void Start() {
+    private void Start() {
         LevelInfo.instance.ChestCount++;
     }
 

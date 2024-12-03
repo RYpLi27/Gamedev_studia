@@ -9,14 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: FireBallEnemy
+  m_Script: {fileID: 11500000, guid: 4d0c601299ac43c9aac520f4d51f02e6, type: 3}
+  m_Name: ArrowVolley
   m_EditorClassIdentifier: 
   value: 1
   castDelay: 0.2
-  actionName: FireBall
+  actionName: ArrowVolley
   actionInterval: 1
   projectileSpeed: 15
   flightTime: 1.25
-  projectile: {fileID: 7893212256398326519, guid: e941df6386c2ae449a479879b5817c58,
+  coneAngle: 20
+  projectileCount: 3
+  projectile: {fileID: 3417109685012956946, guid: d4bfd43a02ac05049b8c1e667b1b7d68,
     type: 3}

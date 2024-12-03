@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FindTarget : MonoBehaviour
@@ -7,11 +5,7 @@ public class FindTarget : MonoBehaviour
     public static Transform AtRandom(string tag) {
         GameObject[] foundObjects = GameObject.FindGameObjectsWithTag(tag);
 
-        if(foundObjects.Length == 0) {
-            return null;
-        } else {
-            return foundObjects[Random.Range(0, foundObjects.Length)].transform;
-        }
+        return foundObjects.Length == 0 ? null : foundObjects[Random.Range(0, foundObjects.Length)].transform;
     }
 
     public static Transform ClosestTo(string tag, Transform origin) {
@@ -29,6 +23,6 @@ public class FindTarget : MonoBehaviour
             }
         }
 
-        return closestObj.transform;
+        return closestObj != null ? closestObj.transform : null;
     }
 }

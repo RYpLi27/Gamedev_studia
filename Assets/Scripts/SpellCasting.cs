@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -21,8 +19,7 @@ public class SpellCasting : MonoBehaviour
     [SerializeField] private float sightLength;
     [SerializeField] private LayerMask whatToSee;
 
-
-    void Start() {
+    private void Start() {
         readyToCast = true;
         agent = GetComponent<NavMeshAgent>();
         targetedAlly = FindTarget.ClosestTo(supportActionTag, transform);
@@ -32,7 +29,7 @@ public class SpellCasting : MonoBehaviour
         RollAction();
     }
 
-    void Update() {
+    private void Update() {
         // SEARCHING FOR A TARGET
         if(transform.CompareTag("Hero")) {
             if(targetedEnemy == null && levelInfo.EnemyCount > 0) {
@@ -47,7 +44,7 @@ public class SpellCasting : MonoBehaviour
                 targetedAlly = FindTarget.ClosestTo(supportActionTag, transform);
             }
         }
-
+        
         if(actionTarget == null) {
             GetActionTarget();
         }
@@ -61,7 +58,7 @@ public class SpellCasting : MonoBehaviour
                     if(currentAction is AOE == false) {
                         approachTarget = false;
 
-                        if(tryRecast == true) {
+                        if(tryRecast) {
                             tryRecast = false;
                             MakeAction();
                         }
@@ -74,7 +71,7 @@ public class SpellCasting : MonoBehaviour
         }
         
         // MAKING ACTION IF ABLE
-        if(readyToCast == true && actionTarget != null) {
+        if(readyToCast && actionTarget != null) {
             canMove = true;
             MakeAction();
         } else {
@@ -82,8 +79,8 @@ public class SpellCasting : MonoBehaviour
         }
 
         // HERO MOVEMENT
-        if(canMove == true) {
-            if(approachTarget == true) {
+        if(canMove) {
+            if(approachTarget) {
                 ApproachTarget();
             } else{
                 SpaceTarget();
@@ -93,30 +90,30 @@ public class SpellCasting : MonoBehaviour
         }
     }
 
-    void MakeAction() {
+    private void MakeAction() {
         readyToCast = false;
 
         if(currentAction is AOE aoe) {
-            if(Vector3.Distance(transform.position, actionTarget.position) > aoe.range/2 - 1) {
+            if(Vector3.Distance(transform.position, actionTarget.position) > aoe.range - 1) {
                 approachTarget = true;
-                approachTargetRange = aoe.range/2 - 1;
+                approachTargetRange = aoe.range - 1;
             } else {
                 approachTarget = false;
                 canMove = false;
 
-                Invoke("CastSpell", currentAction.castDelay);
+                Invoke(nameof(CastSpell), currentAction.castDelay);
             }
         } else {
-            if(targetInSight == true) {
+            if(targetInSight) {
                 approachTarget = false;
-                Invoke("CastSpell", currentAction.castDelay);
+                Invoke(nameof(CastSpell), currentAction.castDelay);
             } else {
                 tryRecast = true;
             }
         }
     }
 
-    void CastSpell() {
+    private void CastSpell() {
         if(currentAction is TargetSpell) {
             currentAction.Cast(actionTarget); 
         } else {
@@ -124,21 +121,17 @@ public class SpellCasting : MonoBehaviour
         }
 
         actionTarget = null;
-        Invoke("ResetInterval", currentAction.actionInterval);
+        Invoke(nameof(ResetInterval), currentAction.actionInterval);
         RollAction();
     }
 
-    void ResetInterval() {
+    private void ResetInterval() {
         readyToCast = true;
     }
 
-    void RollAction() {
-        if(targetedAlly.GetComponent<HealthSystem>().InHealingRange() == true && actionListSupport.Length != 0) {
-            if(Random.Range(0, 2) == 0) {
-                currentAction = actionListAttack[Random.Range(0, actionListAttack.Length)];
-            } else {
-                currentAction = actionListSupport[Random.Range(0, actionListSupport.Length)];
-            }
+    private void RollAction() {
+        if(targetedAlly.GetComponent<HealthSystem>().InHealingRange() && actionListSupport.Length != 0) {
+            currentAction = Random.Range(0, 2) == 0 ? actionListAttack[Random.Range(0, actionListAttack.Length)] : actionListSupport[Random.Range(0, actionListSupport.Length)];
         } else {
             currentAction = actionListAttack[Random.Range(0, actionListAttack.Length)];
         }
@@ -146,15 +139,11 @@ public class SpellCasting : MonoBehaviour
         GetActionTarget();
     }
 
-    void GetActionTarget() {
-        if(currentAction is TargetSpell ts) {
-            actionTarget = targetedAlly;
-        } else {
-            actionTarget = targetedEnemy;
-        }
+    private void GetActionTarget() {
+        actionTarget = currentAction is TargetSpell ? targetedAlly : targetedEnemy;
     }
 
-    void ApproachTarget() {
+    private void ApproachTarget() {
         if(Vector3.Distance(transform.position, targetedEnemy.position) > approachTargetRange && actionTarget != null) {
             agent.SetDestination(actionTarget.position);
         } else {
@@ -162,23 +151,22 @@ public class SpellCasting : MonoBehaviour
         }
     }
 
-    void SpaceTarget() {
-        if(actionTarget != null) {
-            if(Vector3.Distance(transform.position, actionTarget.position) < spaceEnemyRange) {
-                Vector3 target = (transform.position - actionTarget.position).normalized;
-                agent.SetDestination(transform.position + target);
-            } else if(Vector3.Distance(transform.position, actionTarget.position) > spaceEnemyRange + 2) {
-                agent.SetDestination(actionTarget.position);
-            } else {
-                agent.SetDestination(transform.position);
-            }
+    private void SpaceTarget() {
+        if (actionTarget == null) return;
+        if(Vector3.Distance(transform.position, actionTarget.position) < spaceEnemyRange) {
+            Vector3 target = (transform.position - actionTarget.position).normalized;
+            agent.SetDestination(transform.position + target);
+        } else if(Vector3.Distance(transform.position, actionTarget.position) > spaceEnemyRange + 2) {
+            agent.SetDestination(actionTarget.position);
+        } else {
+            agent.SetDestination(transform.position);
         }
     }
 
-    void OnDrawGizmos() {
+    private void OnDrawGizmos() {
         Gizmos.color = Color.red;
 
         if(actionTarget != null)
-        Gizmos.DrawRay(transform.position, actionTarget.position - transform.position);
+            Gizmos.DrawRay(transform.position, actionTarget.position - transform.position);
     }
 }

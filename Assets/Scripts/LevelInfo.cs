@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelInfo : MonoBehaviour
@@ -9,27 +7,11 @@ public class LevelInfo : MonoBehaviour
         instance = this;
     }
 
-    private int enemyCount;
-    public int EnemyCount {
-        get { return enemyCount; }
-        set { enemyCount = value; }
-    }
+    public int EnemyCount { get; set; }
 
-    private int allyCount;
-    public int AllyCount {
-        get { return allyCount; }
-        set { allyCount = value; }
-    }
+    public int AllyCount { get; set; }
 
-    private int chestCount;
-    public int ChestCount {
-        get { return chestCount; }
-        set { chestCount = value; }
-    }
+    public int ChestCount { get; set; }
 
-    private int goldCount;
-    public int GoldCount {
-        get { return goldCount; }
-        set { goldCount = value; }
-    }
+    public int GoldCount { get; set; }
 }

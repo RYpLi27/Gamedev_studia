@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -7,7 +5,8 @@ using UnityEngine.SceneManagement;
 public class HeroBehaviour : MonoBehaviour
 {
     public static HeroBehaviour instance;
-    void Awake() {
+
+    private void Awake() {
         instance = this;
     }
 
@@ -17,18 +16,17 @@ public class HeroBehaviour : MonoBehaviour
     private NavMeshAgent agent;
     private SpellCasting spells;
 
-    void Start()
+    private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         levelInfo = LevelInfo.instance;
         spells = GetComponent<SpellCasting>();
     }
 
-    void Update()
+    private void Update()
     {
         if(levelInfo.EnemyCount == 0 && spells.enabled == true) { // BEHAVIOUR WHEN ENEMIES ARE IN THE ROOM
             spells.enabled = false;
-            
         } 
         if(levelInfo.EnemyCount == 0) { // BEHAVIOUR WHEN THERE ARE NO ENEMIES IN THE ROOM
             if(levelInfo.GoldCount > 0) { // COLLECTING GOLD              -------------------------------------- CHANGE INTERVAL TO BE CONTROLLED BY ANIMATION STATE MACHINE -----------------------------------------
@@ -76,7 +74,7 @@ public class HeroBehaviour : MonoBehaviour
 #endif
     }
 
-    void GoTo(Transform target) {
+    private void GoTo(Transform target) {
         agent.SetDestination(target.position);
     }
 }

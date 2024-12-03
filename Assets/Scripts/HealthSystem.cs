@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
@@ -10,7 +7,7 @@ public class HealthSystem : MonoBehaviour
     private float currentHealth;
     private bool alreadyDead;
 
-    void Start() {
+    private void Start() {
         currentHealth = maxHealth;
 
         if(gameObject.CompareTag("Enemy")) {
@@ -20,8 +17,8 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float ammount) {
-        currentHealth -= ammount;
+    public void TakeDamage(float amount) {
+        currentHealth -= amount;
 
         if(currentHealth <= 0 && alreadyDead == false) {
             alreadyDead = true;
@@ -29,8 +26,8 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    public void Heal(float ammount) {
-        currentHealth += ammount;
+    public void Heal(float amount) {
+        currentHealth += amount;
 
         if(currentHealth > maxHealth) {
             currentHealth = maxHealth;
@@ -38,14 +35,10 @@ public class HealthSystem : MonoBehaviour
     }
 
     public bool InHealingRange() {
-        if(currentHealth <= maxHealth * .5f) {
-            return true;
-        } else {
-            return false;
-        }
+        return currentHealth <= maxHealth * .5f;
     }
 
-    void Death() {
+    private void Death() {
         if(gameObject.CompareTag("Enemy")) {
             LevelInfo.instance.EnemyCount--;
 

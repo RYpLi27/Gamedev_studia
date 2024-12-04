@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.instance.GamePaused) { return; }
+        
         // MOVEMENT POSTACI
         Vector3 input = new(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 direction = input.normalized;

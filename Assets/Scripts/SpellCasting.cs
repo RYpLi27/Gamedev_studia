@@ -7,7 +7,7 @@ public class SpellCasting : MonoBehaviour
     private Transform actionTarget, targetedEnemy, targetedAlly;
     private float approachTargetRange;
     private Action currentAction;
-    private LevelInfo levelInfo;
+    private GameManager gameManager;
     private NavMeshAgent agent;
 
     [SerializeField] private string attackActionTag;
@@ -19,28 +19,34 @@ public class SpellCasting : MonoBehaviour
     [SerializeField] private float sightLength;
     [SerializeField] private LayerMask whatToSee;
 
+    private void Awake() {
+        transform.SetParent(null);
+    }
+
     private void Start() {
         readyToCast = true;
         agent = GetComponent<NavMeshAgent>();
         targetedAlly = FindTarget.ClosestTo(supportActionTag, transform);
         targetedEnemy = FindTarget.ClosestTo(attackActionTag, transform);
-        levelInfo = LevelInfo.instance;
+        gameManager = GameManager.instance;
         
         RollAction();
     }
 
     private void Update() {
+        if (gameManager.GamePaused) { return; }
+        
         // SEARCHING FOR A TARGET
         if(transform.CompareTag("Hero")) {
-            if(targetedEnemy == null && levelInfo.EnemyCount > 0) {
+            if(targetedEnemy == null && gameManager.EnemyCount > 0) {
                 targetedEnemy = FindTarget.ClosestTo(attackActionTag, transform);
             }
 
-            if(targetedAlly == null && levelInfo.AllyCount > 0) {
+            if(targetedAlly == null && gameManager.AllyCount > 0) {
                 targetedAlly = FindTarget.ClosestTo(supportActionTag, transform);
             }
         } else {
-            if(targetedAlly == null && levelInfo.EnemyCount > 0) {
+            if(targetedAlly == null && gameManager.EnemyCount > 0) {
                 targetedAlly = FindTarget.ClosestTo(supportActionTag, transform);
             }
         }

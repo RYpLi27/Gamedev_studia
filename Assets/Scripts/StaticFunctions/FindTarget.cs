@@ -22,7 +22,7 @@ public class FindTarget : MonoBehaviour
                 closestObj = obj;
             }
         }
-
-        return closestObj != null ? closestObj.transform : null;
+        
+        return closestObj == null ? null : closestObj.transform.parent == null ? closestObj.transform : closestObj.transform.parent;
     }
 }

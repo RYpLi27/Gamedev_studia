@@ -150,10 +150,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866d43eb98822024c98276de506ce476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
   spaceEnemyRange: 8
+  sightLength: 12
   firePoint: {fileID: 2499910698489151525}
   agent: {fileID: 0}
+  sightTargets:
+    serializedVersion: 2
+    m_Bits: 0
   actionListEnemy:
   - {fileID: 11400000, guid: 2767faeb58efe3a4a8269dbb75b3591c, type: 2}
   - {fileID: 11400000, guid: e8ab8b99873d69945960fbf34b23cc82, type: 2}

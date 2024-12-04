@@ -20,4 +20,16 @@ public class LevelInfo : MonoBehaviour
         get { return allyCount; }
         set { allyCount = value; }
     }
+
+    private int chestCount;
+    public int ChestCount {
+        get { return chestCount; }
+        set { chestCount = value; }
+    }
+
+    private int goldCount;
+    public int GoldCount {
+        get { return goldCount; }
+        set { goldCount = value; }
+    }
 }

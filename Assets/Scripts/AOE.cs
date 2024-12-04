@@ -4,10 +4,9 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New AOE", menuName = "ScriptableObjects/AOE")]
+[CreateAssetMenu(fileName = "NewAOE", menuName = "ScriptableObjects/AOE")]
 public class AOE : Action
 {
-    public bool isFriendly;
     public float range;
     public GameObject hitEffect;
 
@@ -16,6 +15,6 @@ public class AOE : Action
         Destroy(hit, .4f);
 
         hit.transform.localScale = new Vector3(range, .2f, range);
-        hit.GetComponent<ApplyHit>().SetValues(value, isFriendly);
+        hit.GetComponent<SpellStats>().SetValues(value);
     }
 }

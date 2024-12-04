@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New TargetProjectile", menuName = "ScriptableObjects/Target Projectile")]
-public class TargetProjectile : Action
+[CreateAssetMenu(fileName = "NewProjectileSpell", menuName = "ScriptableObjects/Projectile Spell")]
+public class ProjectileSpell : Action
 {
-    public bool isFriendly;
     public float projectileSpeed;
     public float flightTime;
     public GameObject projectile;
@@ -16,7 +15,7 @@ public class TargetProjectile : Action
         Rigidbody rb = Instantiate(projectile, firePoint.position, Quaternion.identity).GetComponent<Rigidbody>();
         Destroy(rb.gameObject, flightTime);
 
-        rb.GetComponent<ApplyHit>().SetValues(value, isFriendly);
+        rb.GetComponent<SpellStats>().SetValues(value);
 
         Vector3 targetPosition =  target.position - firePoint.position;
         rb.AddForce(targetPosition.normalized * projectileSpeed, ForceMode.Impulse);

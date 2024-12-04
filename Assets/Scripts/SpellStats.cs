@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ApplyHit : MonoBehaviour
+public class SpellStats : MonoBehaviour
 {
     [SerializeField] private bool destroyOnPenetration;
     [SerializeField] private int penetrationAmmount;
+    [SerializeField] private bool isFriendly;
     private float value;
-    private bool isFriendly;
 
     void OnTriggerEnter(Collider col)
     {
@@ -25,9 +25,8 @@ public class ApplyHit : MonoBehaviour
         }
     }
 
-    public void SetValues(float ammount, bool friendly) {
+    public void SetValues(float ammount) {
         value = ammount;
-        isFriendly = friendly;
     }
 
     void DestroyCheck() {

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Ally
   - Obstacle
+  - Gold
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Character
-  - 
-  - 
-  - 
+  - Hero
+  - Ally
+  - Enemy
+  - Wall
   - 
   - 
   - 

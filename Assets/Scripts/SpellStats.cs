@@ -19,9 +19,14 @@ public class SpellStats : MonoBehaviour
         } else {
             switch(fromEnemy, col.tag) {
                 case (false, "Enemy"):
-                case (true, "Ally"):
                 case (true, "Hero"):
                     col.GetComponent<HealthSystem>().TakeDamage(value);
+
+                    DestroyCheck();
+                break;
+                
+                case (true, "Ally"):
+                    col.GetComponentInParent<HealthSystem>().TakeDamage(value);
 
                     DestroyCheck();
                 break;

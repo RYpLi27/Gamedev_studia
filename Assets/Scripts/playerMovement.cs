@@ -1,20 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
 
-    public float speed = 10.0f;
-    void Update()
+    [SerializeField] private float speed = 10.0f;
+    private Rigidbody rb;
+
+    private void Start() {
+        rb = GetComponentInChildren<Rigidbody>();
+    }
+
+    private void Update()
     {
         Vector3 input = new(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 direction = input.normalized;
         Vector3 velocity = direction * speed;
-        Vector3 moveAmount = velocity * Time.deltaTime;
 
-        transform.position += moveAmount;
-
-        //transform.position = input;
+        rb.velocity = velocity;
     }
 }

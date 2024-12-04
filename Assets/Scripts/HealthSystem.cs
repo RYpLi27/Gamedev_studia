@@ -7,16 +7,19 @@ public class HealthSystem : MonoBehaviour
     private float currentHealth;
     private bool alreadyDead;
 
-    private void Start() {
+    private void Awake() {
         currentHealth = maxHealth;
+    }
+        
 
+    private void Start() {
         if(gameObject.CompareTag("Enemy")) {
-            LevelInfo.instance.EnemyCount++;
+            GameManager.instance.EnemyCount++;
         } else if(gameObject.CompareTag("Ally")) {
-            LevelInfo.instance.AllyCount++;
+            GameManager.instance.AllyCount++;
         }
     }
-
+    
     public void TakeDamage(float amount) {
         currentHealth -= amount;
         UpdateUI();
@@ -41,11 +44,11 @@ public class HealthSystem : MonoBehaviour
 
     private void Death() {
         if(gameObject.CompareTag("Enemy")) {
-            LevelInfo.instance.EnemyCount--;
+            GameManager.instance.EnemyCount--;
 
             gameObject.GetComponent<LootPool>().DropLoot();
         } else if(gameObject.CompareTag("Ally")) {
-            LevelInfo.instance.AllyCount--;
+            GameManager.instance.AllyCount--;
         }
         Destroy(gameObject);
     }

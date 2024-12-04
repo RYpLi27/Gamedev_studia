@@ -1,19 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
     [Header("Stats")]
     [SerializeField] private float maxHealth;
-
-    [Header("Only for enemy")]
-    [SerializeField] private float goldDropRate;
-    [SerializeField] private GameObject[] lootPool;
     private float currentHealth;
+    private bool alreadyDead;
 
-    void Start() {
+    private void Start() {
         currentHealth = maxHealth;
 
         if(gameObject.CompareTag("Enemy")) {
@@ -23,29 +17,32 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float ammount) {
-        currentHealth -= ammount;
+    public void TakeDamage(float amount) {
+        currentHealth -= amount;
 
-        if(currentHealth <= 0) {
+        if(currentHealth <= 0 && alreadyDead == false) {
+            alreadyDead = true;
             Death();
         }
     }
 
-    public void Heal(float ammount) {
-        currentHealth += ammount;
+    public void Heal(float amount) {
+        currentHealth += amount;
 
         if(currentHealth > maxHealth) {
             currentHealth = maxHealth;
         }
     }
 
-    void Death() {
+    public bool InHealingRange() {
+        return currentHealth <= maxHealth * .5f;
+    }
+
+    private void Death() {
         if(gameObject.CompareTag("Enemy")) {
             LevelInfo.instance.EnemyCount--;
 
-            if(Random.Range(0, 100) <= goldDropRate) {
-                Instantiate(lootPool[0], new Vector3(transform.position.x, 0 , transform.position.z), Quaternion.identity);
-            }
+            gameObject.GetComponent<LootPool>().DropLoot();
         } else if(gameObject.CompareTag("Ally")) {
             LevelInfo.instance.AllyCount--;
         }

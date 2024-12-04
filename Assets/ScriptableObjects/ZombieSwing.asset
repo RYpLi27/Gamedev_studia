@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624981efb7307544eb1e40220a1a4d23, type: 3}
-  m_Name: FireBall
+  m_Script: {fileID: 11500000, guid: 0c27b7d0b3505e84993c8862ad404ff0, type: 3}
+  m_Name: ZombieSwing
   m_EditorClassIdentifier: 
-  value: 1
+  value: 2
   castDelay: 0.2
-  actionName: Fire Ball
-  actionInterval: 1
-  projectileSpeed: 15
-  flightTime: 1.25
-  projectile: {fileID: 1195932937051774752, guid: d5f47b4ae79d61d4699cdece3ff747ab,
+  actionName: ZombieSwing
+  actionInterval: 2
+  range: 2.5
+  hitEffect: {fileID: 2667348867575701880, guid: 322d29c6faffb0e4ba13f783f6f954bb,
     type: 3}
+  frontAttack: 1

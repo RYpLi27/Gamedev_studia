@@ -14,4 +14,8 @@ public class Action : ScriptableObject
     public virtual void Cast(Transform target) {
 
     }
+
+    public virtual void Cast(Vector3 target, Transform firePoint) {
+        
+    }
 }

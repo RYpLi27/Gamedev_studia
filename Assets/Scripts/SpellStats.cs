@@ -23,13 +23,13 @@ public class SpellStats : MonoBehaviour
                     col.GetComponent<HealthSystem>().TakeDamage(value);
 
                     DestroyCheck();
-                break;
+                    break;
                 
                 case (true, "Ally"):
                     col.GetComponentInParent<HealthSystem>().TakeDamage(value);
 
                     DestroyCheck();
-                break;
+                    break;
             }
         }
     }

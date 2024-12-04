@@ -19,6 +19,7 @@ public class HealthSystem : MonoBehaviour
 
     public void TakeDamage(float amount) {
         currentHealth -= amount;
+        UpdateUI();
 
         if(currentHealth <= 0 && alreadyDead == false) {
             alreadyDead = true;
@@ -47,5 +48,17 @@ public class HealthSystem : MonoBehaviour
             LevelInfo.instance.AllyCount--;
         }
         Destroy(gameObject);
+    }
+
+    private void UpdateUI() {
+        switch (gameObject.tag) {
+            case "Ally":
+                UIController.instance.UpdatePlayerHealthUI(currentHealth/maxHealth);
+                break;
+            
+            case "Hero":
+                UIController.instance.UpdateHeroHealthUI(currentHealth/maxHealth);
+                break;
+        }
     }
 }

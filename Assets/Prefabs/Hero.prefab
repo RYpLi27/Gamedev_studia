@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 1394498120763052578}
   - component: {fileID: 6483125323762410090}
   - component: {fileID: 630705856445675281}
+  - component: {fileID: 3353853362044499025}
+  - component: {fileID: 5508315579784450792}
   - component: {fileID: 7454643752714930522}
   m_Layer: 6
   m_Name: Hero
@@ -150,18 +152,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866d43eb98822024c98276de506ce476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spaceEnemyRange: 8
-  sightLength: 12
-  firePoint: {fileID: 2499910698489151525}
-  agent: {fileID: 0}
-  sightTargets:
-    serializedVersion: 2
-    m_Bits: 0
-  actionListEnemy:
+--- !u!114 &3353853362044499025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817300552436325615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b82bfd840634494885934b44cb0f5c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackActionTag: Enemy
+  supportActionTag: Ally
+  actionListAttack:
   - {fileID: 11400000, guid: 2767faeb58efe3a4a8269dbb75b3591c, type: 2}
   - {fileID: 11400000, guid: e8ab8b99873d69945960fbf34b23cc82, type: 2}
-  - {fileID: 11400000, guid: 2472688d516f5064192e8985fedc367f, type: 2}
-  actionListIdle: []
+  actionListSupport:
+  - {fileID: 11400000, guid: a1942cfa338190641afd8ecf6fd941c4, type: 2}
+  firePoint: {fileID: 2499910698489151525}
+  spaceEnemyRange: 10
+  sightLength: 12
+  whatToSee:
+    serializedVersion: 2
+    m_Bits: 896
+--- !u!114 &5508315579784450792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817300552436325615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bcc9b5804514840a64884b09dea60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
 --- !u!195 &7454643752714930522
 NavMeshAgent:
   m_ObjectHideFlags: 0

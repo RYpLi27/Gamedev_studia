@@ -12,24 +12,25 @@ public class HeroBehaviour : MonoBehaviour
 
     private bool lootFound;
     private Transform targetedLoot;
-    private LevelInfo levelInfo;
+    private GameManager gameManager;
     private NavMeshAgent agent;
     private SpellCasting spells;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        levelInfo = LevelInfo.instance;
+        gameManager = GameManager.instance;
         spells = GetComponent<SpellCasting>();
     }
 
-    private void Update()
-    {
-        if(levelInfo.EnemyCount == 0 && spells.enabled == true) { // BEHAVIOUR WHEN ENEMIES ARE IN THE ROOM
+    private void Update() {
+        if (gameManager.GamePaused) { return; }
+        
+        if(gameManager.EnemyCount == 0 && spells.enabled == true) { // BEHAVIOUR WHEN ENEMIES ARE IN THE ROOM
             spells.enabled = false;
         } 
-        if(levelInfo.EnemyCount == 0) { // BEHAVIOUR WHEN THERE ARE NO ENEMIES IN THE ROOM
-            if(levelInfo.GoldCount > 0) { // COLLECTING GOLD              -------------------------------------- CHANGE INTERVAL TO BE CONTROLLED BY ANIMATION STATE MACHINE -----------------------------------------
+        if(gameManager.EnemyCount == 0) { // BEHAVIOUR WHEN THERE ARE NO ENEMIES IN THE ROOM
+            if(gameManager.GoldPileCount > 0) { // COLLECTING GOLD              -------------------------------------- CHANGE INTERVAL TO BE CONTROLLED BY ANIMATION STATE MACHINE -----------------------------------------
                 if(lootFound == true) {
                     GoTo(targetedLoot);
 
@@ -41,7 +42,7 @@ public class HeroBehaviour : MonoBehaviour
                     targetedLoot = FindTarget.ClosestTo("Gold", transform);
                     lootFound = true;
                 }
-            } else if(levelInfo.ChestCount > 0) { // LOOTING CHESTS                 -------------------------------------- CHANGE INTERVAL TO BE CONTROLLED BY ANIMATION STATE MACHINE -----------------------------------------
+            } else if(gameManager.ChestCount > 0) { // LOOTING CHESTS                 -------------------------------------- CHANGE INTERVAL TO BE CONTROLLED BY ANIMATION STATE MACHINE -----------------------------------------
                 if(lootFound == true) {
                     GoTo(targetedLoot);
 
@@ -63,12 +64,6 @@ public class HeroBehaviour : MonoBehaviour
         }
 
 #if(UNITY_EDITOR)
-    if(Input.GetKey(KeyCode.F)) {
-        Time.timeScale = .1f;
-    } else {
-        Time.timeScale = 1;
-    }
-
     if(Input.GetKeyDown(KeyCode.R))
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 #endif

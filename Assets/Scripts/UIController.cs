@@ -11,6 +11,20 @@ public class UIController : MonoBehaviour {
     [SerializeField] private Slider playerHealthBar;
     [SerializeField] private Slider heroHealthBar;
 
+    [SerializeField] private GameObject pauseCanvas;
+    [SerializeField] private GameObject playerCanvas;
+
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            pauseCanvas.SetActive(pauseCanvas.activeSelf == false);
+            playerCanvas.SetActive(playerCanvas.activeSelf == false);
+
+            GameManager.instance.GamePaused = pauseCanvas.activeSelf;
+
+            Time.timeScale = GameManager.instance.GamePaused ? 0 : 1;
+        }
+    }
+
     public void UpdateHeroHealthUI(float value) {
         heroHealthBar.value = value;
     }

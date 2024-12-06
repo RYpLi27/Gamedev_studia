@@ -1,3 +1,4 @@
+using System.Diagnostics.Tracing;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -5,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float speed = 10.0f;
     [SerializeField] private float sprintModifier;
+    private float counter;
+
 
     [SerializeField] private Action[] playerActions;
     [SerializeField] private LayerMask whatIsGround;
@@ -18,7 +21,10 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         if (GameManager.instance.GamePaused) { return; }
-        
+        if (counter > 0)
+        {
+            counter -= Time.deltaTime;
+        }
         // MOVEMENT POSTACI
         Vector3 input = new(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 direction = input.normalized;
@@ -27,14 +33,17 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = Input.GetKey(KeyCode.LeftShift) ? velocity * sprintModifier : velocity;
         
         // CASTOWANIE SPELLI JESZCZE NIE DOKONCZONE
-        if (Input.GetKeyDown(KeyCode.Alpha1) && playerActions[0] != null) {
+        if (Input.GetMouseButtonDown(1) && counter <= 0 && playerActions[0] != null) {
             CastSpell(playerActions[0]);
+            
         }
     }
 
-    private void CastSpell(Action action) {
+    private void CastSpell(Action action)
+    {
         
         action.Cast(GetMousePosition(), transform);
+        counter = action.actionInterval;
     }
 
     private Vector3 GetMousePosition() {

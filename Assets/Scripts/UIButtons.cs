@@ -6,6 +6,7 @@ public class UIButtons : MonoBehaviour
 {
     public void LoadSceneButton(string sceneName) {
         SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1;
     }
 
     public void EnableCanvasButton(GameObject toEnable) {

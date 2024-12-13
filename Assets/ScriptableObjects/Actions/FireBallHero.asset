@@ -15,7 +15,7 @@ MonoBehaviour:
   value: 1
   castDelay: 0.2
   actionName: Fire Ball
-  actionInterval: 4
+  actionInterval: 1
   projectileSpeed: 15
   flightTime: 1.25
   projectile: {fileID: 3042883418565518513, guid: 7c529d8349bc18c42adc3750ca0fe0f5,

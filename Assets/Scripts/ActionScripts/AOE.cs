@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewAOE", menuName = "ScriptableObjects/AOE")]
+[System.Serializable]
 public class AOE : Action
 {
     public float range;

@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewTargetSpell", menuName = "ScriptableObjects/Target Spell")]
+[System.Serializable]
 public class TargetSpell : Action
 {
     public GameObject healParticle;

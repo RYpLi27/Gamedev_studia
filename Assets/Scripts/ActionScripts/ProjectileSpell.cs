@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewProjectileSpell", menuName = "ScriptableObjects/Projectile Spell")]
+[System.Serializable]
 public class ProjectileSpell : Action
 {
     public float projectileSpeed;

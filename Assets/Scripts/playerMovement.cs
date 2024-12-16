@@ -4,11 +4,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private float speed = 10.0f;
+    [SerializeField] private float speed;
     [SerializeField] private float sprintModifier;
     private float counter;
 
-
+    [SerializeField] private Transform firePoint;
     [SerializeField] private Action[] playerActions;
     [SerializeField] private LayerMask whatIsGround;
     
@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start() {
         rb = GetComponent<Rigidbody>();
+        Invoke(nameof(SetStats), .001f);
     }
 
     private void Update()
@@ -41,8 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void CastSpell(Action action)
     {
-        
-        action.Cast(GetMousePosition(), transform);
+        action.Cast(GetMousePosition(), firePoint);
         counter = action.actionInterval;
     }
 
@@ -55,5 +55,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return transform.position;
+    }
+
+    private void SetStats() {
+        speed += (1 * GetComponent<BaseStats>().speed);
     }
 }

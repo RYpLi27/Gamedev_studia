@@ -8,11 +8,14 @@ public class HealthSystem : MonoBehaviour
     private bool alreadyDead;
 
     private void Awake() {
+        
         currentHealth = maxHealth;
     }
         
 
     private void Start() {
+        Invoke(nameof(SetStats), .001f);
+        
         if(gameObject.CompareTag("Enemy")) {
             GameManager.instance.EnemyCount++;
         } else if(gameObject.CompareTag("Ally")) {
@@ -63,5 +66,10 @@ public class HealthSystem : MonoBehaviour
                 UIController.instance.UpdateHeroHealthUI(currentHealth/maxHealth);
                 break;
         }
+    }
+    
+    private void SetStats() {
+        maxHealth += (20 * GetComponent<BaseStats>().health);
+        currentHealth = maxHealth;
     }
 }

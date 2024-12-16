@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b066d26e079247288a9161c57f1cb2ca, type: 3}
   m_Name: Health
   m_EditorClassIdentifier: 
-  upgradeName: Heatlh
+  upgradeName: Health
   cost: 100
   costPerLevel: 50
   maxLevel: 5

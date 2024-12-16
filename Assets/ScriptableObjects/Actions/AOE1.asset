@@ -16,7 +16,7 @@ MonoBehaviour:
   castDelay: 0.2
   actionName: AOE1
   actionInterval: 2
-  isFriendly: 0
   range: 7
   hitEffect: {fileID: 7495029756419776810, guid: 4b752a49118fb624f9702051fc78cc57,
     type: 3}
+  frontAttack: 0

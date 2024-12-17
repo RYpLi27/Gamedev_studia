@@ -210,7 +210,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e8ab8b99873d69945960fbf34b23cc82, type: 2}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 2147483648
 --- !u!114 &6540566903385648814
 MonoBehaviour:
   m_ObjectHideFlags: 0

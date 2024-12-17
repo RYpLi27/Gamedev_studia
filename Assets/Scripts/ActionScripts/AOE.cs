@@ -9,7 +9,7 @@ public class AOE : Action
     public bool frontAttack;
 
     public override void Cast(Transform target, Transform origin) {
-        GameObject hit = Instantiate(hitEffect, new Vector3(origin.parent.transform.position.x, 0, origin.parent.transform.position.z), Quaternion.LookRotation(target.position - origin.position));
+        GameObject hit = Instantiate(hitEffect, new Vector3(origin.parent.transform.position.x, origin.parent.transform.position.y - 1, origin.parent.transform.position.z), Quaternion.LookRotation(target.position - origin.position));
         Destroy(hit, .4f);
         
         if (frontAttack == true) {

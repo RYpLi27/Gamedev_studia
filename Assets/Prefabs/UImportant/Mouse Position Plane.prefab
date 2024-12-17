@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2671764703070704091}
   - component: {fileID: 5963069401778914027}
   - component: {fileID: 9009218537278554356}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Mouse Position Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

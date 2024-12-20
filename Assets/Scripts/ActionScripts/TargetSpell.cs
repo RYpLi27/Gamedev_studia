@@ -6,7 +6,7 @@ public class TargetSpell : Action
 {
     public GameObject healParticle;
 
-    public override void Cast(Transform target)
+    public override void Cast(Transform target, Transform origin)
     {
         Instantiate(healParticle, target.transform);
 

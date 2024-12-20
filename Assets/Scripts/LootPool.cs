@@ -8,7 +8,7 @@ public class LootPool : MonoBehaviour
     public void DropLoot() {
         foreach(LootItem loot in lootList) {
             if(Random.Range(0, 100) <= loot.dropChance) {
-                Instantiate(loot.item, new Vector3(transform.position.x, 0 , transform.position.z), Quaternion.identity);
+                Instantiate(loot.item, new Vector3(transform.position.x, transform.position.y - 1 , transform.position.z), Quaternion.identity);
             }
         }
     }

@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private void Awake() {
         instance = this;
+        UpdateLevel();
     }
 
     public int EnemyCount { get; set; }
@@ -18,4 +19,10 @@ public class GameManager : MonoBehaviour
     public int CollectedGold { get; set; }
     
     public bool GamePaused { get; set; }
+    
+    public int CurrentLevel { get; private set; }
+
+    public void UpdateLevel() {
+        CurrentLevel++;
+    }
 }

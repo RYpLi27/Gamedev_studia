@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
-
+[System.Serializable]
 public class SpellCasting : MonoBehaviour
 {
     private bool readyToCast, approachTarget, targetInSight, tryRecast, canMove;
@@ -120,11 +120,7 @@ public class SpellCasting : MonoBehaviour
     }
 
     private void CastSpell() {
-        if(currentAction is TargetSpell) {
-            currentAction.Cast(actionTarget); 
-        } else {
-            currentAction.Cast(actionTarget, firePoint);
-        }
+        currentAction.Cast(actionTarget, firePoint);
 
         actionTarget = null;
         Invoke(nameof(ResetInterval), currentAction.actionInterval);

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+[System.Serializable]
 
 [System.Serializable]
 public class SpellCasting : MonoBehaviour

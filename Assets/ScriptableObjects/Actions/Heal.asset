@@ -16,5 +16,4 @@ MonoBehaviour:
   castDelay: 0.5
   actionName: Heal
   actionInterval: 1
-  healParticle: {fileID: 4633321008956953779, guid: b4189593887aa254290916ea07fecddb,
-    type: 3}
+  healParticle: {fileID: 168292, guid: 3b833a1fd399b2d41a9ccc98aeaa8f5d, type: 3}

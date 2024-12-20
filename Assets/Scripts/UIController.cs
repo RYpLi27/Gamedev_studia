@@ -10,6 +10,7 @@ public class UIController : MonoBehaviour {
     
     [SerializeField] private Slider playerHealthBar;
     [SerializeField] private Slider heroHealthBar;
+    [SerializeField] private Slider manaBar;
 
     [SerializeField] private GameObject pauseCanvas;
     [SerializeField] private GameObject playerCanvas;
@@ -31,5 +32,9 @@ public class UIController : MonoBehaviour {
     
     public void UpdatePlayerHealthUI(float value) {
         playerHealthBar.value = value;
+    }
+
+    public void UpdateManaUI(float value) {
+        manaBar.value = value;
     }
 }

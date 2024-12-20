@@ -16,7 +16,9 @@ MonoBehaviour:
   castDelay: 0.2
   actionName: ZombieSwing
   actionInterval: 2
+  manaCost: 0
   range: 2.5
-  hitEffect: {fileID: 2667348867575701880, guid: 322d29c6faffb0e4ba13f783f6f954bb,
+  existTime: 0.4
+  hitEffect: {fileID: 4287511568956483797, guid: 322d29c6faffb0e4ba13f783f6f954bb,
     type: 3}
   frontAttack: 1

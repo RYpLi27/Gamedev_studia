@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 166571485816068734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 2}
+  m_LocalPosition: {x: 0, y: 0.2, z: 2}
   m_LocalScale: {x: 1.4, y: 0.32405, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnPenetration: 0
+  destroyOnCollision: 0
   penetrationAmount: 0
   isHeal: 0
   fromEnemy: 1
@@ -147,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 1093483904913151954}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.45, y: 0, z: -0.28}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

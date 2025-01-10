@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnPenetration: 1
+  destroyOnCollision: 1
   penetrationAmount: 0
   isHeal: 0
   fromEnemy: 1

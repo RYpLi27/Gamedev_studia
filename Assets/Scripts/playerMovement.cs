@@ -1,32 +1,40 @@
-using System.Diagnostics.Tracing;
+using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
 
-public class PlayerMovement : MonoBehaviour
-{
+public class PlayerMovement : MonoBehaviour {
 
     [SerializeField] private float speed;
     [SerializeField] private float sprintModifier;
-    private float counter;
 
     [SerializeField] private Transform firePoint;
-    [SerializeField] private Action[] playerActions;
+    [SerializeField] private List<Action> playerActions;
+    private int selectedActionIndex;
+    private List<float> cdCounters = new List<float> {0, 0, 0, 0, 0};
     [SerializeField] private LayerMask whatIsGround;
-    
+
     private Rigidbody rb;
+    private ManaSystem mana;
+
+    private readonly List<string> spellSlots = new List<string> { "1", "2", "3", "4", "5" };
 
     private void Start() {
         rb = GetComponent<Rigidbody>();
+        mana = GetComponent<ManaSystem>();
         Invoke(nameof(SetStats), .001f);
+        selectedActionIndex = 0;
     }
 
     private void Update()
     {
-        //if (GameManager.instance.GamePaused) { return; }
-        if (counter > 0)
-        {
-            counter -= Time.deltaTime;
+        if (GameManager.instance.GamePaused) { return; }
+        for (int i = 0; i < cdCounters.Count; i++) {
+            if (cdCounters[i] > 0)
+            {
+                cdCounters[i] -= Time.deltaTime;
+            }
         }
+        
         // MOVEMENT POSTACI
         Vector3 input = new(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         Vector3 direction = input.normalized;
@@ -34,17 +42,33 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = Input.GetKey(KeyCode.LeftShift) ? velocity * sprintModifier : velocity;
         
-        // CASTOWANIE SPELLI JESZCZE NIE DOKONCZONE
-        if (Input.GetMouseButtonDown(1) && counter <= 0 && playerActions[0] != null) {
-            CastSpell(playerActions[0]);
+        // WYBIERANIE SPELLA
+        // selectedAction = Input.inputString switch {
+        //     "1" => playerActions[0],
+        //     "2" => playerActions[1],
+        //     _ => selectedAction
+        // };
+
+        if (spellSlots.Contains(Input.inputString)) {
+            if (playerActions.Count < int.Parse(Input.inputString)) { return; }
             
+            selectedActionIndex = int.Parse(Input.inputString) - 1;
+        }
+
+        // CASTOWANIE SPELLI JESZCZE NIE DOKONCZONE
+        if (Input.GetMouseButtonDown(0) && cdCounters[selectedActionIndex] <= 0) {
+            if (!playerActions[selectedActionIndex].gainMana) {
+                if (!mana.CheckMana(playerActions[selectedActionIndex].manaCost)) { return; }
+            }
+            
+            CastSpell(playerActions[selectedActionIndex]);
         }
     }
 
-    private void CastSpell(Action action)
-    {
+    private void CastSpell(Action action) {
         action.Cast(GetMousePosition(), firePoint);
-        counter = action.actionInterval;
+        
+        cdCounters[selectedActionIndex] = action.actionInterval;
     }
 
     private Vector3 GetMousePosition() {

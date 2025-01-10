@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 1552199880421542941}
   - component: {fileID: 4345715793062421180}
   - component: {fileID: 6540566903385648814}
+  - component: {fileID: 1491005000822496414}
   - component: {fileID: 2287934892770493414}
   m_Layer: 7
   m_Name: PlayerObject
@@ -208,6 +209,7 @@ MonoBehaviour:
   firePoint: {fileID: 7473173031967550792}
   playerActions:
   - {fileID: 11400000, guid: e8ab8b99873d69945960fbf34b23cc82, type: 2}
+  - {fileID: 11400000, guid: 064e6588de84864468028adc404de4f3, type: 2}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 2147483648
@@ -224,6 +226,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+--- !u!114 &1491005000822496414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282655966179659181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b9aa12dd2de954896f07fc78e61ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxMana: 100
 --- !u!54 &2287934892770493414
 Rigidbody:
   m_ObjectHideFlags: 0

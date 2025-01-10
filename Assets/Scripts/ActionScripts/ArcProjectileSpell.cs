@@ -24,7 +24,25 @@ public class ConeProjectileSpell : Action {
             Rigidbody rb = Instantiate(projectile, origin.position, Quaternion.identity).GetComponent<Rigidbody>();
             Destroy(rb.gameObject, flightTime);
 
-            rb.GetComponent<SpellStats>().SetValues(value + (1 * origin.parent.GetComponent<BaseStats>().damage));
+            rb.GetComponent<SpellStats>().SetValues(this, 1 * origin.parent.GetComponent<BaseStats>().damage);
+            rb.transform.rotation = Quaternion.Euler(new Vector3(0, startAngle + angleStep * i, 0));
+            
+            rb.AddForce(rb.transform.forward * projectileSpeed, ForceMode.Impulse);
+        }
+    }
+    
+    public override void Cast(Vector3 target, Transform origin) {
+        toTargetRotation = Quaternion.LookRotation(target - origin.position);
+        
+        angleStep = coneAngle / ((float)projectileCount - 1);
+        
+        startAngle = toTargetRotation.eulerAngles.y - coneAngle / 2;
+        
+        for (int i = 0; i < projectileCount; i++) {
+            Rigidbody rb = Instantiate(projectile, origin.position, Quaternion.identity).GetComponent<Rigidbody>();
+            Destroy(rb.gameObject, flightTime);
+
+            rb.GetComponent<SpellStats>().SetValues(this, 1 * origin.parent.GetComponent<BaseStats>().damage);
             rb.transform.rotation = Quaternion.Euler(new Vector3(0, startAngle + angleStep * i, 0));
             
             rb.AddForce(rb.transform.forward * projectileSpeed, ForceMode.Impulse);

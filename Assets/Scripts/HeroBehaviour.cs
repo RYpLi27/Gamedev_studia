@@ -58,8 +58,7 @@ public class HeroBehaviour : MonoBehaviour
                 }
             } else { // PROCEED TO NEXT ROOM
                 // go to next room and then wait for player
-                agent.SetDestination(transform.position);
-                print("next room");
+                agent.SetDestination(ExitPoint.instance.transform.position);
             }
         }
 

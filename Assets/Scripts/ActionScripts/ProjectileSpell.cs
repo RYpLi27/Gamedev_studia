@@ -12,7 +12,7 @@ public class ProjectileSpell : Action
         Rigidbody rb = Instantiate(projectile, origin.position, Quaternion.identity).GetComponent<Rigidbody>();
         Destroy(rb.gameObject, flightTime);
 
-        rb.GetComponent<SpellStats>().SetValues(value + (1 * origin.parent.GetComponent<BaseStats>().damage));
+        rb.GetComponent<SpellStats>().SetValues(this, 1 * origin.parent.GetComponent<BaseStats>().damage);
 
         Vector3 targetPosition =  target.position - origin.position;
         rb.AddForce(targetPosition.normalized * projectileSpeed, ForceMode.Impulse);
@@ -22,7 +22,7 @@ public class ProjectileSpell : Action
         Rigidbody rb = Instantiate(projectile, origin.position, Quaternion.identity).GetComponent<Rigidbody>();
         Destroy(rb.gameObject, flightTime);
 
-        rb.GetComponent<SpellStats>().SetValues(value + (1 * origin.parent.GetComponent<BaseStats>().damage));
+        rb.GetComponent<SpellStats>().SetValues(this, 1 * origin.parent.GetComponent<BaseStats>().damage);
 
         Vector3 targetPosition =  new Vector3(target.x, 0, target.z) - new Vector3(origin.position.x, 0, origin.position.z);
         

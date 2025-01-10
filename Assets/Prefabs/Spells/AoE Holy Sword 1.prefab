@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2751327120585453023}
   - component: {fileID: 7419070265077280162}
   - component: {fileID: 8254607512364404823}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 2024119438256456452}
   - component: {fileID: 9200717826491288351}
   - component: {fileID: 4198134470679303201}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9787,7 +9787,7 @@ GameObject:
   - component: {fileID: 4373917365185464957}
   - component: {fileID: 7386034635651903729}
   - component: {fileID: 7089757475397720015}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Particle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14686,7 +14686,7 @@ GameObject:
   - component: {fileID: 4109317526816601526}
   - component: {fileID: 6001398503726729129}
   - component: {fileID: 1687769711799360705}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19620,7 +19620,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 4.9e-44, z: 3.2545e-41, w: 4.594645e-39}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -19659,7 +19659,9 @@ GameObject:
   - component: {fileID: 6155675421611018842}
   - component: {fileID: 1594723349350207830}
   - component: {fileID: 6776188401419461234}
-  m_Layer: 0
+  - component: {fileID: 5340282253599281638}
+  - component: {fileID: 6933728079049161825}
+  m_Layer: 30
   m_Name: AoE Holy Sword 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19674,9 +19676,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5222750351268202474}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.433075, y: 15.347988, z: 9.035412}
-  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4373917365185464957}
@@ -24578,6 +24580,45 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5340282253599281638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5222750351268202474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eccfb0eea123814794452c6dd58cde7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnPenetration: 0
+  penetrationAmount: 0
+  isHeal: 0
+  fromEnemy: 0
+--- !u!136 &6933728079049161825
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5222750351268202474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.84
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.31}
 --- !u!1 &8278320289092540062
 GameObject:
   m_ObjectHideFlags: 0
@@ -24589,7 +24630,7 @@ GameObject:
   - component: {fileID: 5842355994539081302}
   - component: {fileID: 5721755241409858695}
   - component: {fileID: 6894118281747514145}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Crack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24604,10 +24645,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8278320289092540062}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0, z: -0.36}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
-  m_ConstrainProportionsScale: 1
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6155675421611018842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29513,7 +29554,7 @@ GameObject:
   - component: {fileID: 2179852152190982796}
   - component: {fileID: 8971698291558777072}
   - component: {fileID: 8761181579812515646}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}

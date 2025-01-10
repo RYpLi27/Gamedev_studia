@@ -16,6 +16,7 @@ MonoBehaviour:
   castDelay: 0.2
   actionName: Fire Ball
   actionInterval: 1
+  manaCost: 25
   projectileSpeed: 15
   flightTime: 1.25
   projectile: {fileID: 3042883418565518513, guid: 7c529d8349bc18c42adc3750ca0fe0f5,

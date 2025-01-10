@@ -6,6 +6,8 @@ public class Action : ScriptableObject
     public float castDelay;
     public string actionName;
     public float actionInterval;
+    public float manaCost;
+    public bool gainMana;
 
     public virtual void Cast(Transform target, Transform firePoint) {
 

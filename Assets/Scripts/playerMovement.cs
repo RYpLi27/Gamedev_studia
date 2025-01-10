@@ -21,18 +21,26 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private List<Action> playerActions;
     private int selectedActionIndex;
     private List<float> cdCounters = new List<float> {0, 0, 0, 0, 0};
+    private List<float> cds = new List<float> {0, 0, 0, 0, 0};
     [SerializeField] private LayerMask whatIsGround;
 
     private Rigidbody rb;
     private ManaSystem mana;
+    private UIController ui;
 
     private readonly List<string> spellSlots = new List<string> { "1", "2", "3", "4", "5" };
 
     private void Start() {
         rb = GetComponent<Rigidbody>();
         mana = GetComponent<ManaSystem>();
+        ui = UIController.instance;
         Invoke(nameof(SetStats), .001f);
         selectedActionIndex = 0;
+
+        for (int i = 0; i < playerActions.Count; i++) {
+            print(playerActions[i]);
+            cds[i] = playerActions[i].actionInterval;
+        }
     }
 
     private void Update()
@@ -44,6 +52,7 @@ public class PlayerMovement : MonoBehaviour {
                 cdCounters[i] -= Time.deltaTime;
             }
         }
+        UpdateUI();
         
         // MOVEMENT POSTACI
         Vector3 input = new(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
@@ -94,5 +103,9 @@ public class PlayerMovement : MonoBehaviour {
 
     private void SetStats() {
         speed += (1 * GetComponent<BaseStats>().speed);
+    }
+
+    private void UpdateUI() {
+        ui.UpdateSpellsUI(cdCounters, cds);
     }
 }

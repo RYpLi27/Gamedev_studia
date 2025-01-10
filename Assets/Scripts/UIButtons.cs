@@ -5,8 +5,14 @@ using System.Linq;
 public class UIButtons : MonoBehaviour
 {
     public void LoadSceneButton(string sceneName) {
-        SceneManager.LoadScene(sceneName);
         Time.timeScale = 1;
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void ResetGameManager() {
+        if (GameManager.instance != null) {
+            GameManager.instance.Reset();
+        }
     }
 
     public void EnableCanvasButton(GameObject toEnable) {

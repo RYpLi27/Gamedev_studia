@@ -7,9 +7,14 @@ public class HeroBehaviour : MonoBehaviour
     public static HeroBehaviour instance;
 
     private void Awake() {
-        instance = this;
+        if (instance == null) {
+            instance = this;
+        } else {
+            Destroy(gameObject);
+        }
     }
 
+    [HideInInspector] public Transform exitPoint;
     private bool lootFound;
     private Transform targetedLoot;
     private GameManager gameManager;
@@ -24,6 +29,12 @@ public class HeroBehaviour : MonoBehaviour
     }
 
     private void Update() {
+#if(UNITY_EDITOR)
+        if (Input.GetKeyDown(KeyCode.H)) {
+            print(Time.timeScale);
+        } 
+#endif        
+        
         if (gameManager.GamePaused) { return; }
         
         if(gameManager.EnemyCount == 0 && spells.enabled == true) { // BEHAVIOUR WHEN ENEMIES ARE IN THE ROOM
@@ -58,7 +69,8 @@ public class HeroBehaviour : MonoBehaviour
                 }
             } else { // PROCEED TO NEXT ROOM
                 // go to next room and then wait for player
-                agent.SetDestination(ExitPoint.instance.transform.position);
+                agent.SetDestination(exitPoint.transform.position);
+                gameManager.CheckExitDistance(transform);
             }
         }
 

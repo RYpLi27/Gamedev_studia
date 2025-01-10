@@ -146,6 +146,8 @@ public class SpellCasting : MonoBehaviour
     }
 
     private void ApproachTarget() {
+        if (actionTarget == null) { return; }
+        
         if(Vector3.Distance(transform.position, targetedEnemy.position) > approachTargetRange && actionTarget != null) {
             agent.SetDestination(actionTarget.position);
         } else {

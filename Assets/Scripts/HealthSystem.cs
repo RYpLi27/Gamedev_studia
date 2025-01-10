@@ -6,21 +6,34 @@ public class HealthSystem : MonoBehaviour
     [SerializeField] private float maxHealth;
     private float currentHealth;
     private bool alreadyDead;
+    private GameManager gm;
 
     private void Awake() {
-        
         currentHealth = maxHealth;
     }
         
 
     private void Start() {
-        Invoke(nameof(SetStats), .001f);
+        gm = GameManager.instance;
+
+        if (CompareTag("Ally") || CompareTag("Hero")) {
+            if (gm.CurrentLevel != 1) { currentHealth = CompareTag("Ally") ? gm.playerHealth : gm.heroHealth; }
+            Invoke(nameof(SetStats), .001f);
+        } else {
+            Invoke(nameof(SetStats), .001f);
+        }
+        
+        UpdateUI();
         
         if(gameObject.CompareTag("Enemy")) {
-            GameManager.instance.EnemyCount++;
+            gm.EnemyCount++;
         } else if(gameObject.CompareTag("Ally")) {
-            GameManager.instance.AllyCount++;
+            gm.AllyCount++;
         }
+    }
+
+    public float GetCurrentHealth() {
+        return currentHealth;
     }
     
     public void TakeDamage(float amount) {
@@ -70,7 +83,8 @@ public class HealthSystem : MonoBehaviour
     }
     
     private void SetStats() {
-        maxHealth += (20 * GetComponent<BaseStats>().health);
-        currentHealth = maxHealth;
+        //DO ZBALANSOWANIA
+        maxHealth += (2 * GetComponent<BaseStats>().health);
+        if(gm.CurrentLevel == 1) {currentHealth = maxHealth;}
     }
 }

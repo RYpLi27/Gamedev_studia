@@ -9,7 +9,6 @@ public class UpgradeManager : MonoBehaviour {
             Destroy(gameObject);
         } else {
             instance = this;
-            DontDestroyOnLoad(this);
         }
     }
 

@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,27 +34,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1096 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FrontAttack_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1843
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe8d4fa4610f6145a6dd6dc049930b4
+      internalID: 1396695027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1843
+        width: 218
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2bd30bd18d18a4d9f530646a3f35f7
+      internalID: 525858926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1843
+        width: 217
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c4c3fd755e88f42b3326b0e03edb82
+      internalID: -521664879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_3
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1843
+        width: 221
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377377a335947074c950382a72068bc3
+      internalID: 1390315439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1843
+        width: 222
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b293ceec2d8b964b9dfd96a06763a8f
+      internalID: 2126737206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1843
+        width: 223
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9969dada103f3514e900d2b1724e0f4e
+      internalID: -239365179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1843
+        width: 220
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95740549832357a488df1d5c267f981b
+      internalID: -315487937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1540
+        width: 218
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515253f2ce19c5f49b1c3f00b8596a82
+      internalID: 1375089003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1540
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a66646bc941c204492dc58d507d9f6e
+      internalID: -2010684075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1540
+        width: 208
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1261bf3098abad45bf26445ea12942f
+      internalID: 1539152395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_10
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1540
+        width: 201
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b28e43de0f9c604286363c38342cd4e
+      internalID: -939161275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1540
+        width: 192
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2193083a91e5ce841a43cf9a67e696d8
+      internalID: 1275778696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1540
+        width: 192
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe693bd309c4410409151ecf94cf82d0
+      internalID: -817459438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1540
+        width: 191
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f49bfa57e89f84ab56dccc51c2188f
+      internalID: -1500222686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1239
+        width: 191
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a81c3cdd32c2cd44a0a36a32af5601f
+      internalID: 424030619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1239
+        width: 189
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b3fdcaf94d4f24eb1547b08d4d19f7
+      internalID: 1656165587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_16
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1239
+        width: 190
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b3defc1f116c744a42bb61280f8f62
+      internalID: 1651078294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_17
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1239
+        width: 223
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90276da8e9631c14990a54b1ee87c5d7
+      internalID: -1670170608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1239
+        width: 209
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1c823ccbeac87419c921f4c91a63d1
+      internalID: 2145076228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1239
+        width: 205
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed481bbb3b989764abde843af12c9ec4
+      internalID: 1530057552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_20
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 1239
+        width: 210
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8670f4271d3884d98c8f3ef41e8dad
+      internalID: 1869230587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 936
+        width: 209
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0cbeba9fcc304299e939399693d96
+      internalID: 2084208224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 936
+        width: 211
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b88c904d94736d439db4444274224ae
+      internalID: -1086086501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_23
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 936
+        width: 210
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f73ae3de753f340a34d24326bb4be4
+      internalID: -1062096351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_24
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 936
+        width: 216
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c4c3a91a788145aa1c268c2523f74
+      internalID: 1351320486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_25
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 936
+        width: 215
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664316f08a492c489ae3762d17295bb
+      internalID: -1638398386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_26
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 936
+        width: 213
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe5c6e224836e46bd7f64eb1febb3b
+      internalID: 978389001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_27
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 936
+        width: 215
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e16881abf0629243b37e35b939b93c6
+      internalID: 33222766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 635
+        width: 213
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca85ee8122e8b44ab531847c9ba2aa4
+      internalID: -1849416370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 635
+        width: 215
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3be7cfdeb95e94899d23e5d6dd2aeb
+      internalID: -1540855306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_30
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 635
+        width: 214
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22ccad075f55146a50f83a71d175cf
+      internalID: 1796367122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_31
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 635
+        width: 214
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b77fac0566f0b48b29f7df01f51d89
+      internalID: 1205833737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_32
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 635
+        width: 214
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220998c641d123f41b1b7d90003a264b
+      internalID: -867367493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_33
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 635
+        width: 212
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330875277cc4f794b89566ca49199ffd
+      internalID: 602343499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_34
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 635
+        width: 214
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ef7a251f9495e49a2e55faf9776f37
+      internalID: -24981439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 332
+        width: 211
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cf9cd3ff35e4047ae872a2c340bfac
+      internalID: 2067570621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 332
+        width: 213
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ebf25cde32af14eb8fc45a4469a60b
+      internalID: 125078375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 332
+        width: 213
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb0b78e0046cb641a359b524d7ec1b1
+      internalID: 1050451158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_38
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 332
+        width: 213
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16360665d632b864c8439643f93fb2a0
+      internalID: 556478595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_39
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 332
+        width: 212
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee49837c4e47ee43aa5923a0121b539
+      internalID: 461223335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_40
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 332
+        width: 216
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6170b566c36b94b9320cc2ab41bf74
+      internalID: 2034391031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_41
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 332
+        width: 215
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0453b27e6b6de54b9c439de186ed35c
+      internalID: 1137472058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 218
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93877c6564e80940a9f5c7d25d97e9a
+      internalID: -198684739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_43
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 30
+        width: 220
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8c5a1c9ecf7784b9af4da1fc8a8d1f
+      internalID: 413145685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_44
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 30
+        width: 224
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac4d7b8770aaa145959f24e78f3904c
+      internalID: 1631799794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_45
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 30
+        width: 222
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c8ba61ce1a6e48ad1fa1c4423a62c
+      internalID: 465129040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_46
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 30
+        width: 220
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b281ed54ed79a46a294a32a65e93c3
+      internalID: -817805207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_47
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 30
+        width: 216
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae32faa35c9b05147a3770b502046000
+      internalID: 746946572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontAttack_48
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 30
+        width: 215
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900d073cc5ac4754eaa0ca1d29d2d9fe
+      internalID: 1865829741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrontAttack_0: 1396695027
+      FrontAttack_1: 525858926
+      FrontAttack_10: -939161275
+      FrontAttack_11: 1275778696
+      FrontAttack_12: -817459438
+      FrontAttack_13: -1500222686
+      FrontAttack_14: 424030619
+      FrontAttack_15: 1656165587
+      FrontAttack_16: 1651078294
+      FrontAttack_17: -1670170608
+      FrontAttack_18: 2145076228
+      FrontAttack_19: 1530057552
+      FrontAttack_2: -521664879
+      FrontAttack_20: 1869230587
+      FrontAttack_21: 2084208224
+      FrontAttack_22: -1086086501
+      FrontAttack_23: -1062096351
+      FrontAttack_24: 1351320486
+      FrontAttack_25: -1638398386
+      FrontAttack_26: 978389001
+      FrontAttack_27: 33222766
+      FrontAttack_28: -1849416370
+      FrontAttack_29: -1540855306
+      FrontAttack_3: 1390315439
+      FrontAttack_30: 1796367122
+      FrontAttack_31: 1205833737
+      FrontAttack_32: -867367493
+      FrontAttack_33: 602343499
+      FrontAttack_34: -24981439
+      FrontAttack_35: 2067570621
+      FrontAttack_36: 125078375
+      FrontAttack_37: 1050451158
+      FrontAttack_38: 556478595
+      FrontAttack_39: 461223335
+      FrontAttack_4: 2126737206
+      FrontAttack_40: 2034391031
+      FrontAttack_41: 1137472058
+      FrontAttack_42: -198684739
+      FrontAttack_43: 413145685
+      FrontAttack_44: 1631799794
+      FrontAttack_45: 465129040
+      FrontAttack_46: -817805207
+      FrontAttack_47: 746946572
+      FrontAttack_48: 1865829741
+      FrontAttack_5: -239365179
+      FrontAttack_6: -315487937
+      FrontAttack_7: 1375089003
+      FrontAttack_8: -2010684075
+      FrontAttack_9: 1539152395
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

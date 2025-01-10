@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1096 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RightFrontRun_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1857
+        width: 233
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b21a731991c794c8d698a046f59fee
+      internalID: 2131739882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1855
+        width: 230
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d489dd93f073ede409e8282ea27438ef
+      internalID: 2117392780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1852
+        width: 228
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2622dca33b617404898b786fa41821f7
+      internalID: -1448660733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1849
+        width: 225
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27581ced7c273b142ad20e9ad281b9f4
+      internalID: -1994199646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_4
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1846
+        width: 223
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d8df0c21b336f4b8a27586ffb6f2a7
+      internalID: 429229171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_5
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1843
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae38c9738fc5e884c8e9eca998b5e339
+      internalID: 844579023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_6
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1841
+        width: 222
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c22fd26aaf4d6940955cfdb595292c1
+      internalID: 505282839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1537
+        width: 222
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd88c629ffcaa544bdea436bde320fb
+      internalID: -2137158427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1535
+        width: 223
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18323b6829cd93e4d80b30f895afbf8e
+      internalID: -470262305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_9
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1533
+        width: 222
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e343ddbfd4f4c8f4ebfcd23a7151ff16
+      internalID: 1266805130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_10
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1531
+        width: 224
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034b3e23bf91dab4795cc40ef5d5f1c8
+      internalID: -2039448217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_11
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1530
+        width: 223
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bf0854444a9954f89c885ed8a9dae3
+      internalID: -542727546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_12
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1529
+        width: 224
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddc5b6015ea5fa4ca10d6b679559d03
+      internalID: -1704751227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_13
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1530
+        width: 222
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7398d544cdf4cb43b64dd529a8b41b5
+      internalID: -1441212053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1229
+        width: 221
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae3aab482cc8214cac9565c106f0afe
+      internalID: 1366604219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_15
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1231
+        width: 222
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7dced3325f3df4db57b1d64e8dd1f7
+      internalID: -835786332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1232
+        width: 222
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476e216b60d27d409ca1d5b31b62190
+      internalID: -34800461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_17
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1235
+        width: 221
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd04b91a5d78bfd4083384fc81d7c827
+      internalID: -975590188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_18
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1237
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932d16bc93180064dbedb1ae6a21b2d5
+      internalID: 895491067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_19
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 1239
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7baebb094db02419a397262cf42b1a
+      internalID: 412260637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_20
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1242
+        width: 223
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f508529a5f684140a07d36e5b81f726
+      internalID: -180413435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 943
+        width: 225
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e564d28c81c6294889e0045cee03898
+      internalID: -209112671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_22
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 946
+        width: 227
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5c90f9f24be24aa9a04cca042e1fa
+      internalID: 1025162561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_23
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 949
+        width: 230
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bceb0087d694d489168a8dbcb63aec
+      internalID: -1413894863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_24
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 951
+        width: 233
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae85812b4c8ee4588010f601405936
+      internalID: -1246749457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_25
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 948
+        width: 234
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e58d5326e3fcf4ea22c4f830a97691
+      internalID: -355288457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_26
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 945
+        width: 235
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864755db0d85264db9a109709dffcb9
+      internalID: -2140647581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_27
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 942
+        width: 236
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b306e819a8a77c4aa868b1332c3bd71
+      internalID: 283774766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 638
+        width: 237
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0863c0d133482f449159719c45bdf95
+      internalID: 438545990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 636
+        width: 238
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75d4074c86083e4c83207a3f2092e4b
+      internalID: -1193275149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_30
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 634
+        width: 239
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b2bbca39ae0d2459d1c55142e6c5bf
+      internalID: -2064696886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_31
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 632
+        width: 241
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e3dfe7a54f7944b8572565cb7e760f
+      internalID: -1404432438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_32
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 630
+        width: 242
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9d374f54cd2ff4f882fa5a3861ee53
+      internalID: 455696608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_33
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 629
+        width: 243
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfb4be17c3520145b0130d5b7c66864
+      internalID: -1191069002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_34
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 627
+        width: 244
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0154ab01cd2a5749af839634542d303
+      internalID: -1011905913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 324
+        width: 246
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9324af47623a1ae468a5eb2f85fd81fb
+      internalID: -187022539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_36
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 323
+        width: 246
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07897478d9f6a6149bfc6661485a1034
+      internalID: 1517465652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_37
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 324
+        width: 246
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f3fa05a9d94034eaa3093b1dae927e
+      internalID: -1825786097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 325
+        width: 244
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7749c1b532279429a472e0eefea1d5
+      internalID: -1802038189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_39
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 327
+        width: 243
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d024dd33732fd4787e1aba69541cc0
+      internalID: 61423633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_40
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 328
+        width: 242
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf0e541fa5a01b4eb65c59ab11d56f4
+      internalID: -520944284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_41
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 330
+        width: 241
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3bed8c68215554ab2c712c4fcc4211
+      internalID: -1792726214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 239
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213c39d3ebb62be47b9cdb59d29df877
+      internalID: -1035261958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_43
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 32
+        width: 238
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d7d3dbe6554e84794b11004871f736
+      internalID: 1261279093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_44
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 34
+        width: 237
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9400df5cb4761a4ebb6a899125c4e80
+      internalID: 834012029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_45
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 36
+        width: 236
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b98c164911f154cb949b4a490460ae
+      internalID: -2085131628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_46
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 39
+        width: 235
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a0184d77261ed45a3f1425405ddb20
+      internalID: 96885991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_47
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 42
+        width: 234
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5cc7e90d8f87a4d87dd3af2c0f740f
+      internalID: 847636769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontRun_48
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 45
+        width: 233
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd25a5e153b2ce429985f896764e7ec
+      internalID: -774529961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4ce18eea8f4d8754a882ba0e7c8d3205
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RightFrontRun_0: 2131739882
+      RightFrontRun_1: 2117392780
+      RightFrontRun_10: -2039448217
+      RightFrontRun_11: -542727546
+      RightFrontRun_12: -1704751227
+      RightFrontRun_13: -1441212053
+      RightFrontRun_14: 1366604219
+      RightFrontRun_15: -835786332
+      RightFrontRun_16: -34800461
+      RightFrontRun_17: -975590188
+      RightFrontRun_18: 895491067
+      RightFrontRun_19: 412260637
+      RightFrontRun_2: -1448660733
+      RightFrontRun_20: -180413435
+      RightFrontRun_21: -209112671
+      RightFrontRun_22: 1025162561
+      RightFrontRun_23: -1413894863
+      RightFrontRun_24: -1246749457
+      RightFrontRun_25: -355288457
+      RightFrontRun_26: -2140647581
+      RightFrontRun_27: 283774766
+      RightFrontRun_28: 438545990
+      RightFrontRun_29: -1193275149
+      RightFrontRun_3: -1994199646
+      RightFrontRun_30: -2064696886
+      RightFrontRun_31: -1404432438
+      RightFrontRun_32: 455696608
+      RightFrontRun_33: -1191069002
+      RightFrontRun_34: -1011905913
+      RightFrontRun_35: -187022539
+      RightFrontRun_36: 1517465652
+      RightFrontRun_37: -1825786097
+      RightFrontRun_38: -1802038189
+      RightFrontRun_39: 61423633
+      RightFrontRun_4: 429229171
+      RightFrontRun_40: -520944284
+      RightFrontRun_41: -1792726214
+      RightFrontRun_42: -1035261958
+      RightFrontRun_43: 1261279093
+      RightFrontRun_44: 834012029
+      RightFrontRun_45: -2085131628
+      RightFrontRun_46: 96885991
+      RightFrontRun_47: 847636769
+      RightFrontRun_48: -774529961
+      RightFrontRun_5: 844579023
+      RightFrontRun_6: 505282839
+      RightFrontRun_7: -2137158427
+      RightFrontRun_8: -470262305
+      RightFrontRun_9: 1266805130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

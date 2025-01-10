@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1624 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ImpDance_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2429
+        width: 217
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0aab1129fda1e44a49c6a4a35b9491
+      internalID: -674875334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2429
+        width: 219
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9705d0383eaaa614e8a13c61af91c267
+      internalID: 1542225658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 2428
+        width: 220
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb869cbbe08bda45af548b56a194de9
+      internalID: 1308598845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2428
+        width: 222
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a368b67024f114381c344215d4fd59
+      internalID: -724686675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_4
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2428
+        width: 223
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bcc1255353a734380bfb655ac88e58
+      internalID: 1006925436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_5
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2429
+        width: 222
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201ab4117bc1cf438ef264159ec8dac
+      internalID: -2005073359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_6
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 2428
+        width: 219
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7ebc0449ca38449908f18fe102c6cf
+      internalID: 769317297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_7
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2429
+        width: 213
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93486b2488c2fa94cb6eab65ea526f34
+      internalID: 1341424287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_8
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 2429
+        width: 203
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9c68b322a105d4aad4c95433ba79b9
+      internalID: 1454675400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2129
+        width: 192
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5fe983a1e6d334cac6a05bcb686b34
+      internalID: -2000035833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2129
+        width: 195
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bf5cc483107e440ab1ad6c0cfbf62e
+      internalID: 135641654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2127
+        width: 197
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a6a8735a08a6340ba5ba8b981c429f
+      internalID: -1228424781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_12
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2128
+        width: 202
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a607952f51cd8041ab1fbd0e375c9d2
+      internalID: 1566928079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 2127
+        width: 205
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f811ca9cfc53cca4eb03b50e11b49b20
+      internalID: -1134780757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_14
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 2127
+        width: 207
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab066492944cf0409f0f2901fdfdecd
+      internalID: 530895282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_15
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2127
+        width: 209
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31588121dc24832449aa12e6ad87807f
+      internalID: -1315231116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_16
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2127
+        width: 212
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbe508c9732ae946a43584fdc196ebd
+      internalID: -240142572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_17
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 2127
+        width: 215
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6843859018cfcc642bb03012e65ab2eb
+      internalID: -563368813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1826
+        width: 218
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9044bb178f25a3e46804f3e2f42a9ec7
+      internalID: 752991276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_19
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1827
+        width: 216
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60249e886774c43b4bc11ef5f6705c
+      internalID: 1328751916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_20
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1828
+        width: 212
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e150e87747cd44b4a91491bcefec6c5c
+      internalID: -1091007634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_21
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1829
+        width: 208
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d28cee9e115f74890af656859ba6fd
+      internalID: 951919479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_22
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1829
+        width: 204
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2f7260b520b3d49983b5d331c2c781
+      internalID: -1479849541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_23
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1830
+        width: 199
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c085569dad2fe5d4bbd785dcdc6145c2
+      internalID: -1490066948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_24
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1830
+        width: 195
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90085ec67ce60f41b4ea1a131b12778
+      internalID: -968215502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_25
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 1829
+        width: 192
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3388ce6ba9efb64b9657519e1a19be9
+      internalID: 14817869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_26
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 1829
+        width: 188
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1313449aa88cbd44bbdd10529edf48a
+      internalID: 185054773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1529
+        width: 183
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a533a3670d52b418f1e241fad23d49
+      internalID: 1798944004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1529
+        width: 195
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc666cd3c00a53409f42e1811d3c667
+      internalID: -1342754231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_29
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1529
+        width: 206
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb65589a871ba4ea81107a59efc834
+      internalID: 270246792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_30
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1529
+        width: 217
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135c062d0c0d00d4984b45898dd71505
+      internalID: -1531051256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_31
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1529
+        width: 221
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d1f600555c7ad49a1741a136bb10ef
+      internalID: 6887354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_32
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1529
+        width: 221
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba15a4701f57c02419dfa1fbdf82a9de
+      internalID: -247316586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_33
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1529
+        width: 222
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51faf605f639cd43b820b3362225715
+      internalID: 1841400709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_34
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 1529
+        width: 221
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd976323ed019444f826202d2a513f5e
+      internalID: 496674083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_35
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 1529
+        width: 218
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4fd70b469f5634d9048edf59982f04
+      internalID: 1278388451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1228
+        width: 217
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c865abf858a9b4fbbc72f499a8e839
+      internalID: 2036128508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_37
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1228
+        width: 212
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd22d7a43ef20a64f8a5d550f7bf3989
+      internalID: -1256180456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_38
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1228
+        width: 208
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf6abad2222f6248bbc0621751b1beb
+      internalID: 158272418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_39
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1228
+        width: 203
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882f79b43bdc46c498264299149ff032
+      internalID: 192539103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_40
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1228
+        width: 200
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a148c4b231dad7147bf6d12a6345ad4d
+      internalID: 1407411972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_41
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1228
+        width: 196
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ce43b22eb9acb42a6967935b13bc25
+      internalID: -1934449191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_42
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1228
+        width: 193
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db4a50f7053be34a90122878381ccc0
+      internalID: 258607213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_43
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1228
+        width: 190
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46b050f6a3459e44b2ebe0b9f38c0cf
+      internalID: -265300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_44
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 1228
+        width: 186
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470bc93d62b46c044a33853723a525a0
+      internalID: -1992686508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 929
+        width: 183
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16239008578d91e4ca5374400da99955
+      internalID: -331524268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_46
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 928
+        width: 186
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7059ff06f6a85a43be567666e043e94
+      internalID: 280250920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_47
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 928
+        width: 188
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa1bda2f8749446b204781d092295a
+      internalID: 1268714202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_48
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 928
+        width: 191
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4436f48c37c4244ade1f90fd77129b
+      internalID: 302974484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_49
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 928
+        width: 195
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada61383c845e3a409802773bc6ce6a3
+      internalID: 988669781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_50
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 926
+        width: 197
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10b9042db1f0345b25ba82cae9130a
+      internalID: 1141142758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_51
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 926
+        width: 200
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb9d2551a841d643879e13256eb2382
+      internalID: 835621557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_52
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 926
+        width: 203
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ca18be8701c944187f729eeb6eb7e6
+      internalID: 1359593878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_53
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 926
+        width: 206
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb675739ef3d22845962fa9ea4e2df79
+      internalID: -542571002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_54
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 626
+        width: 207
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc35431f5469c945a71e0547c19eda7
+      internalID: -37415500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_55
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 627
+        width: 205
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d66e0a24c726df46a3dffbed2938a64
+      internalID: -923315313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_56
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 628
+        width: 201
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f9e09ca5b835146932e4a02285ad9b
+      internalID: -1764291072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 628
+        width: 198
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8190a9c2f6c8d604a9f3fb6a73c1d1c9
+      internalID: 955159050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_58
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 630
+        width: 196
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56fa6a611e76e448dfab3fa1e8b5cd
+      internalID: 1380527110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_59
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 630
+        width: 192
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09a8d4b589f8a644b5c1fd27e0d87a7
+      internalID: 1198664388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_60
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 630
+        width: 188
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940c18d342bb1b64e83162c6e15a9731
+      internalID: -490000599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_61
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 630
+        width: 184
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6244d377d513c83489f88763f0663c7e
+      internalID: -1613826996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_62
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 630
+        width: 181
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048505cfe5a868941b92faa36608368c
+      internalID: 309940013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 329
+        width: 178
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56133376177dff74699b9b0d764e8b82
+      internalID: -1054608855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_64
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 329
+        width: 179
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145a0c8ff6688224c9552dec2fbef43b
+      internalID: -1795643492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_65
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 329
+        width: 184
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6961bd819941af943815c1e57f5e182d
+      internalID: -618492785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_66
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 329
+        width: 188
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b880a1622c871b54dab5362933212db3
+      internalID: -492702009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_67
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 329
+        width: 192
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c589ea4310974b867f3231565f1ad
+      internalID: 1331978703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_68
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 329
+        width: 196
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c473dc487e9f4f4e89fc586e3cd80f0
+      internalID: -2125798581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_69
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 329
+        width: 201
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0ddf661eba10043a6714dee952a82b
+      internalID: 719144689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_70
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 329
+        width: 206
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e35750be67ac3c4b845698bbc4cbeaa
+      internalID: -297599911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_71
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 329
+        width: 210
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4cb5678b39f504590a51823962bf12
+      internalID: -1749291355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpDance_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 28
+        width: 217
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed8f88431956e46972b63e73abcbe0
+      internalID: -1744122534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 77e2355b00778dc44a5d8c2742f07515
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ImpDance_0: -674875334
+      ImpDance_1: 1542225658
+      ImpDance_10: 135641654
+      ImpDance_11: -1228424781
+      ImpDance_12: 1566928079
+      ImpDance_13: -1134780757
+      ImpDance_14: 530895282
+      ImpDance_15: -1315231116
+      ImpDance_16: -240142572
+      ImpDance_17: -563368813
+      ImpDance_18: 752991276
+      ImpDance_19: 1328751916
+      ImpDance_2: 1308598845
+      ImpDance_20: -1091007634
+      ImpDance_21: 951919479
+      ImpDance_22: -1479849541
+      ImpDance_23: -1490066948
+      ImpDance_24: -968215502
+      ImpDance_25: 14817869
+      ImpDance_26: 185054773
+      ImpDance_27: 1798944004
+      ImpDance_28: -1342754231
+      ImpDance_29: 270246792
+      ImpDance_3: -724686675
+      ImpDance_30: -1531051256
+      ImpDance_31: 6887354
+      ImpDance_32: -247316586
+      ImpDance_33: 1841400709
+      ImpDance_34: 496674083
+      ImpDance_35: 1278388451
+      ImpDance_36: 2036128508
+      ImpDance_37: -1256180456
+      ImpDance_38: 158272418
+      ImpDance_39: 192539103
+      ImpDance_4: 1006925436
+      ImpDance_40: 1407411972
+      ImpDance_41: -1934449191
+      ImpDance_42: 258607213
+      ImpDance_43: -265300174
+      ImpDance_44: -1992686508
+      ImpDance_45: -331524268
+      ImpDance_46: 280250920
+      ImpDance_47: 1268714202
+      ImpDance_48: 302974484
+      ImpDance_49: 988669781
+      ImpDance_5: -2005073359
+      ImpDance_50: 1141142758
+      ImpDance_51: 835621557
+      ImpDance_52: 1359593878
+      ImpDance_53: -542571002
+      ImpDance_54: -37415500
+      ImpDance_55: -923315313
+      ImpDance_56: -1764291072
+      ImpDance_57: 955159050
+      ImpDance_58: 1380527110
+      ImpDance_59: 1198664388
+      ImpDance_6: 769317297
+      ImpDance_60: -490000599
+      ImpDance_61: -1613826996
+      ImpDance_62: 309940013
+      ImpDance_63: -1054608855
+      ImpDance_64: -1795643492
+      ImpDance_65: -618492785
+      ImpDance_66: -492702009
+      ImpDance_67: 1331978703
+      ImpDance_68: -2125798581
+      ImpDance_69: 719144689
+      ImpDance_7: 1341424287
+      ImpDance_70: -297599911
+      ImpDance_71: -1749291355
+      ImpDance_72: -1744122534
+      ImpDance_8: 1454675400
+      ImpDance_9: -2000035833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BackThrow_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1032
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca660ddf98930745a390baa9a6d85d4
+      internalID: -1557083344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1032
+        width: 225
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d354d38804c4d4a8789dabd0cb6d0f
+      internalID: 801311762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1032
+        width: 226
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb893f5494b21642b2d7d777339e567
+      internalID: 112377573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1031
+        width: 228
+        height: 209
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b379b9c3ac531f429c1397b184b235e
+      internalID: 1636017305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_4
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1031
+        width: 228
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3fbae92cc6e4d448bb3c48d4a73ed2
+      internalID: 2080217833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 775
+        width: 229
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cedf2be56bd9614ea02719a08b2e531
+      internalID: -225600602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 775
+        width: 229
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9383fb25d3eeff3429e9333f1fc496e9
+      internalID: 2051421715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 775
+        width: 229
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150fadd91e3596a43a80376db07790aa
+      internalID: -1126416472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_8
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 776
+        width: 228
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315dc536af195c942b4bc12a6206634a
+      internalID: 310587129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_9
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 777
+        width: 228
+        height: 217
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a744d28e14163d440bc8f94740a2e72d
+      internalID: -283150785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 522
+        width: 226
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90a4e1388c62e749b661b673d3f1ee1
+      internalID: -328445977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 522
+        width: 223
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a5651637ec17240b25d9988b8460f0
+      internalID: 1466805647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_12
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 522
+        width: 221
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e65dd835d669a44b66fb80b1df1f64
+      internalID: -1000316744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_13
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 522
+        width: 220
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82394e0da2df0498836f79f40a6af2
+      internalID: 1665496385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_14
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 522
+        width: 220
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b601f1b567121c347ae2aa476480669c
+      internalID: -788956868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 266
+        width: 221
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6871b15eea1580c45a1ae80e42e32370
+      internalID: -172434651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 266
+        width: 221
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4efeeea9f959f458466be8f25c475a
+      internalID: 974540023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 265
+        width: 221
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eab87e2809ae746b438823aea667da
+      internalID: -1265444611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 265
+        width: 222
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5026ac9bea09a4b97ef9d3220fb75b
+      internalID: -170322710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_19
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 265
+        width: 222
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fa9229e1e5de04bb97498ff1be013e
+      internalID: 38490460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9
+        width: 223
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce6e7bab8d8bdf47b0a3308865115d7
+      internalID: 547380495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 9
+        width: 222
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8984dea101cd0bb4aa17e4e3abc4a82e
+      internalID: 384433664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_22
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 9
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22804ed3c1a87dc4d9a37e250233412c
+      internalID: 125561591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_23
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 9
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794c0064bc2e47f4685629c755dd4a63
+      internalID: 48276475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackThrow_24
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 8
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5532fbd8e41f55c4db1f5281fbd089fc
+      internalID: 565049065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a5f4726aaa94499469a2bd74c68d13f9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BackThrow_0: -1557083344
+      BackThrow_1: 801311762
+      BackThrow_10: -328445977
+      BackThrow_11: 1466805647
+      BackThrow_12: -1000316744
+      BackThrow_13: 1665496385
+      BackThrow_14: -788956868
+      BackThrow_15: -172434651
+      BackThrow_16: 974540023
+      BackThrow_17: -1265444611
+      BackThrow_18: -170322710
+      BackThrow_19: 38490460
+      BackThrow_2: 112377573
+      BackThrow_20: 547380495
+      BackThrow_21: 384433664
+      BackThrow_22: 125561591
+      BackThrow_23: 48276475
+      BackThrow_24: 565049065
+      BackThrow_3: 1636017305
+      BackThrow_4: 2080217833
+      BackThrow_5: -225600602
+      BackThrow_6: 2051421715
+      BackThrow_7: -1126416472
+      BackThrow_8: 310587129
+      BackThrow_9: -283150785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

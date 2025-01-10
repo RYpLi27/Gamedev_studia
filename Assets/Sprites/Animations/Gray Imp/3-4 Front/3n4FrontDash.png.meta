@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3n4FrontDash_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1056
+        width: 214
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c5a4a82dc953248a680a5cab10723c
+      internalID: 488047325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1057
+        width: 213
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adc1aecb4e24dc459a3cae12a15216c
+      internalID: -1539422955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1057
+        width: 214
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e94d7cd3b4d444ac03c8c16053315
+      internalID: 1442217051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1058
+        width: 215
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079e95b8257f4a445bc41a74d26967aa
+      internalID: -621248978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_4
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1058
+        width: 217
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9382333c75b49ef4c96bad529d1d9660
+      internalID: 773797319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 802
+        width: 218
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171254fddae2bf04a85c1481146b6176
+      internalID: 746059859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 802
+        width: 220
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e2734a64575cc4a870a4d72903cb04
+      internalID: -2010665806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 801
+        width: 217
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e621cc85e2958574fa55b6529fe09ae0
+      internalID: 1561278706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 799
+        width: 216
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7566102f6a030d42a63c5f5e9693c84
+      internalID: 1886257525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_9
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 796
+        width: 219
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c4602e636eb04ba924400509580bb
+      internalID: -2103894926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 538
+        width: 221
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9b362e967c9af48b47d9538960bd3c
+      internalID: 130296867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 536
+        width: 223
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdebf36db2ee734da6c3aca651c814d
+      internalID: -934905853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 534
+        width: 224
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b672f4573c09705488a3ce1f619add70
+      internalID: 311125042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 535
+        width: 224
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a93c0ef2045e54f9734adc390ab208
+      internalID: 241009541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_14
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 535
+        width: 223
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5644877b7be72469f23facc0c70c56
+      internalID: -969421282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 281
+        width: 224
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fdc7a7e97693749961b50729a96636
+      internalID: 517934492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 281
+        width: 223
+        height: 217
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544068f7e6eef3241bead79be14cf649
+      internalID: 1234844020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 282
+        width: 222
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fa4b4da180de34bbe03e6df7fdd06c
+      internalID: -1719862258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_18
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 283
+        width: 221
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d4ac68dbcb70443967cb37a64bda11
+      internalID: 1617040816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 285
+        width: 221
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41ff6eaa5489843b94326cd982dcad
+      internalID: -1303767032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 29
+        width: 219
+        height: 209
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e10bb47c3ad1c4d8eb2efabff119fb
+      internalID: -1357158215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 30
+        width: 218
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bcb089fb891a8428a933d7dbbb62f7
+      internalID: 194858031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 31
+        width: 217
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ab8b1172d7a14894ee57985b02f19
+      internalID: 1079585047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_23
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 32
+        width: 216
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065314dc8ad075498bbd7c98e4c449f
+      internalID: -1959720125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4FrontDash_24
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 32
+        width: 214
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdc234288f1f30479baeaf40c7f6753
+      internalID: 1858602478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 898d97441dbf6684ebb65574ec167b81
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3n4FrontDash_0: 488047325
+      3n4FrontDash_1: -1539422955
+      3n4FrontDash_10: 130296867
+      3n4FrontDash_11: -934905853
+      3n4FrontDash_12: 311125042
+      3n4FrontDash_13: 241009541
+      3n4FrontDash_14: -969421282
+      3n4FrontDash_15: 517934492
+      3n4FrontDash_16: 1234844020
+      3n4FrontDash_17: -1719862258
+      3n4FrontDash_18: 1617040816
+      3n4FrontDash_19: -1303767032
+      3n4FrontDash_2: 1442217051
+      3n4FrontDash_20: -1357158215
+      3n4FrontDash_21: 194858031
+      3n4FrontDash_22: 1079585047
+      3n4FrontDash_23: -1959720125
+      3n4FrontDash_24: 1858602478
+      3n4FrontDash_3: -621248978
+      3n4FrontDash_4: 773797319
+      3n4FrontDash_5: 746059859
+      3n4FrontDash_6: -2010665806
+      3n4FrontDash_7: 1561278706
+      3n4FrontDash_8: 1886257525
+      3n4FrontDash_9: -2103894926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RightFrontDash_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1254
+        width: 231
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83819bec155c814fa65378c96cea471
+      internalID: 1391988753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1254
+        width: 233
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1653f0dcb5b6bd048b10b20b44630b45
+      internalID: -1752725238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1255
+        width: 234
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df3df13fd70dd044b4f76cd30a7e835
+      internalID: -1179656960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1255
+        width: 236
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed64387846b6e41ac10dff5af027a7
+      internalID: -790813582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_4
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1256
+        width: 238
+        height: 216
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1764ffd515697d049a8330eef7c20dc6
+      internalID: 1888308270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 955
+        width: 239
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441923355b857640aa05b2200841190
+      internalID: 155025595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 955
+        width: 241
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb69b897535a55f4e852228225d0fafe
+      internalID: 334944146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 953
+        width: 236
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899aad3f528748a44afca64369d37c09
+      internalID: 1647343407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_8
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 951
+        width: 231
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f55a89fd0972dd449eb7ef9b7c9e680
+      internalID: -1307290954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_9
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 948
+        width: 228
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9a3732404efc14d865ee0ac861124a
+      internalID: -1427053093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 643
+        width: 228
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c5fe0ec8583034fb34955f217fedb7
+      internalID: -932972127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 642
+        width: 232
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf810e89eaa9832478ce36443608f43e
+      internalID: -1043081487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 642
+        width: 235
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ac95d826a00a24aacb7010179ba06b
+      internalID: 1620516100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_13
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 642
+        width: 234
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5595110f86255c342b4716227d09367d
+      internalID: 1267100220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_14
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 642
+        width: 233
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3dd6f97539f840aaad6e120bf24d5
+      internalID: 1055551236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 340
+        width: 231
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cdc6a6ff9a8694885065023d3032f0
+      internalID: 1122965345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 341
+        width: 230
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6518ce177339e429afaa11f3ee80ee
+      internalID: 149195091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 342
+        width: 229
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2632b4b56f8d865499fb22637eedd453
+      internalID: -469498842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_18
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 342
+        width: 227
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e144d58df8ebd4d846291f8207acb9
+      internalID: -1322194244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_19
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 343
+        width: 227
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456c85623d606e249bf6acf7538fc5ea
+      internalID: 1698948447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 42
+        width: 227
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f04eb83cf48d47a14e61a038f384f
+      internalID: 1871471875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_21
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 43
+        width: 229
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c02307702de66f47a93171973a80f15
+      internalID: -2081630036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_22
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 44
+        width: 229
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda54bced9ae32840aed91198d13a9af
+      internalID: -1456597626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_23
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 46
+        width: 230
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112e793810db430499a3e695a7e251f6
+      internalID: 476526923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontDash_24
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 47
+        width: 231
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e5a188859cd624fbd14c52d35e671a
+      internalID: -141890888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41a64f7a9b8d7ee44b9804187caaaef5
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RightFrontDash_0: 1391988753
+      RightFrontDash_1: -1752725238
+      RightFrontDash_10: -932972127
+      RightFrontDash_11: -1043081487
+      RightFrontDash_12: 1620516100
+      RightFrontDash_13: 1267100220
+      RightFrontDash_14: 1055551236
+      RightFrontDash_15: 1122965345
+      RightFrontDash_16: 149195091
+      RightFrontDash_17: -469498842
+      RightFrontDash_18: -1322194244
+      RightFrontDash_19: 1698948447
+      RightFrontDash_2: -1179656960
+      RightFrontDash_20: 1871471875
+      RightFrontDash_21: -2081630036
+      RightFrontDash_22: -1456597626
+      RightFrontDash_23: 476526923
+      RightFrontDash_24: -141890888
+      RightFrontDash_3: -790813582
+      RightFrontDash_4: 1888308270
+      RightFrontDash_5: 155025595
+      RightFrontDash_6: 334944146
+      RightFrontDash_7: 1647343407
+      RightFrontDash_8: -1307290954
+      RightFrontDash_9: -1427053093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

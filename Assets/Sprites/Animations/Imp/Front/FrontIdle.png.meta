@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,9 +46,15 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
+<<<<<<< HEAD
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 128
+=======
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 100
+>>>>>>> 84e8199 (Sprajty_Dzielone)
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,19 +106,33 @@ TextureImporter:
       name: FrontIdle_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 52
+        y: 1843
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 94825cb592121654d89585f647857b2c
       internalID: 2056541849
+=======
+      spriteID: 0e9e436275f337c489c19944d41433fa
+      internalID: 913193594
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -121,19 +141,33 @@ TextureImporter:
       name: FrontIdle_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 353
+        y: 1843
+        width: 216
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ef297e4f5bec75c4cb000efe7092d283
       internalID: -1020788984
+=======
+      spriteID: 2713c8b12c282394db5abd8e04b307ce
+      internalID: -831441135
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -142,19 +176,33 @@ TextureImporter:
       name: FrontIdle_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 656
+        y: 1843
+        width: 215
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e24115a7d6a899b4c8e83e5d5ce9126e
       internalID: 1837037586
+=======
+      spriteID: f88a6c34efa22e2419897f089c1c9a3b
+      internalID: -623742815
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -163,19 +211,33 @@ TextureImporter:
       name: FrontIdle_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 958
+        y: 1843
+        width: 217
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6d81ff885844cd14991769968ff0f461
       internalID: -1645880522
+=======
+      spriteID: f1621a21526e4fa42b298456c37fe5da
+      internalID: 2119254176
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -184,19 +246,33 @@ TextureImporter:
       name: FrontIdle_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1260
+        y: 1843
+        width: 217
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 1a58f5ae298645b47b5a2b2e51c5cd86
       internalID: 597032993
+=======
+      spriteID: 4b3dc51b9582c1b4eb53bad8f956d136
+      internalID: -1775840220
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -205,19 +281,33 @@ TextureImporter:
       name: FrontIdle_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1563
+        y: 1841
+        width: 217
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 53f857ebabcd28345afb3107eee33b0f
       internalID: -144021812
+=======
+      spriteID: 3f5cac34024727c4f99f7fc2bc9ec185
+      internalID: 1390603087
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -226,19 +316,33 @@ TextureImporter:
       name: FrontIdle_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 1812
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1865
+        y: 1841
+        width: 217
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 70fb569566f3cfc45bf8234f045a434e
       internalID: 332947452
+=======
+      spriteID: ad5832d9488a1b543a86555ec3e364d8
+      internalID: -310927451
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -247,19 +351,33 @@ TextureImporter:
       name: FrontIdle_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 54
+        y: 1539
+        width: 216
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d9b6f84bf765bec4aba0de9c09bed414
       internalID: -1029431564
+=======
+      spriteID: 0dae5fe8a6d03cb46aa301cfd95fd90d
+      internalID: 344075417
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -268,19 +386,33 @@ TextureImporter:
       name: FrontIdle_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 356
+        y: 1539
+        width: 218
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e2f87cb45c6a5434da7652bcef7841da
       internalID: 1948230764
+=======
+      spriteID: e5fb4fa73d3de554292fa5ac2cdd1cb1
+      internalID: -1639795611
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -289,19 +421,33 @@ TextureImporter:
       name: FrontIdle_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 659
+        y: 1539
+        width: 216
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 5ae27ddd80f762643ab66cbafbc910b9
       internalID: -1620295231
+=======
+      spriteID: 774b27b17c34c6049b719ad8fe2ce78d
+      internalID: 1683713358
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -310,19 +456,33 @@ TextureImporter:
       name: FrontIdle_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 960
+        y: 1539
+        width: 219
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 01891986e4af6dd4886c1f26cb07460b
       internalID: 1238206858
+=======
+      spriteID: 686da4243a8e29d419dcf05208215a14
+      internalID: -725765064
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -331,19 +491,33 @@ TextureImporter:
       name: FrontIdle_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1263
+        y: 1539
+        width: 217
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e8b83e1b56b4e8b4b93874749eb050eb
       internalID: -1042284331
+=======
+      spriteID: d5c27dbff7a61534f93fce2a3e5d0446
+      internalID: -1878099266
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -352,19 +526,33 @@ TextureImporter:
       name: FrontIdle_12
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1565
+        y: 1539
+        width: 219
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 1e0f3f9c759afbf46aa480176edde48b
       internalID: -2008036830
+=======
+      spriteID: 2561714289cf4d840a479f7ab8ba037c
+      internalID: -1653779671
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -373,19 +561,33 @@ TextureImporter:
       name: FrontIdle_13
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 1510
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1867
+        y: 1539
+        width: 218
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 668c84bc5f5566b47906fbe4407627ca
       internalID: 162089324
+=======
+      spriteID: f3d9f950d1f836b4a8ed11b87d130195
+      internalID: -852181125
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -394,19 +596,33 @@ TextureImporter:
       name: FrontIdle_14
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 56
+        y: 1238
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6c4ee0c2453a64d4190e098d89ee617b
       internalID: -2120804033
+=======
+      spriteID: 55f8c1f8960c03844b29786ec5114ab4
+      internalID: 1784284064
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -415,19 +631,33 @@ TextureImporter:
       name: FrontIdle_15
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 358
+        y: 1238
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f9f5fe52ac2223648985a2158748e87e
       internalID: 1494459393
+=======
+      spriteID: 180d72fbc7baaf74d813f749146f5aef
+      internalID: -299684431
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -436,19 +666,33 @@ TextureImporter:
       name: FrontIdle_16
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 661
+        y: 1238
+        width: 217
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: bebd5df08d7e6d8479fe1fb7a883a111
       internalID: -1853022682
+=======
+      spriteID: 37f7c6a0233b9bf48a0477053989727d
+      internalID: -1421138074
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -457,19 +701,33 @@ TextureImporter:
       name: FrontIdle_17
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 963
+        y: 1238
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b37542b2001b8af459428f810803016b
       internalID: -682410578
+=======
+      spriteID: 9e81db00c1feb5640a088ac1fcc2ec98
+      internalID: -385478946
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -478,19 +736,33 @@ TextureImporter:
       name: FrontIdle_18
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1266
+        y: 1238
+        width: 216
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 71b5330e8b5a8a3458e2e4f7df57e674
       internalID: -554041161
+=======
+      spriteID: 18f83772440b64849a8eda571821ce4e
+      internalID: -1512752275
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -499,19 +771,33 @@ TextureImporter:
       name: FrontIdle_19
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1567
+        y: 1238
+        width: 219
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 1f56fc3b5af603b49976ea5e0f76d6dc
       internalID: 547759453
+=======
+      spriteID: d76cdf5ace8e79c43bf852251f925485
+      internalID: 2059930219
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -520,19 +806,33 @@ TextureImporter:
       name: FrontIdle_20
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 1208
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1870
+        y: 1238
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 1f708eff65e0e43458b53246f3498379
       internalID: -368399395
+=======
+      spriteID: c15e6b0231895d5428b49a3c04e4caae
+      internalID: -1353754499
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -541,19 +841,33 @@ TextureImporter:
       name: FrontIdle_21
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 59
+        y: 935
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 93d7eec02ccb6d0458a2ef3eb9cd8eb8
       internalID: 318967037
+=======
+      spriteID: 6b9e77cb95a536642b2d6d712dcbefb6
+      internalID: -1727030489
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -562,19 +876,33 @@ TextureImporter:
       name: FrontIdle_22
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 360
+        y: 935
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 5b85daef0c63f044cbe6a9037e2c0d42
       internalID: 808508906
+=======
+      spriteID: ed8b560547c951e4686efa438edf2294
+      internalID: 717473908
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -583,19 +911,33 @@ TextureImporter:
       name: FrontIdle_23
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 664
+        y: 935
+        width: 215
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6c630562080686f4fa2cc5adb0f92166
       internalID: 1878930254
+=======
+      spriteID: aa07dff34daeb574baa4a80e35dd3ec6
+      internalID: -1646413438
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -604,19 +946,33 @@ TextureImporter:
       name: FrontIdle_24
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 965
+        y: 935
+        width: 216
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3700d21452ee8d94c9351b61575ca464
       internalID: 890899755
+=======
+      spriteID: 458f9f24e23839e47a91b500a5402dcc
+      internalID: -492542501
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -625,19 +981,33 @@ TextureImporter:
       name: FrontIdle_25
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1268
+        y: 935
+        width: 215
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b675019b413ed9f47a18ec4a37716fcc
       internalID: -1964624949
+=======
+      spriteID: 5afe74cac12e51449ba7ce26d00bb159
+      internalID: 333698413
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -646,19 +1016,33 @@ TextureImporter:
       name: FrontIdle_26
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1568
+        y: 935
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 35c784ae5b65f3642884f282268dfa76
       internalID: 584957146
+=======
+      spriteID: 399955f34ffcc5c47b1e021c7c0596a1
+      internalID: 2141720087
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -667,19 +1051,33 @@ TextureImporter:
       name: FrontIdle_27
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 906
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1870
+        y: 935
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ac6a6558826cfa9459eae450288dc48b
       internalID: -1415484791
+=======
+      spriteID: 241336d2f896d4a479c621e84bab63f5
+      internalID: 18606522
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -688,19 +1086,33 @@ TextureImporter:
       name: FrontIdle_28
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 58
+        y: 634
+        width: 217
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 16de58d63940cd44aabbd7b1b56c3283
       internalID: -1872795001
+=======
+      spriteID: bfccc01aaef409641a403d4b238a6a92
+      internalID: 1740824578
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -709,19 +1121,33 @@ TextureImporter:
       name: FrontIdle_29
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 359
+        y: 634
+        width: 218
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 7c4afd21e0eefc44bb46edaea861a1f1
       internalID: 388256296
+=======
+      spriteID: 9e5d45f4cf370b34aac53cfad0c18b8e
+      internalID: 1943502654
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -730,19 +1156,33 @@ TextureImporter:
       name: FrontIdle_30
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 662
+        y: 634
+        width: 216
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 1b45f7c7fbe3a394db285e20be0db21b
       internalID: 1559678288
+=======
+      spriteID: 711093d2f32aa5f45965b03acff0a2e5
+      internalID: 421417121
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -751,19 +1191,33 @@ TextureImporter:
       name: FrontIdle_31
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 963
+        y: 634
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ea7567dd419086f43b59234574b6e0f0
       internalID: -962099822
+=======
+      spriteID: 4dfd7167f22d255498db55634d6c8fc5
+      internalID: -989620614
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -772,19 +1226,33 @@ TextureImporter:
       name: FrontIdle_32
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1264
+        y: 634
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: f80fcf44ba225ba4da5c42f5cc5468c5
       internalID: 1398633965
+=======
+      spriteID: cf4a628f8ca623f449bbf16b5650ab0b
+      internalID: 134112325
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -793,19 +1261,33 @@ TextureImporter:
       name: FrontIdle_33
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1566
+        y: 634
+        width: 219
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: cee4f5b2f1292e041bf1a6d7b84f29ea
       internalID: -1578712907
+=======
+      spriteID: 3e872cf5003475f4d80ca7ece53e0c37
+      internalID: 322197760
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -814,19 +1296,33 @@ TextureImporter:
       name: FrontIdle_34
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 604
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1868
+        y: 634
+        width: 218
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: c8dd0360515969e44a0c57fde044cd0c
       internalID: 1345634707
+=======
+      spriteID: 55a70922ae59a8b4faf7e60955c0c98a
+      internalID: 1843133125
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -835,19 +1331,33 @@ TextureImporter:
       name: FrontIdle_35
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 56
+        y: 331
+        width: 218
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 4706f63e8d957c247ab829085c591e31
       internalID: -567830294
+=======
+      spriteID: ababfe8b1ce9ddb4892e15035f8bdc5e
+      internalID: -1757907274
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -856,19 +1366,33 @@ TextureImporter:
       name: FrontIdle_36
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 357
+        y: 331
+        width: 219
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 53cb9f61c089d7c488d9992c85cd0843
       internalID: -10253563
+=======
+      spriteID: f4e9f07206e68bd48ab8f3ebd1415da1
+      internalID: -861438850
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -877,19 +1401,33 @@ TextureImporter:
       name: FrontIdle_37
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 660
+        y: 331
+        width: 216
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 117e9aaddd8475e42a05eaac455f93b4
       internalID: 473178862
+=======
+      spriteID: 6235c967c788dda47ae02e5403dd3c08
+      internalID: -1799917607
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -898,19 +1436,33 @@ TextureImporter:
       name: FrontIdle_38
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 960
+        y: 331
+        width: 219
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: a35ee6aef6ecaf445915d646ec3b1e8e
       internalID: 1693861938
+=======
+      spriteID: 3cddbd8dad360f949aab34a322f1c686
+      internalID: 780044498
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -919,19 +1471,33 @@ TextureImporter:
       name: FrontIdle_39
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1262
+        y: 331
+        width: 217
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 83e94e863b9cb324e9e04956ca6dfd6c
       internalID: 1147195793
+=======
+      spriteID: 6720c977d16e232469e8f769c2c8bced
+      internalID: -1042891535
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -940,19 +1506,33 @@ TextureImporter:
       name: FrontIdle_40
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1564
+        y: 331
+        width: 218
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: dc4278818ef1003429e7270531f73acc
       internalID: -1274701312
+=======
+      spriteID: 47ee6692c3f29de4cbbf79b6db276a7c
+      internalID: 951662281
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -961,19 +1541,33 @@ TextureImporter:
       name: FrontIdle_41
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 302
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1865
+        y: 331
+        width: 218
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: fd8806f4dee897c47b4310240fd570b1
       internalID: -1959684563
+=======
+      spriteID: f8551e581152a734da42f10281d35fc3
+      internalID: 1492715459
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -982,19 +1576,33 @@ TextureImporter:
       name: FrontIdle_42
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 54
+        y: 29
+        width: 216
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: d0264cb395cd6564c9b2c48d4863451a
       internalID: 1854973624
+=======
+      spriteID: cd7876dbd9356f34c85b539b02a89b73
+      internalID: -953893987
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1003,19 +1611,33 @@ TextureImporter:
       name: FrontIdle_43
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 302
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 355
+        y: 30
+        width: 217
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b499729fa16737a41bc5643f06ba9ab4
       internalID: 338234752
+=======
+      spriteID: c463c9f8c7546944ead1bdb813c79e8f
+      internalID: -326486265
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1024,19 +1646,33 @@ TextureImporter:
       name: FrontIdle_44
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 604
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 656
+        y: 30
+        width: 216
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e484f051cae4da64995176fa7302f90a
       internalID: -953051848
+=======
+      spriteID: ce5aa76bf34eeaa45ac18ffd78f7ddbf
+      internalID: -1103104163
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1045,19 +1681,33 @@ TextureImporter:
       name: FrontIdle_45
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 906
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 958
+        y: 30
+        width: 217
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 72fc3d6cd29415143b901c5475dc43b5
       internalID: -357253922
+=======
+      spriteID: c2d1a741b874fd940944023ee7adfb1b
+      internalID: -1154787231
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1066,19 +1716,33 @@ TextureImporter:
       name: FrontIdle_46
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1208
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1260
+        y: 30
+        width: 216
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3c443a3470cbeb043a05c65b4cbe3dc9
       internalID: 900383267
+=======
+      spriteID: a9c283e65e5e278459867f2495983216
+      internalID: 560021791
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1087,19 +1751,33 @@ TextureImporter:
       name: FrontIdle_47
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1510
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1562
+        y: 30
+        width: 214
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 9d985315f09ec5442b91d36201c7091c
       internalID: 509895648
+=======
+      spriteID: 551a563796f542545ae1e0f0b36de3a9
+      internalID: -1986553758
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1108,19 +1786,33 @@ TextureImporter:
       name: FrontIdle_48
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 1812
         y: 0
         width: 302
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 1863
+        y: 30
+        width: 215
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ffc6e6bf653f2244789fad1dd82f33c9
       internalID: -880637405
+=======
+      spriteID: 761e1bb5288a0284e9b01801efa9926d
+      internalID: 1359256257
+>>>>>>> 84e8199 (Sprajty_Dzielone)
       vertices: []
       indices: 
       edges: []
@@ -1136,6 +1828,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       FrontIdle_0: 2056541849
       FrontIdle_1: -1020788984
       FrontIdle_10: 1238206858
@@ -1185,6 +1878,57 @@ TextureImporter:
       FrontIdle_7: -1029431564
       FrontIdle_8: 1948230764
       FrontIdle_9: -1620295231
+=======
+      FrontIdle_0: 913193594
+      FrontIdle_1: -831441135
+      FrontIdle_10: -725765064
+      FrontIdle_11: -1878099266
+      FrontIdle_12: -1653779671
+      FrontIdle_13: -852181125
+      FrontIdle_14: 1784284064
+      FrontIdle_15: -299684431
+      FrontIdle_16: -1421138074
+      FrontIdle_17: -385478946
+      FrontIdle_18: -1512752275
+      FrontIdle_19: 2059930219
+      FrontIdle_2: -623742815
+      FrontIdle_20: -1353754499
+      FrontIdle_21: -1727030489
+      FrontIdle_22: 717473908
+      FrontIdle_23: -1646413438
+      FrontIdle_24: -492542501
+      FrontIdle_25: 333698413
+      FrontIdle_26: 2141720087
+      FrontIdle_27: 18606522
+      FrontIdle_28: 1740824578
+      FrontIdle_29: 1943502654
+      FrontIdle_3: 2119254176
+      FrontIdle_30: 421417121
+      FrontIdle_31: -989620614
+      FrontIdle_32: 134112325
+      FrontIdle_33: 322197760
+      FrontIdle_34: 1843133125
+      FrontIdle_35: -1757907274
+      FrontIdle_36: -861438850
+      FrontIdle_37: -1799917607
+      FrontIdle_38: 780044498
+      FrontIdle_39: -1042891535
+      FrontIdle_4: -1775840220
+      FrontIdle_40: 951662281
+      FrontIdle_41: 1492715459
+      FrontIdle_42: -953893987
+      FrontIdle_43: -326486265
+      FrontIdle_44: -1103104163
+      FrontIdle_45: -1154787231
+      FrontIdle_46: 560021791
+      FrontIdle_47: -1986553758
+      FrontIdle_48: 1359256257
+      FrontIdle_5: 1390603087
+      FrontIdle_6: -310927451
+      FrontIdle_7: 344075417
+      FrontIdle_8: -1639795611
+      FrontIdle_9: 1683713358
+>>>>>>> 84e8199 (Sprajty_Dzielone)
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

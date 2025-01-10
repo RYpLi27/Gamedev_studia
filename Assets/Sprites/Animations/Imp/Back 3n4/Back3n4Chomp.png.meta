@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,24 +37,24 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Back3n4Chomp_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1230
+        width: 220
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1dd84ba3d448f48945e734677dab7e
+      internalID: -8696912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1230
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a11c4deba5a7f47a6bda9fe4b5cf04
+      internalID: 946796414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_2
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1231
+        width: 222
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22535501b581fb42b06ea76d0239ee8
+      internalID: 1955153016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1231
+        width: 222
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c2dea590d51442a2136a339fdd222
+      internalID: -297781829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1232
+        width: 221
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5f4e07f85af6048a7775abf676c45f
+      internalID: 2111351897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 933
+        width: 220
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8708560d1e653c439892b4ab3f295d4
+      internalID: 977930939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_6
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 933
+        width: 219
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7868aa481c38f40b53ae35707a31e6
+      internalID: 779275997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_7
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 933
+        width: 220
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152409a1ca1793348b86b499c0d94057
+      internalID: -1459415795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_8
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 932
+        width: 221
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f5fbdf322a0e34bbac0642dd16f914
+      internalID: -1022856663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_9
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 931
+        width: 222
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8edc9ec3fe0b4f9f22f21016bb560
+      internalID: 1276815625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 631
+        width: 222
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc2a315cb419b0488079cb860967c22
+      internalID: -197739362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 630
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0be415b0710754fbaf6593fd82cf0e
+      internalID: 263839131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_12
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 630
+        width: 220
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cdf58f03726b54bac8ad6c03b4ef8a
+      internalID: -1894875803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_13
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 630
+        width: 220
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876068127911aec45952bead2d57424b
+      internalID: 1934071180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 630
+        width: 220
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f521bf44d14d334d88b9ba0044d89c9
+      internalID: -2002378448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 330
+        width: 221
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c241b0d1601741b802f6e1d18cd83
+      internalID: -324008582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 330
+        width: 221
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eed96d7a54e0149adc78366a094607
+      internalID: 12845515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 329
+        width: 222
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a824e2835d3df45997cd33f2aed83e
+      internalID: -1522396974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_18
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 329
+        width: 221
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3f03285bf456241961d022d1450cc2
+      internalID: 1907653546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_19
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 329
+        width: 222
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e833ee61fce81b41a4def0fe1de42cd
+      internalID: -1192779793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 30
+        width: 221
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abc0354ff4ec534d9e12f734d804030
+      internalID: 454760203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 30
+        width: 221
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f92a5edc0329794aaf0bac3f10da5b9
+      internalID: 202137969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 30
+        width: 220
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f678f4a18b3f692489a9ebddfee2bab7
+      internalID: 155681908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_23
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 30
+        width: 220
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b494ff4793130e3458709e170a3ae1c7
+      internalID: -1102696417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Chomp_24
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 30
+        width: 220
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17dca107d72e84ba893ba70ae6b372
+      internalID: 2045336259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Back3n4Chomp_0: -8696912
+      Back3n4Chomp_1: 946796414
+      Back3n4Chomp_10: -197739362
+      Back3n4Chomp_11: 263839131
+      Back3n4Chomp_12: -1894875803
+      Back3n4Chomp_13: 1934071180
+      Back3n4Chomp_14: -2002378448
+      Back3n4Chomp_15: -324008582
+      Back3n4Chomp_16: 12845515
+      Back3n4Chomp_17: -1522396974
+      Back3n4Chomp_18: 1907653546
+      Back3n4Chomp_19: -1192779793
+      Back3n4Chomp_2: 1955153016
+      Back3n4Chomp_20: 454760203
+      Back3n4Chomp_21: 202137969
+      Back3n4Chomp_22: 155681908
+      Back3n4Chomp_23: -1102696417
+      Back3n4Chomp_24: 2045336259
+      Back3n4Chomp_3: -297781829
+      Back3n4Chomp_4: 2111351897
+      Back3n4Chomp_5: 977930939
+      Back3n4Chomp_6: 779275997
+      Back3n4Chomp_7: -1459415795
+      Back3n4Chomp_8: -1022856663
+      Back3n4Chomp_9: 1276815625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,24 +37,24 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1096 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Back3n4Idle_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1829
+        width: 221
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a93833eee4b0be42862e76c7167152e
+      internalID: 1988111456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1830
+        width: 222
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78cd9cd07263a647bad51a6a94a4b5f
+      internalID: -1170291099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1829
+        width: 221
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5a7db10f8af7f4d88796aa19075877
+      internalID: 716623866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1830
+        width: 221
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6ed84d46ef25f49a472341c3f774d2
+      internalID: -355562929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1829
+        width: 221
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92449334494bf1344ab01431b2aeb5b1
+      internalID: -585088834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1830
+        width: 222
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf0b8e9f2c90ac45979aeb3f4b15c22
+      internalID: -1488284173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1829
+        width: 223
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d849f6da755fcbe4da1103047febb810
+      internalID: -736217160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1529
+        width: 221
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23d6dbb045b4442b78b7762f1f9d92
+      internalID: -1118791145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1529
+        width: 222
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3641d0811a782964e9b6f107eac6b569
+      internalID: 412910622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1529
+        width: 222
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e7dc0105e7f7b4ba35383952fc2dbb
+      internalID: 1383293369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_10
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1530
+        width: 223
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e31bbeae6d0da43be8d7f877d47bf6
+      internalID: 932841112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1529
+        width: 223
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d25478b8e38a064fb020320e639c47a
+      internalID: 473342800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1529
+        width: 223
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005d10c43ae816d4d99afb11de1a025c
+      internalID: 557389951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1529
+        width: 223
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac31ac90e281bf042b59cfaf8875dbe1
+      internalID: -614144258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1230
+        width: 223
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa09b49dd6ddf479d4f2aecb6edaa4
+      internalID: -1241830710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1229
+        width: 223
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f39c56b4395a4ebfee24c635d6924
+      internalID: -859725594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1229
+        width: 223
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ced3ef401789bd4ba80bac209ffa48e
+      internalID: -678948498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_17
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1229
+        width: 223
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb61484ead4c4fc40bb117510e120d33
+      internalID: -105116682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1229
+        width: 223
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1a2048742fcf4c9562359c46bbe7c
+      internalID: -441109652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1229
+        width: 223
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be38e4cd4127c747898fc9b2d5d3d63
+      internalID: -70739751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1229
+        width: 224
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637776f38df6ced41b551e769c00e376
+      internalID: -1481970598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 929
+        width: 223
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e23b2103772a4dbe17ec646e71c53
+      internalID: -380565181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 929
+        width: 223
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7794d0e078c9b54e8a5ac1123d30df4
+      internalID: -1523167449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_23
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 929
+        width: 223
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de24f495870b374888bff6ae6144a24
+      internalID: 403781406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_24
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 929
+        width: 223
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fab16d1812c0d646abc1b684d3e3c65
+      internalID: -898098744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_25
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 929
+        width: 224
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7422fbcb81e75f14e9f965f6525d9971
+      internalID: -2104925120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 929
+        width: 223
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ae32d66bdc0e54bbd559487d2f1f43
+      internalID: 639826374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 929
+        width: 223
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293ec8ecc6d12e4bb872bdb64ec0ea8
+      internalID: 409505995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 629
+        width: 224
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a40bf9c39e099c4c9ae07f95f0383e3
+      internalID: 1031182349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_29
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 629
+        width: 223
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5816131a2b8a95544b6d81400c3b6f97
+      internalID: -1156854457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_30
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 629
+        width: 223
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b2eff68160444d8a35cb624f18c6f
+      internalID: 1580340563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_31
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 629
+        width: 223
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88979b3fc97117c4f865ffc06c0c0f81
+      internalID: 548726313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 629
+        width: 224
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d014d6112b094f9a37def6e12a7d9
+      internalID: -1088858544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_33
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 629
+        width: 223
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38d76f047cd9fe46befe966abfcdaaf
+      internalID: -459192414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_34
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 629
+        width: 223
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e4bf56a042c80459aca3232d15cf2f
+      internalID: 1414956484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 329
+        width: 222
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed873064c73780343b19850c612a3418
+      internalID: 1205330907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 329
+        width: 223
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f21017fdce5134e937f2085cef1e99
+      internalID: 359073819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_37
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 329
+        width: 223
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b56491c1adc8ac4fac460b77b663a05
+      internalID: -1882926524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_38
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 330
+        width: 223
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8ce6fcf9de5574dba5f17bb9f4ee57
+      internalID: 1008934956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_39
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 329
+        width: 222
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80505d5b7fcc1564bbacf07a9a9f5817
+      internalID: -7566687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_40
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 330
+        width: 222
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75abf22b98815b4f9c1e4fed89d9207
+      internalID: 822842086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_41
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 329
+        width: 223
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d6c1164744544285d2f82ea5db476
+      internalID: 1042257681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 222
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd67c69c52523f4bbe99eeee505218e
+      internalID: -1514846693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 29
+        width: 222
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e5e0c91de1ea44c85a5927ae16cda5
+      internalID: 1749567749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_44
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 29
+        width: 221
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64699ff794e5144ba6d5753fca38ccc
+      internalID: -804097443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_45
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 29
+        width: 221
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23a04ab9efb7b4d81f4ccdefac592e
+      internalID: 371712600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_46
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 29
+        width: 221
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902f6f66dd5e95d4a92b09c0086b2246
+      internalID: -1394203926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_47
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 29
+        width: 221
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b213f1773a2fd4196b15611d859ae6
+      internalID: -1522946976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back3n4Idle_48
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 30
+        width: 221
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cac0874adee264ba8397776867f8cd
+      internalID: -518020469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Back3n4Idle_0: 1988111456
+      Back3n4Idle_1: -1170291099
+      Back3n4Idle_10: 932841112
+      Back3n4Idle_11: 473342800
+      Back3n4Idle_12: 557389951
+      Back3n4Idle_13: -614144258
+      Back3n4Idle_14: -1241830710
+      Back3n4Idle_15: -859725594
+      Back3n4Idle_16: -678948498
+      Back3n4Idle_17: -105116682
+      Back3n4Idle_18: -441109652
+      Back3n4Idle_19: -70739751
+      Back3n4Idle_2: 716623866
+      Back3n4Idle_20: -1481970598
+      Back3n4Idle_21: -380565181
+      Back3n4Idle_22: -1523167449
+      Back3n4Idle_23: 403781406
+      Back3n4Idle_24: -898098744
+      Back3n4Idle_25: -2104925120
+      Back3n4Idle_26: 639826374
+      Back3n4Idle_27: 409505995
+      Back3n4Idle_28: 1031182349
+      Back3n4Idle_29: -1156854457
+      Back3n4Idle_3: -355562929
+      Back3n4Idle_30: 1580340563
+      Back3n4Idle_31: 548726313
+      Back3n4Idle_32: -1088858544
+      Back3n4Idle_33: -459192414
+      Back3n4Idle_34: 1414956484
+      Back3n4Idle_35: 1205330907
+      Back3n4Idle_36: 359073819
+      Back3n4Idle_37: -1882926524
+      Back3n4Idle_38: 1008934956
+      Back3n4Idle_39: -7566687
+      Back3n4Idle_4: -585088834
+      Back3n4Idle_40: 822842086
+      Back3n4Idle_41: 1042257681
+      Back3n4Idle_42: -1514846693
+      Back3n4Idle_43: 1749567749
+      Back3n4Idle_44: -804097443
+      Back3n4Idle_45: 371712600
+      Back3n4Idle_46: -1394203926
+      Back3n4Idle_47: -1522946976
+      Back3n4Idle_48: -518020469
+      Back3n4Idle_5: -1488284173
+      Back3n4Idle_6: -736217160
+      Back3n4Idle_7: -1118791145
+      Back3n4Idle_8: 412910622
+      Back3n4Idle_9: 1383293369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

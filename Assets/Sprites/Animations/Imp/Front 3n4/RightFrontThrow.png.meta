@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RightFrontThrow_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1254
+        width: 231
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badf63d5d6701fe42ba7e65aae1caf8a
+      internalID: -1534164702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1254
+        width: 243
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e738349721b234fbdb5c1cc85e0156
+      internalID: 2024194826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1254
+        width: 242
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a07f7cdac0a9fa4c81be38d1c78cd8c
+      internalID: -1560671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1254
+        width: 209
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2916b33cd4855ed43b9e298509e6db48
+      internalID: -1679588680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_4
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1255
+        width: 197
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33035f33aaf50142aa7c04085f8d019
+      internalID: 54028178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 953
+        width: 192
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cee6beaada805b4abadd58711e4eace
+      internalID: -1763105693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 953
+        width: 187
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14afb7f50f8dad4bb3c31464feca9b8
+      internalID: 141118692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_7
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 953
+        width: 185
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ca24352646e434ab7bc02bb5fc45fd
+      internalID: 867681740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_8
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 953
+        width: 183
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d66f3b571583e44a9cbfd6b48fda26
+      internalID: 1808702607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_9
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 953
+        width: 181
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76788bf86bb376043b90a398d63de06e
+      internalID: -426777153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 651
+        width: 180
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb4328949b89b42bc2b50e86013718
+      internalID: -794967834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 651
+        width: 184
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4747b8cff122445900f38a0fa32c62
+      internalID: 221307856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_12
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 651
+        width: 194
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7110515a8789f40b782689d2938425
+      internalID: -1609407616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_13
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 650
+        width: 207
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d9eaf31a784d4f9ab38c0fc073302
+      internalID: -85301384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_14
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 651
+        width: 219
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fead41b7dcb06c46ae62bff0bfd197f
+      internalID: 1733574755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 348
+        width: 235
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292eb2fd9eacb7345b6ec68e8834e24d
+      internalID: -357374238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_16
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 349
+        width: 247
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cf1c8efd03e4f4db91ae4dbcbc6929
+      internalID: 1387128535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_17
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 348
+        width: 251
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc61b4daeb48c144ba996fef5e0a41fd
+      internalID: -1083407451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_18
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 348
+        width: 243
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9345b43f5646c4ea56979d79507400
+      internalID: -694246039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_19
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 348
+        width: 235
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde5a1e176196a4595813f54429d045
+      internalID: 2084662074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 46
+        width: 227
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffb565a573d91f48ae8ec94fd23fee8
+      internalID: -312319542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_21
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 46
+        width: 228
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e80d5fd9dcaa2499196c3c5e9856fc
+      internalID: -1591836028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_22
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 46
+        width: 227
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac8389788d96a044bcbdd483534ee0e
+      internalID: -1833473072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_23
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 46
+        width: 230
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd804cb5e83eb24da6bc30d55566bb9
+      internalID: 999011685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFrontThrow_24
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 46
+        width: 231
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f3e647f1f7ec41b12d5ec4fc4e743
+      internalID: -1280091697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6c67d654398850741af6d7b9cda061c3
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RightFrontThrow_0: -1534164702
+      RightFrontThrow_1: 2024194826
+      RightFrontThrow_10: -794967834
+      RightFrontThrow_11: 221307856
+      RightFrontThrow_12: -1609407616
+      RightFrontThrow_13: -85301384
+      RightFrontThrow_14: 1733574755
+      RightFrontThrow_15: -357374238
+      RightFrontThrow_16: 1387128535
+      RightFrontThrow_17: -1083407451
+      RightFrontThrow_18: -694246039
+      RightFrontThrow_19: 2084662074
+      RightFrontThrow_2: -1560671456
+      RightFrontThrow_20: -312319542
+      RightFrontThrow_21: -1591836028
+      RightFrontThrow_22: -1833473072
+      RightFrontThrow_23: 999011685
+      RightFrontThrow_24: -1280091697
+      RightFrontThrow_3: -1679588680
+      RightFrontThrow_4: 54028178
+      RightFrontThrow_5: -1763105693
+      RightFrontThrow_6: 141118692
+      RightFrontThrow_7: 867681740
+      RightFrontThrow_8: 1808702607
+      RightFrontThrow_9: -426777153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

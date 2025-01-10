@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1096 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3n4BackRun_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1548
+        width: 209
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf3b06bd1706554e98417a15eac495a
+      internalID: 346128173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1549
+        width: 209
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8466550f3b11914e8e478da764962b1
+      internalID: -1002185512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_2
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1549
+        width: 209
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebd300627b18d143bfbaf530850afee
+      internalID: -2006934323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1550
+        width: 209
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aedee2cb9498e49b4c45e9f41c2144
+      internalID: -2050181609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1551
+        width: 208
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c87da1f769bf694292a48755ef02f07
+      internalID: -1596395377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1551
+        width: 207
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386bb99e363d4fe43999b415bd1ae99c
+      internalID: -94879264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_6
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1551
+        width: 208
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4566842973597b247bc3cc0e3af35040
+      internalID: 1087111619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1295
+        width: 207
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212f645fd344ade47bb5a05ca442ab31
+      internalID: -840456602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1295
+        width: 206
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca11c0f1039e024498173f135c5e60e
+      internalID: 1524906747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_9
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1295
+        width: 206
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de434611b6fc1f74abbec46f75b033e0
+      internalID: 145989015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_10
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1295
+        width: 205
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ac0b73593952e49a81a7d97a7774aa
+      internalID: 2120986809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_11
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1295
+        width: 205
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6e79c087bd5b24785ecbdf6697f68a
+      internalID: 161087936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_12
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1295
+        width: 204
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a2cb784be512f41a1639d79b05c04f
+      internalID: -1519352415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_13
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1295
+        width: 205
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d420b66aa561efa44bd64e5b9b01e3b7
+      internalID: 1704232830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1039
+        width: 205
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186e1951d2a9ab14f87c15070ce3d8ef
+      internalID: 719000611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1039
+        width: 206
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad13d8837d129647ab540f12f87fe4d
+      internalID: -1625674018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1039
+        width: 206
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc083ce5639567d48a3e8a889d74b0c8
+      internalID: 194535579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_17
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1039
+        width: 207
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c8959906642f41b9e50dbf4aa5793
+      internalID: 763110202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_18
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1038
+        width: 208
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4a2ea44b696645af31ecd525ef441
+      internalID: 967808619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1037
+        width: 207
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695178b548b62bc4aa718e7f2ecb1058
+      internalID: 1278934394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_20
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1037
+        width: 208
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3389e6b2b929aa45af9a43eabd65e22
+      internalID: 729936795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 780
+        width: 209
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14370c28f2d7efb41b5e4a3c34309b66
+      internalID: 662744204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 780
+        width: 209
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0492adc5599c24998a7066c18a4b8c
+      internalID: 1314932798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_23
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 780
+        width: 209
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6234c859d59634c9e46fd66037c604
+      internalID: 1085569478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_24
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 780
+        width: 209
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0015ef35b9e3ac54c80991b8318d51c1
+      internalID: 492378660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_25
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 780
+        width: 209
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4f1c1a25455f4ba9e7ca726cccafe
+      internalID: 1712743869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_26
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 780
+        width: 208
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c152b47ae9befbf4c93c59f890f9353f
+      internalID: 474978263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_27
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 779
+        width: 207
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd61a4619a48444283712c9368bf298
+      internalID: 1571390617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 523
+        width: 207
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c29b7151d1a322478b82bb4c07d19fe
+      internalID: 1385592886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 523
+        width: 206
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb7c9c142f5784408e125e0f881911b
+      internalID: 137617814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_30
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 523
+        width: 205
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7637b736edce3cd45aa4ee94ed9748b8
+      internalID: 867050474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_31
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 523
+        width: 204
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d8e83522305374e87e371b0bfb3952
+      internalID: -2099356986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_32
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 523
+        width: 203
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ee6b3e6fb390428278a88e746e23c
+      internalID: -35778913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_33
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 523
+        width: 203
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b9a3f7fc12ec942bf6bcef05a6e3e6
+      internalID: 427835916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_34
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 523
+        width: 201
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd86e9c173d29f34cbdf113e60bec013
+      internalID: -1758369630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 267
+        width: 200
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c2c02286da7824182c30ab108a5bfc
+      internalID: 1179950449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 267
+        width: 200
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7af9a66837e3043aa6f021551920ef
+      internalID: 575886031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 267
+        width: 199
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd3e61e08efb6442ae00b780fe13b47
+      internalID: -198847508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_38
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 266
+        width: 199
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caeaba267b25a1448470b9e4bb7d1de
+      internalID: -1911493178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_39
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 266
+        width: 201
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6084fd0e2afc8f149a5052c4f8e7e09a
+      internalID: -204660898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_40
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 267
+        width: 202
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce8210212355b441959c504992bf3dd
+      internalID: -1085039567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_41
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 267
+        width: 202
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073df0b70cb7ff7459250d4b04a1aaa9
+      internalID: -1109509855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 204
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7944473dc71b3d8419414b092d64ae39
+      internalID: -1539501856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 11
+        width: 205
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34267ebc5abe57a4798e74092b7f24c4
+      internalID: -366196133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_44
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 11
+        width: 206
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6f8a325794874ca2d26b819dd3dbc
+      internalID: -801238127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_45
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 11
+        width: 207
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1d9beb9dae98d4f8c0573be7e942b8
+      internalID: 1271478425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_46
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 11
+        width: 208
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e848d38cf71712649931efe8c75073e3
+      internalID: 1685157568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_47
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 12
+        width: 209
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8777d5ed880b93479f324c0304c2596
+      internalID: 1188014250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3n4BackRun_48
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 12
+        width: 209
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d71a72c22d4114697271a2ba50c84f
+      internalID: -185052947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 91ca681e296a62147b342a30187667ce
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3n4BackRun_0: 346128173
+      3n4BackRun_1: -1002185512
+      3n4BackRun_10: 2120986809
+      3n4BackRun_11: 161087936
+      3n4BackRun_12: -1519352415
+      3n4BackRun_13: 1704232830
+      3n4BackRun_14: 719000611
+      3n4BackRun_15: -1625674018
+      3n4BackRun_16: 194535579
+      3n4BackRun_17: 763110202
+      3n4BackRun_18: 967808619
+      3n4BackRun_19: 1278934394
+      3n4BackRun_2: -2006934323
+      3n4BackRun_20: 729936795
+      3n4BackRun_21: 662744204
+      3n4BackRun_22: 1314932798
+      3n4BackRun_23: 1085569478
+      3n4BackRun_24: 492378660
+      3n4BackRun_25: 1712743869
+      3n4BackRun_26: 474978263
+      3n4BackRun_27: 1571390617
+      3n4BackRun_28: 1385592886
+      3n4BackRun_29: 137617814
+      3n4BackRun_3: -2050181609
+      3n4BackRun_30: 867050474
+      3n4BackRun_31: -2099356986
+      3n4BackRun_32: -35778913
+      3n4BackRun_33: 427835916
+      3n4BackRun_34: -1758369630
+      3n4BackRun_35: 1179950449
+      3n4BackRun_36: 575886031
+      3n4BackRun_37: -198847508
+      3n4BackRun_38: -1911493178
+      3n4BackRun_39: -204660898
+      3n4BackRun_4: -1596395377
+      3n4BackRun_40: -1085039567
+      3n4BackRun_41: -1109509855
+      3n4BackRun_42: -1539501856
+      3n4BackRun_43: -366196133
+      3n4BackRun_44: -801238127
+      3n4BackRun_45: 1271478425
+      3n4BackRun_46: 1685157568
+      3n4BackRun_47: 1188014250
+      3n4BackRun_48: -185052947
+      3n4BackRun_5: -94879264
+      3n4BackRun_6: 1087111619
+      3n4BackRun_7: -840456602
+      3n4BackRun_8: 1524906747
+      3n4BackRun_9: 145989015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

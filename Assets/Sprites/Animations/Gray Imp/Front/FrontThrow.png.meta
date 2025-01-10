@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FrontThrow_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1052
+        width: 211
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f58e87ade2e74686a7c5b7fa46ffa
+      internalID: -1016858026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1052
+        width: 208
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0374b83992a8f42b32047aced7c8c6
+      internalID: 1730027915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1052
+        width: 202
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df914af26882dd647b4ff4a18fe1f4bc
+      internalID: 1637371884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1052
+        width: 199
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d12b736ad82364a9793da0d4ab3ee7
+      internalID: 744360609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_4
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1052
+        width: 199
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899aaf6397f420e4db2ede863389a7b2
+      internalID: -472332285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 796
+        width: 199
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfe320adbb11824588911e831025354
+      internalID: -82434368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 797
+        width: 199
+        height: 189
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afac5cf982bb3f48a7ca5044f81442e
+      internalID: 2009205229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 796
+        width: 202
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b048c69888ac4bb9e22f087ac67a6
+      internalID: -1167304970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_8
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 797
+        width: 204
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52a9af2e54181a4bb70f77248cdf58a
+      internalID: 1617096895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_9
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 796
+        width: 206
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4030d8bfbc7de408dd376383805689
+      internalID: 1813652385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 540
+        width: 206
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16843bd4cb0a6c647b122c5f1f79e19c
+      internalID: 363684179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 540
+        width: 208
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd92618f7d93b643800db5db3991eab
+      internalID: 1811121098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 540
+        width: 208
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63bdb6e3c3328942a6fe7c97e7055a5
+      internalID: -1369229855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 540
+        width: 208
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab3697a8f5960f489580192b0393856
+      internalID: 618181087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_14
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 540
+        width: 206
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc96c2b6cc58d04f86365bd9d8dd5ec
+      internalID: -969184925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 284
+        width: 206
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18446c06a561d49bfd952307646490
+      internalID: 1015855869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 284
+        width: 206
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1174f5919bfa6141a22ee49ca18caee
+      internalID: 1332948270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 284
+        width: 206
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1490be01691dcd419fd42be57720c10
+      internalID: 73526999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_18
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 284
+        width: 204
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873f7b17d3c3e7d4890acd710b2086c5
+      internalID: 1117273749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 284
+        width: 206
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d103d062b7d7394181d5855d7b1a6c7
+      internalID: 596677961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 207
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd23add8ee53ad468bcbede592c99da
+      internalID: -303187048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 28
+        width: 209
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff8214a948920e499fd0f079cd7395a
+      internalID: -1835734040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 28
+        width: 209
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c409a8d0fa0f4b8b0366bc1e11256
+      internalID: 1221848633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 28
+        width: 210
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04f309b58c1fea47b8be5a4d5ed6aed
+      internalID: -1214295572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontThrow_24
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 28
+        width: 211
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1299521454134e93a2f19aaa4219d
+      internalID: 853715613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a7a3b437ae36994b9c38c01e0adab81
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrontThrow_0: -1016858026
+      FrontThrow_1: 1730027915
+      FrontThrow_10: 363684179
+      FrontThrow_11: 1811121098
+      FrontThrow_12: -1369229855
+      FrontThrow_13: 618181087
+      FrontThrow_14: -969184925
+      FrontThrow_15: 1015855869
+      FrontThrow_16: 1332948270
+      FrontThrow_17: 73526999
+      FrontThrow_18: 1117273749
+      FrontThrow_19: 596677961
+      FrontThrow_2: 1637371884
+      FrontThrow_20: -303187048
+      FrontThrow_21: -1835734040
+      FrontThrow_22: 1221848633
+      FrontThrow_23: -1214295572
+      FrontThrow_24: 853715613
+      FrontThrow_3: 744360609
+      FrontThrow_4: -472332285
+      FrontThrow_5: -82434368
+      FrontThrow_6: 2009205229
+      FrontThrow_7: -1167304970
+      FrontThrow_8: 1617096895
+      FrontThrow_9: 1813652385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

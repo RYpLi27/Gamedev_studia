@@ -79,6 +79,10 @@ public class HealthSystem : MonoBehaviour
             case "Hero":
                 UIController.instance.UpdateHeroHealthUI(currentHealth/maxHealth);
                 break;
+            
+            case "Enemy":
+                GetComponentInChildren<EnemyHealthBar>().UpdateUI(currentHealth/maxHealth);
+                break;
         }
     }
     

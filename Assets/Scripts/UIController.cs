@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class UIController : MonoBehaviour {
     [SerializeField] private Slider playerHealthBar;
     [SerializeField] private Slider heroHealthBar;
     [SerializeField] private Slider manaBar;
+    [SerializeField] private List<Slider> spellsSliders;
 
     [SerializeField] private GameObject pauseCanvas;
     [SerializeField] private GameObject playerCanvas;
@@ -36,5 +38,11 @@ public class UIController : MonoBehaviour {
 
     public void UpdateManaUI(float value) {
         manaBar.value = value;
+    }
+
+    public void UpdateSpellsUI(List<float> cdCounters, List<float> cds) {
+        for (int i = 0; i < spellsSliders.Count; i++) {
+            spellsSliders[i].value = cdCounters[i] / cds[i];
+        }
     }
 }

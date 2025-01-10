@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sideChomp_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1226
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c50fafbd64b48c4ab0152932d437965
+      internalID: -1503246326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1226
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e205d5114495f4ca9e367a13ed1458
+      internalID: 1468326691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1227
+        width: 202
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077a3fc47123e74c834259824e47e39
+      internalID: 47453403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1227
+        width: 203
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86363a4cb1fdc445814052f78e32af8
+      internalID: -1291169927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1227
+        width: 206
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7de9882a46a4604b8978fee1fb69d39
+      internalID: 246284550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 928
+        width: 209
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0795d55e6bcf54591289c7e65dab4a
+      internalID: -166011915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 928
+        width: 212
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc95d58e6ce5748ae859784baeb39e
+      internalID: -563204257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_7
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 928
+        width: 210
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7948996d964c58640828c97dbaf020c5
+      internalID: -1662874695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_8
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 928
+        width: 207
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47665b040e9ae8041b11352fa6414e7d
+      internalID: 1512576299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_9
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 928
+        width: 204
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72fb6fb6f54b6d498b667a70525f66e
+      internalID: -396089550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 628
+        width: 201
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656b10af97fccf443ab3d9af1bec1aea
+      internalID: -1984128183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 628
+        width: 199
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52bb8e00e1de91418cb592478f45822
+      internalID: -1578231859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 627
+        width: 196
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2446fa56956a80d478877af6fd0e98a2
+      internalID: 651835775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 627
+        width: 197
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1701311557cd939429591a9e41821fca
+      internalID: -849016602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_14
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 627
+        width: 198
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47dac1b292ec0047980de3c9ee21be4
+      internalID: -1459307349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 327
+        width: 198
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746c5e8aea079914282ed648c5b8110f
+      internalID: 192095819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 327
+        width: 199
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764145d92ba21884e8912110a5b1c4e1
+      internalID: -2066675995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_17
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 327
+        width: 199
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc75ccf8e5f4004f9400f957e48fc6b
+      internalID: 1466134743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_18
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 327
+        width: 200
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ff7b9f7fff2a489636b4f8b046baa
+      internalID: 1113082105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_19
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 327
+        width: 200
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8226625f6c833948995fa2e3b42181c
+      internalID: 379781991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 27
+        width: 201
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c1cebe3adb72e449cfc10dd94b6def
+      internalID: -1563998059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 26
+        width: 201
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00656ac1276adc4b98cf9d26cd27ad7
+      internalID: 1020488209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_22
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 26
+        width: 202
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e71394d80db7624ba1d25bd65dd4377
+      internalID: 1064517713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_23
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 26
+        width: 201
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaab50744735f645b86b7eb945c6abb
+      internalID: -924582800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideChomp_24
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 26
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6996c98be10a745a4491bc02ef8f07
+      internalID: 1936549242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 51f57bb2921118c4e9c12c1421033776
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sideChomp_0: -1503246326
+      sideChomp_1: 1468326691
+      sideChomp_10: -1984128183
+      sideChomp_11: -1578231859
+      sideChomp_12: 651835775
+      sideChomp_13: -849016602
+      sideChomp_14: -1459307349
+      sideChomp_15: 192095819
+      sideChomp_16: -2066675995
+      sideChomp_17: 1466134743
+      sideChomp_18: 1113082105
+      sideChomp_19: 379781991
+      sideChomp_2: 47453403
+      sideChomp_20: -1563998059
+      sideChomp_21: 1020488209
+      sideChomp_22: 1064517713
+      sideChomp_23: -924582800
+      sideChomp_24: 1936549242
+      sideChomp_3: -1291169927
+      sideChomp_4: 246284550
+      sideChomp_5: -166011915
+      sideChomp_6: -563204257
+      sideChomp_7: -1662874695
+      sideChomp_8: 1512576299
+      sideChomp_9: -396089550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

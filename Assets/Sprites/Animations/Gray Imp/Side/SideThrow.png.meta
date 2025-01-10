@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SideThrow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1050
+        width: 180
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1246f6b1fff9a964d9d24c656dbfd1d4
+      internalID: 1919213213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1050
+        width: 177
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a7bc2c82e98c247a04b42ad44d736a
+      internalID: 1913705057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1050
+        width: 175
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb433cb539097d42b64d3696b1d46df
+      internalID: 22674822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1050
+        width: 172
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa01d9488520741898a0b327075fc1
+      internalID: 795531076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1050
+        width: 170
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58195490a26d49a41bab3b091302185d
+      internalID: 1023845879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 794
+        width: 167
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b301973d822f94abc0dcd289d8f565
+      internalID: 1576552623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 794
+        width: 164
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424d430040a4ea849ae3df59713392b3
+      internalID: -30321038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 794
+        width: 169
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1060244945bae354481777845e96ca7e
+      internalID: 491748200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 794
+        width: 173
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c0c851d491e24eb643408fce96b96
+      internalID: 28806943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 795
+        width: 176
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2cbd2a2a115d4bbe888f5901cdd65
+      internalID: 1373462991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 539
+        width: 178
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20742565d38f9d4fb0b457a247bf8c3
+      internalID: -1502663701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 539
+        width: 179
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23643f0abff568439307e5976b17ddb
+      internalID: -634185991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 539
+        width: 180
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ed953e1fe361c4ba9b4fd46f987b3f
+      internalID: -110128659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 539
+        width: 183
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7705f4a45ce0d4eafb8dbaaef2403a
+      internalID: 320391849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_14
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 539
+        width: 205
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa6627ca6baa44f9b3e12a24adb60b
+      internalID: -1549195994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 283
+        width: 208
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79ff31c9ebd2c4ca2718889230ef16
+      internalID: -1554787800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 283
+        width: 205
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e96738df4fe39a4c898671b8bfa8797
+      internalID: 1236021356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 283
+        width: 193
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d907b6bd9fa64fb0f1b0bedd93f81
+      internalID: 1454160824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_18
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 283
+        width: 188
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c73732e1c5c8d478f6a27b81071db1
+      internalID: -16895493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_19
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 283
+        width: 181
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7b5b1eb30ab3f4cb45f1ce12277ee5
+      internalID: 654673596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 181
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338c751706d581d4dad0a12e391c2219
+      internalID: -805608323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 26
+        width: 181
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571706a95a1be854da1f3fc4e3bd6924
+      internalID: 1452225515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 26
+        width: 181
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73831d0003d37145b9108d6ea090793
+      internalID: 1853346545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_23
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 26
+        width: 180
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b085df5e3ebc1ad49a0a1447c20b3095
+      internalID: -716337411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SideThrow_24
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 26
+        width: 180
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1969b1a16021bac40a3369fac3e86bff
+      internalID: -19225713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 14e115797f1a5ff46807987d7741f7a6
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SideThrow_0: 1919213213
+      SideThrow_1: 1913705057
+      SideThrow_10: -1502663701
+      SideThrow_11: -634185991
+      SideThrow_12: -110128659
+      SideThrow_13: 320391849
+      SideThrow_14: -1549195994
+      SideThrow_15: -1554787800
+      SideThrow_16: 1236021356
+      SideThrow_17: 1454160824
+      SideThrow_18: -16895493
+      SideThrow_19: 654673596
+      SideThrow_2: 22674822
+      SideThrow_20: -805608323
+      SideThrow_21: 1452225515
+      SideThrow_22: 1853346545
+      SideThrow_23: -716337411
+      SideThrow_24: -19225713
+      SideThrow_3: 795531076
+      SideThrow_4: 1023845879
+      SideThrow_5: 1576552623
+      SideThrow_6: -30321038
+      SideThrow_7: 491748200
+      SideThrow_8: 28806943
+      SideThrow_9: 1373462991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

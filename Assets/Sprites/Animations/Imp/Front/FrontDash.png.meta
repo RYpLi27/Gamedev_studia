@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,27 +34,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FrontDash_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1239
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cf6b5380ae56647996284d88d18926
+      internalID: 1045952424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1240
+        width: 215
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13c06218aace98428abefee33ca3e80
+      internalID: -1966586633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1240
+        width: 216
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2084e7d7e63bb4687e4ddc14204051
+      internalID: -1239981717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1241
+        width: 216
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1042f324a11ceb46b652ca19683e5f5
+      internalID: 132216821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_4
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1242
+        width: 216
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e879a457ee7e842a5dfa6a5627d427
+      internalID: 444722120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 941
+        width: 218
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1c3f45c534e94c9228a7cb0148266
+      internalID: -228659378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 942
+        width: 220
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c6df956cb63042b8c8358afac3e80
+      internalID: -1465440870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 940
+        width: 215
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c78c60cefeea343b3038f500f88fd2
+      internalID: -807683480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_8
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 938
+        width: 213
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1045988bfe48b354d95210d2c201b838
+      internalID: 7535767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_9
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 936
+        width: 211
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d2f99699b81054dab9fcb4adbf8d83
+      internalID: 290772663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 634
+        width: 209
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067278b77b78c0548826f0401cca90a8
+      internalID: 360880454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 633
+        width: 217
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32740047f9cf30d4ab6da9f8fec15f26
+      internalID: 729034677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_12
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 634
+        width: 224
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b9f09dbdade0b44b485f56cb79a1b4
+      internalID: -454807037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_13
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 634
+        width: 222
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ffd3e6c6888c47a239506896ec64f
+      internalID: -2059838389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_14
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 633
+        width: 220
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0486c109b6f6a043a9bf321c4403ce1
+      internalID: 333362732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 331
+        width: 219
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d30d4477f2bfb4290476311abb416d
+      internalID: -48266468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 331
+        width: 217
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0544078ebb7db7745875443685f4f17f
+      internalID: -964660742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 331
+        width: 215
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5040bb31a1193cf45a9c3a7d0a7515a2
+      internalID: -1335938478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_18
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 331
+        width: 214
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e40868a515762943a4ab1579ff79281
+      internalID: 1458912085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_19
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 331
+        width: 212
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1b79bebbdef7046b4f8cd23e7d1614
+      internalID: -1062419786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 29
+        width: 210
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458427c00229a440858f336724b641d
+      internalID: 1302243854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 29
+        width: 210
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325fa16eed2dd7f47abfcd4e09b24170
+      internalID: -148269846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_22
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 30
+        width: 211
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d08ef5b9654aea42b4c4040c69df21e
+      internalID: 696022333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_23
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 30
+        width: 212
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48e23f3883b1254aad8e50bfa2fd237
+      internalID: 1646366546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontDash_24
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 31
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b08e316006d34468a82c5ea18957d2
+      internalID: 911370587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrontDash_0: 1045952424
+      FrontDash_1: -1966586633
+      FrontDash_10: 360880454
+      FrontDash_11: 729034677
+      FrontDash_12: -454807037
+      FrontDash_13: -2059838389
+      FrontDash_14: 333362732
+      FrontDash_15: -48266468
+      FrontDash_16: -964660742
+      FrontDash_17: -1335938478
+      FrontDash_18: 1458912085
+      FrontDash_19: -1062419786
+      FrontDash_2: -1239981717
+      FrontDash_20: 1302243854
+      FrontDash_21: -148269846
+      FrontDash_22: 696022333
+      FrontDash_23: 1646366546
+      FrontDash_24: 911370587
+      FrontDash_3: 132216821
+      FrontDash_4: 444722120
+      FrontDash_5: -228659378
+      FrontDash_6: -1465440870
+      FrontDash_7: -807683480
+      FrontDash_8: 7535767
+      FrontDash_9: 290772663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

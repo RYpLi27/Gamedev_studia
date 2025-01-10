@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,3494 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: YellowBottle_0
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 10377
+        width: 58
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598477f9a82bdd44ab8f456f156002a7
+      internalID: 1968547440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_1
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 10396
+        width: 42
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558f10ab5e1ad74a8da0acbac3c4a0c
+      internalID: 1418804090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_2
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 10414
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ad79296feefe949836aafd0412ae66
+      internalID: 227256115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_3
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 10435
+        width: 74
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be608bd1ff3251489913a53769759d1
+      internalID: 1173479513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_4
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 10446
+        width: 74
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608ba720af633e4459559859465786b2
+      internalID: 320374809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_5
+      rect:
+        serializedVersion: 2
+        x: 6571
+        y: 10446
+        width: 71
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f791eaf466916a940ba40749d3be65c3
+      internalID: -1865205360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_6
+      rect:
+        serializedVersion: 2
+        x: 7779
+        y: 10435
+        width: 56
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d708be185354343b33c1f3a4be63bf
+      internalID: 1225949966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_7
+      rect:
+        serializedVersion: 2
+        x: 8988
+        y: 10419
+        width: 47
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9294d0a8f163d48a72f17e1d3710dd
+      internalID: -1594974312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_8
+      rect:
+        serializedVersion: 2
+        x: 9936
+        y: 9961
+        width: 502
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10050aac950662449e6a1727e4e7825
+      internalID: 1494777776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_9
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 9204
+        width: 53
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71048e7a5918334a9948daf75ad2674
+      internalID: -195266307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_10
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 9199
+        width: 73
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bea3b72d473156488a39152479ab706
+      internalID: 72010662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_11
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 9183
+        width: 78
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b620c38a27f2ed4b99203413e9a6647
+      internalID: -1196094435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_12
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 9157
+        width: 74
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3df718b58384f4d90436847dad3e2d
+      internalID: 1656553607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_13
+      rect:
+        serializedVersion: 2
+        x: 9936
+        y: 8761
+        width: 502
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16177b51cc7fc4ca61e3d18771f7b0
+      internalID: 1569594082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_14
+      rect:
+        serializedVersion: 2
+        x: 5375
+        y: 9125
+        width: 58
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e33460eec9fe9418a39f7bf23d391c
+      internalID: 1713399775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_15
+      rect:
+        serializedVersion: 2
+        x: 6584
+        y: 9099
+        width: 43
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dff1fc6d28b7e4ca62546e0e66f1b6
+      internalID: 1255334208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_16
+      rect:
+        serializedVersion: 2
+        x: 7778
+        y: 9078
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db3d99195964d942be63708d0c47242
+      internalID: 1072396738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_17
+      rect:
+        serializedVersion: 2
+        x: 8973
+        y: 9057
+        width: 73
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44a49b57df78f4f927ff9c4adc01f7
+      internalID: -187301023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_18
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 7841
+        width: 78
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7c9683a3ba80348a6cd219124d7b54
+      internalID: 1102478814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_19
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 7811
+        width: 74
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8baef361eff3ac4488928e29657fd06
+      internalID: 1160847951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_20
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 7778
+        width: 58
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e269904acc7d24941a93636e0f997fec
+      internalID: -98048345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_21
+      rect:
+        serializedVersion: 2
+        x: 9936
+        y: 7558
+        width: 502
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4ec7b3d76d6d34c889e10b98cc3669
+      internalID: -2051663540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_22
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 7741
+        width: 52
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea586c44b908bc4e8a78c2cdc2c66dd
+      internalID: -1922995874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_23
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 7726
+        width: 79
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe16e567856f42c4fb3b126a2e06ea18
+      internalID: -2096120990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_24
+      rect:
+        serializedVersion: 2
+        x: 6574
+        y: 7680
+        width: 63
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5036bb3d99fd014d9dde0edd40b4ada
+      internalID: 79829654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_25
+      rect:
+        serializedVersion: 2
+        x: 7789
+        y: 7630
+        width: 42
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e76252c9493e342846288366d6bb5d
+      internalID: -405062603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_26
+      rect:
+        serializedVersion: 2
+        x: 8982
+        y: 7583
+        width: 48
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84e80da90c7d6f4ab24f539908b7be8
+      internalID: 385980561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_27
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 6337
+        width: 174
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975323d91b545142b7e547db4929efc
+      internalID: -481318567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_28
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 6337
+        width: 226
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3b58417ee75e240875f972e0613e07
+      internalID: -1502193763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_29
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 6448
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16503102c22429848899ab0a630d263a
+      internalID: 2105292599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_30
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 6415
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa96e986bcc50e947be686b4cf0b7cf4
+      internalID: 453729103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_31
+      rect:
+        serializedVersion: 2
+        x: 5291
+        y: 6336
+        width: 194
+        height: 161
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9b3b932bd28674da9eeaf71a12402d
+      internalID: 1759567636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_32
+      rect:
+        serializedVersion: 2
+        x: 5494
+        y: 6411
+        width: 44
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749527bf44b35a4290002c479363b17
+      internalID: -268586713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_33
+      rect:
+        serializedVersion: 2
+        x: 6474
+        y: 6447
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb2c180c07a1594aaedbf1789cdc99c
+      internalID: 773807480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_34
+      rect:
+        serializedVersion: 2
+        x: 6495
+        y: 6336
+        width: 200
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71fb50523088f04fb43420396b15003
+      internalID: -511022087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_35
+      rect:
+        serializedVersion: 2
+        x: 6712
+        y: 6410
+        width: 52
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d5eb39b11400c4c83087c6a4ecc4a6
+      internalID: -2046018165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_36
+      rect:
+        serializedVersion: 2
+        x: 7636
+        y: 6397
+        width: 52
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309e278e241fbe044a8d55bab1689c1d
+      internalID: 924738394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_37
+      rect:
+        serializedVersion: 2
+        x: 7667
+        y: 6336
+        width: 238
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827eb73ab23a94945aad1564a5d33e68
+      internalID: -376048352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_38
+      rect:
+        serializedVersion: 2
+        x: 7937
+        y: 6384
+        width: 36
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b444321cb83045346afa3339b4e32a7f
+      internalID: -898350495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_39
+      rect:
+        serializedVersion: 2
+        x: 8883
+        y: 6336
+        width: 234
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fe4a34d2d62fe49baed8fd31e13748
+      internalID: 1519655276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_40
+      rect:
+        serializedVersion: 2
+        x: 9158
+        y: 6384
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff94f9e8724815c4c8e932aec516f9f5
+      internalID: -1035526284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_41
+      rect:
+        serializedVersion: 2
+        x: 9936
+        y: 6358
+        width: 501
+        height: 456
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a91cdfc6458c044951dcb68b54c3b5
+      internalID: -1669317233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_42
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 6339
+        width: 99
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28512b41b09f7994f9227be572470369
+      internalID: 1707398013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_43
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 6337
+        width: 123
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593c2ab1ca9a6942aea2a57133421ca
+      internalID: -1972387936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_44
+      rect:
+        serializedVersion: 2
+        x: 6452
+        y: 6415
+        width: 42
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19864e529ed011d4387787a88fbea641
+      internalID: -1041915517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_45
+      rect:
+        serializedVersion: 2
+        x: 8846
+        y: 6415
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814ffcd978f164a46bc7750ac1ad45be
+      internalID: -1400858019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_46
+      rect:
+        serializedVersion: 2
+        x: 8819
+        y: 6357
+        width: 68
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e4a30636e7c44a8abd016f6d36e2a
+      internalID: -1798807145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_47
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 5134
+        width: 252
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f953184ffbd56a54fb7ee5ee3ac05a22
+      internalID: -1218993020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_48
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 5200
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f0f5f6855eb0469047f33fb727760
+      internalID: 403218961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_49
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 5134
+        width: 272
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b9407d0a656e54c9cd2173d83f0023
+      internalID: 1876665650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_50
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 5185
+        width: 78
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c335dda4da3a4e34c8aa651da6e9174b
+      internalID: -146843833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_51
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 5200
+        width: 41
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9215c5eabacd2454f911dfe7688b8d65
+      internalID: -851254429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_52
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 5195
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3e02716b7cbfe459ced455e4f49a7a
+      internalID: -262152640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_53
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 5134
+        width: 288
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e728a09af7a730544be4c1eb0b22afab
+      internalID: 683700365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_54
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 5201
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a733b93690cde324c99036985e91ae42
+      internalID: -2096645150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_55
+      rect:
+        serializedVersion: 2
+        x: 3938
+        y: 5216
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac6beae0d71f89469117b3e2add1ee6
+      internalID: -973342315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_56
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 5217
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3869ccf928f079844a8b8a0b12e7f97d
+      internalID: -2075459040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_57
+      rect:
+        serializedVersion: 2
+        x: 4030
+        y: 5137
+        width: 313
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee73b35e47af6fe4ca7b790ea46e342e
+      internalID: 896141588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_58
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 5227
+        width: 47
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a7aa8c2780ef2409ee0bf833187742
+      internalID: -1127618649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_59
+      rect:
+        serializedVersion: 2
+        x: 5084
+        y: 5211
+        width: 42
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05799bbda81c63640bc6dd66ab79c8af
+      internalID: -1979723712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_60
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 5190
+        width: 47
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce3e56d23bdeec4a889d06482d04abc
+      internalID: 566529165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_61
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 5138
+        width: 332
+        height: 308
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a63357537d1d4cac727f8b753b64a
+      internalID: -152065301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_62
+      rect:
+        serializedVersion: 2
+        x: 5681
+        y: 5174
+        width: 45
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec318807bd361548bf3a471160717e8
+      internalID: 1660510823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_63
+      rect:
+        serializedVersion: 2
+        x: 6411
+        y: 5140
+        width: 356
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d87936fb088b5149993b42c696ea4e8
+      internalID: 46682302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_64
+      rect:
+        serializedVersion: 2
+        x: 6899
+        y: 5158
+        width: 49
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49b4fdd8004e5d4da6ba2022f5879fa
+      internalID: -1323558575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_65
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 5143
+        width: 378
+        height: 345
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aeed9ade42e5147bddc755a5f85068
+      internalID: -1348915135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_66
+      rect:
+        serializedVersion: 2
+        x: 8132
+        y: 5203
+        width: 37
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0f7289b54eab8458e7ef9b252c5d3e
+      internalID: -1866264447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_67
+      rect:
+        serializedVersion: 2
+        x: 8790
+        y: 5143
+        width: 398
+        height: 368
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12ee5d8c065a9647953256479b6b729
+      internalID: -1766574202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_68
+      rect:
+        serializedVersion: 2
+        x: 9940
+        y: 5155
+        width: 498
+        height: 455
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdf1411a3112bb4db4432f58839e7ea
+      internalID: -517215508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_69
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5201
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757756decad624f44a2831c6ca8bcaa1
+      internalID: 275495071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_70
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 5161
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4716c4db90f93504080d9b56ce999a0c
+      internalID: 2127121945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_71
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 5179
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c2ab6dca5b1284a9ccdf66d59de2c5
+      internalID: 1256448106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_72
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 5185
+        width: 36
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ac19a30aae8ce429ee54abca0fd402
+      internalID: -2101180221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_73
+      rect:
+        serializedVersion: 2
+        x: 6262
+        y: 5185
+        width: 45
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b203a5e37386e04e8c86b78ce9f0fe3
+      internalID: 323212099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_74
+      rect:
+        serializedVersion: 2
+        x: 8148
+        y: 5164
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f58102010bfa5b49af0d165f0949081
+      internalID: 562332829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_75
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 5174
+        width: 68
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc9a00dcd2e7a64eb8ea92847052fa2
+      internalID: 1996169276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_76
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 5159
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4c55dfb1f69a4a8f04bf04b0fd02b
+      internalID: -985441908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_77
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 5138
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0390fe3943c2e48a401578fd6aa265
+      internalID: -878576438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_78
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 5163
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd3501e857a47448a45d34c497729d1
+      internalID: -610072626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_79
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 5159
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f5903879fa6a428d8776d9c42a328
+      internalID: -248563371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_80
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 5153
+        width: 57
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdfe313e2f4a8b4494f28396891f1d2
+      internalID: -428097274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_81
+      rect:
+        serializedVersion: 2
+        x: 7451
+        y: 5153
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601dd19730d74d49b5d75e8bd256699
+      internalID: -442865717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_82
+      rect:
+        serializedVersion: 2
+        x: 7498
+        y: 5138
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e615ccf1d802eef48a9bed08019b3416
+      internalID: 1883916443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_83
+      rect:
+        serializedVersion: 2
+        x: 8630
+        y: 5142
+        width: 46
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3347e6286ea83a47a9c40b6063dad30
+      internalID: -1269478127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_84
+      rect:
+        serializedVersion: 2
+        x: 8676
+        y: 5153
+        width: 58
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bc97b26b1c5774489242e5a9b9879e
+      internalID: -574820514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_85
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 3950
+        width: 514
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56be38bd2dffcde4093c4cf222d0e0ed
+      internalID: 512264377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_86
+      rect:
+        serializedVersion: 2
+        x: 6323
+        y: 3950
+        width: 512
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462d1c06061e86d42924a42f5882bdcd
+      internalID: -1114333317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_87
+      rect:
+        serializedVersion: 2
+        x: 7527
+        y: 3950
+        width: 509
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d502817d79b88a641a978a310ddaec7e
+      internalID: 1531544667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_88
+      rect:
+        serializedVersion: 2
+        x: 8726
+        y: 3950
+        width: 513
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee626ed1f0f4f341a622fc0fb697b43
+      internalID: 66483308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_89
+      rect:
+        serializedVersion: 2
+        x: 10158
+        y: 4400
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df645241384cd7b45a0e0a178241c089
+      internalID: -162491421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_90
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 3944
+        width: 420
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3f2934f496cdd4cac8d16de8979f79
+      internalID: -1340937990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_91
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 4002
+        width: 37
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51015c87920224942b9dae60d245c598
+      internalID: -1103029553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_92
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 3980
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e25ee30e5eb3d4bbe6bf1c4d74f7c3
+      internalID: -1782112717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_93
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 3945
+        width: 441
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fba75de4f5642b4fa55f9ea2812e40a
+      internalID: 576320669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_94
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 3986
+        width: 37
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c05898ae77a0c248ba7625f48ecd252
+      internalID: 201277954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_95
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 3949
+        width: 463
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db825a258186ff54c9de9791599bd76c
+      internalID: 1173357768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_96
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 3949
+        width: 483
+        height: 446
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a1d12e505de0249801eee699b56f3b
+      internalID: -1769198681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_97
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 3981
+        width: 34
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de766011e1894b845a7769377a9f7524
+      internalID: 1778055825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_98
+      rect:
+        serializedVersion: 2
+        x: 9941
+        y: 3955
+        width: 493
+        height: 445
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f2a2b348fabf4bb7384751c0065b4
+      internalID: -1643833971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_99
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 3943
+        width: 42
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f1da8f5460acf4d9a2cd4cde8a7411
+      internalID: 394412039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_100
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3970
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df987da76214164eb64fbf89c8b0de4
+      internalID: 914057417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_101
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 3964
+        width: 53
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4a86bbf51adf145b6820c266fe4ad6
+      internalID: 171556605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_102
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 3949
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b86a45139b364044b3e1015049b9db8
+      internalID: -1992987879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_103
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 3954
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082e0ce165b79e44f90b0849d6bd413b
+      internalID: -1923396192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_104
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 3970
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c842d6c83d463f047b80d695b07bac74
+      internalID: -895006161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_105
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 3975
+        width: 36
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760f911a80c04c849b7ed41878eb6c17
+      internalID: 683088081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_106
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 3965
+        width: 42
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3137c87bb186aa742a3fde59df90befe
+      internalID: -1219579461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_107
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 3949
+        width: 37
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dfb681920c60d4395750c92fe41fbf
+      internalID: -1960245023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_108
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 3954
+        width: 26
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69489cdcbaa09c64c8e85c3c78893dee
+      internalID: -1579347042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_109
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 3941
+        width: 53
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828ef2a573f968a438cae8ae021ef3ab
+      internalID: -55038640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_110
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 3970
+        width: 36
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc11e9d1c2de0441a34ac01fe7bf4f1
+      internalID: -595438959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_111
+      rect:
+        serializedVersion: 2
+        x: 5892
+        y: 3938
+        width: 58
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8faa651a7da53f4a801d7b717d049fd
+      internalID: -799701713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_112
+      rect:
+        serializedVersion: 2
+        x: 6222
+        y: 3960
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1d31c6c02284c4e8530eab00055c5a
+      internalID: 1334398467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_113
+      rect:
+        serializedVersion: 2
+        x: 7076
+        y: 3960
+        width: 36
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f76295ede4e51349bec318a65b194fb
+      internalID: 12612694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_114
+      rect:
+        serializedVersion: 2
+        x: 7113
+        y: 3938
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c888c7f36771e0746a4432da025d446a
+      internalID: -864884524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_115
+      rect:
+        serializedVersion: 2
+        x: 8291
+        y: 3938
+        width: 73
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6817cf468809ab479567c3a97d87b9d
+      internalID: 1638457405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_116
+      rect:
+        serializedVersion: 2
+        x: 9511
+        y: 3938
+        width: 67
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0674d92997a0e348896f7e77ace3226
+      internalID: 1943964232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_117
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3933
+        width: 44
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09de73ed32bb47943a669d47b536d31e
+      internalID: -18129345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_118
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 3933
+        width: 79
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85094a1d348565459d6e408db67cd12
+      internalID: 1885439722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_119
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 3912
+        width: 53
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521ab01135f3ff445aed7c7f1a591779
+      internalID: 2123329858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_120
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 3933
+        width: 62
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f68252fd5e9a46418875ad00fe316b7
+      internalID: 909764125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_121
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 3919
+        width: 42
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa49e295e6ee13409a7e0274b93c75a
+      internalID: 1383334780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_122
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 3933
+        width: 46
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a784f99a0bf978949b9abd8d54097f26
+      internalID: 1857777666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_123
+      rect:
+        serializedVersion: 2
+        x: 5038
+        y: 3946
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6d9e223520ca343a43e67543d76ded
+      internalID: -2007897617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_124
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 3922
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859e533cef16f6145b566dab9345e2fc
+      internalID: -1276530554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_125
+      rect:
+        serializedVersion: 2
+        x: 6199
+        y: 3933
+        width: 42
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c450d7caf97614480fe47210690ab3
+      internalID: -554388506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_126
+      rect:
+        serializedVersion: 2
+        x: 7340
+        y: 3918
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091b2c615d8f70a408246a2535ebb02e
+      internalID: -222644962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_127
+      rect:
+        serializedVersion: 2
+        x: 7399
+        y: 3933
+        width: 46
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08b6002299e30449199646b7c053fa
+      internalID: -156519548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_128
+      rect:
+        serializedVersion: 2
+        x: 8528
+        y: 3928
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85fd925e35c1c64a92f3021b277b09a
+      internalID: -1737602218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_129
+      rect:
+        serializedVersion: 2
+        x: 8602
+        y: 3933
+        width: 42
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56642e7becd11734ebb8e734bd8cb664
+      internalID: -1778255966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_130
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2729
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426020d87e0384c41b4381e076ecdb09
+      internalID: -1633916151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_131
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2750
+        width: 512
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd3c9e1cfdbad245b4d6aeae59dcab2
+      internalID: -1801760667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_132
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2734
+        width: 56
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f065424d56284984cb887354d823b786
+      internalID: -353740121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_133
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2729
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc77b69a505c57439c8693d8f3320a1
+      internalID: 405738678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_134
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2750
+        width: 509
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ea1b9e6833d043b77cbca9f668e63
+      internalID: -397247352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_135
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2734
+        width: 67
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4a51804bfcc384bae9ddf1b21ff5fd
+      internalID: -380888735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_136
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2750
+        width: 512
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592019cd7a1ee2a43a465075bad329fc
+      internalID: 693322962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_137
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 2755
+        width: 36
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f52c259e51f0c45a794095c5e5faf8
+      internalID: 28568380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_138
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 2734
+        width: 39
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230e78b321d8ce844b40d5d4d5dd1a90
+      internalID: -293402431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_139
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 2750
+        width: 510
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986ad0e181636bc43ba644fa1eb055b7
+      internalID: -1352052589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_140
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 2755
+        width: 34
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2c0eec0afbf404d8371b52d8838615
+      internalID: 361868905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_141
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 2750
+        width: 514
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f569e59ff3c65df4da2d6a1d3e69fdb8
+      internalID: -994223874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_142
+      rect:
+        serializedVersion: 2
+        x: 6323
+        y: 2750
+        width: 509
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572a76092974a7a48a42a0f2947f9850
+      internalID: 581278762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_143
+      rect:
+        serializedVersion: 2
+        x: 7527
+        y: 2750
+        width: 509
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429988e5ebb3a3b4eb19815ef4a7ab3c
+      internalID: 1703399779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_144
+      rect:
+        serializedVersion: 2
+        x: 8726
+        y: 2750
+        width: 513
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94315bc5b5e3da74f97f7b68389f5085
+      internalID: -287508106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_145
+      rect:
+        serializedVersion: 2
+        x: 9941
+        y: 2752
+        width: 493
+        height: 438
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a4b606b183daf4cac7ea053ffba632
+      internalID: 751926739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_146
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2729
+        width: 52
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9a59301778b3941a8ea4cef97cf52d
+      internalID: 1224904640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_147
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2724
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb736130c989ea4ab1283515fc7a65a
+      internalID: -2028635269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_148
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 2730
+        width: 41
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b768adcb75d9e48479933ebc1bf57a58
+      internalID: 1552659426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_149
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1546
+        width: 512
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db74221a23912418fca33ba35eb109
+      internalID: -1727883128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_150
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1546
+        width: 505
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e180463aaa814744186cabd34846c7bc
+      internalID: 9098653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_151
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 1546
+        width: 506
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dbc91f4c3139c479c8a47e8d23a5a0
+      internalID: 651635703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_152
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 1546
+        width: 505
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca36522eecd6b64aa3e2ddbbcfe05d1
+      internalID: -517921411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_153
+      rect:
+        serializedVersion: 2
+        x: 5127
+        y: 1546
+        width: 504
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dcb768f6d524442b9d438af078be3b
+      internalID: -1444655883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_154
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 1546
+        width: 504
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263282512d6f4341a608500f346a7ca
+      internalID: -898681487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_155
+      rect:
+        serializedVersion: 2
+        x: 7531
+        y: 1548
+        width: 503
+        height: 464
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84013f2175e1c7c4ebb5bbfe9ea3793e
+      internalID: -834175488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_156
+      rect:
+        serializedVersion: 2
+        x: 8732
+        y: 1546
+        width: 503
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673cf801512c18b40ad13e0ef1bfef35
+      internalID: 1915486236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBottle_157
+      rect:
+        serializedVersion: 2
+        x: 9946
+        y: 1553
+        width: 486
+        height: 433
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02b64a7333af243adb0ca24a24ce1a
+      internalID: -658089808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 94aa81d2948f0e540a1b11c8869c9ec7
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YellowBottle_0: 1968547440
+      YellowBottle_1: 1418804090
+      YellowBottle_10: 72010662
+      YellowBottle_100: 914057417
+      YellowBottle_101: 171556605
+      YellowBottle_102: -1992987879
+      YellowBottle_103: -1923396192
+      YellowBottle_104: -895006161
+      YellowBottle_105: 683088081
+      YellowBottle_106: -1219579461
+      YellowBottle_107: -1960245023
+      YellowBottle_108: -1579347042
+      YellowBottle_109: -55038640
+      YellowBottle_11: -1196094435
+      YellowBottle_110: -595438959
+      YellowBottle_111: -799701713
+      YellowBottle_112: 1334398467
+      YellowBottle_113: 12612694
+      YellowBottle_114: -864884524
+      YellowBottle_115: 1638457405
+      YellowBottle_116: 1943964232
+      YellowBottle_117: -18129345
+      YellowBottle_118: 1885439722
+      YellowBottle_119: 2123329858
+      YellowBottle_12: 1656553607
+      YellowBottle_120: 909764125
+      YellowBottle_121: 1383334780
+      YellowBottle_122: 1857777666
+      YellowBottle_123: -2007897617
+      YellowBottle_124: -1276530554
+      YellowBottle_125: -554388506
+      YellowBottle_126: -222644962
+      YellowBottle_127: -156519548
+      YellowBottle_128: -1737602218
+      YellowBottle_129: -1778255966
+      YellowBottle_13: 1569594082
+      YellowBottle_130: -1633916151
+      YellowBottle_131: -1801760667
+      YellowBottle_132: -353740121
+      YellowBottle_133: 405738678
+      YellowBottle_134: -397247352
+      YellowBottle_135: -380888735
+      YellowBottle_136: 693322962
+      YellowBottle_137: 28568380
+      YellowBottle_138: -293402431
+      YellowBottle_139: -1352052589
+      YellowBottle_14: 1713399775
+      YellowBottle_140: 361868905
+      YellowBottle_141: -994223874
+      YellowBottle_142: 581278762
+      YellowBottle_143: 1703399779
+      YellowBottle_144: -287508106
+      YellowBottle_145: 751926739
+      YellowBottle_146: 1224904640
+      YellowBottle_147: -2028635269
+      YellowBottle_148: 1552659426
+      YellowBottle_149: -1727883128
+      YellowBottle_15: 1255334208
+      YellowBottle_150: 9098653
+      YellowBottle_151: 651635703
+      YellowBottle_152: -517921411
+      YellowBottle_153: -1444655883
+      YellowBottle_154: -898681487
+      YellowBottle_155: -834175488
+      YellowBottle_156: 1915486236
+      YellowBottle_157: -658089808
+      YellowBottle_16: 1072396738
+      YellowBottle_17: -187301023
+      YellowBottle_18: 1102478814
+      YellowBottle_19: 1160847951
+      YellowBottle_2: 227256115
+      YellowBottle_20: -98048345
+      YellowBottle_21: -2051663540
+      YellowBottle_22: -1922995874
+      YellowBottle_23: -2096120990
+      YellowBottle_24: 79829654
+      YellowBottle_25: -405062603
+      YellowBottle_26: 385980561
+      YellowBottle_27: -481318567
+      YellowBottle_28: -1502193763
+      YellowBottle_29: 2105292599
+      YellowBottle_3: 1173479513
+      YellowBottle_30: 453729103
+      YellowBottle_31: 1759567636
+      YellowBottle_32: -268586713
+      YellowBottle_33: 773807480
+      YellowBottle_34: -511022087
+      YellowBottle_35: -2046018165
+      YellowBottle_36: 924738394
+      YellowBottle_37: -376048352
+      YellowBottle_38: -898350495
+      YellowBottle_39: 1519655276
+      YellowBottle_4: 320374809
+      YellowBottle_40: -1035526284
+      YellowBottle_41: -1669317233
+      YellowBottle_42: 1707398013
+      YellowBottle_43: -1972387936
+      YellowBottle_44: -1041915517
+      YellowBottle_45: -1400858019
+      YellowBottle_46: -1798807145
+      YellowBottle_47: -1218993020
+      YellowBottle_48: 403218961
+      YellowBottle_49: 1876665650
+      YellowBottle_5: -1865205360
+      YellowBottle_50: -146843833
+      YellowBottle_51: -851254429
+      YellowBottle_52: -262152640
+      YellowBottle_53: 683700365
+      YellowBottle_54: -2096645150
+      YellowBottle_55: -973342315
+      YellowBottle_56: -2075459040
+      YellowBottle_57: 896141588
+      YellowBottle_58: -1127618649
+      YellowBottle_59: -1979723712
+      YellowBottle_6: 1225949966
+      YellowBottle_60: 566529165
+      YellowBottle_61: -152065301
+      YellowBottle_62: 1660510823
+      YellowBottle_63: 46682302
+      YellowBottle_64: -1323558575
+      YellowBottle_65: -1348915135
+      YellowBottle_66: -1866264447
+      YellowBottle_67: -1766574202
+      YellowBottle_68: -517215508
+      YellowBottle_69: 275495071
+      YellowBottle_7: -1594974312
+      YellowBottle_70: 2127121945
+      YellowBottle_71: 1256448106
+      YellowBottle_72: -2101180221
+      YellowBottle_73: 323212099
+      YellowBottle_74: 562332829
+      YellowBottle_75: 1996169276
+      YellowBottle_76: -985441908
+      YellowBottle_77: -878576438
+      YellowBottle_78: -610072626
+      YellowBottle_79: -248563371
+      YellowBottle_8: 1494777776
+      YellowBottle_80: -428097274
+      YellowBottle_81: -442865717
+      YellowBottle_82: 1883916443
+      YellowBottle_83: -1269478127
+      YellowBottle_84: -574820514
+      YellowBottle_85: 512264377
+      YellowBottle_86: -1114333317
+      YellowBottle_87: 1531544667
+      YellowBottle_88: 66483308
+      YellowBottle_89: -162491421
+      YellowBottle_9: -195266307
+      YellowBottle_90: -1340937990
+      YellowBottle_91: -1103029553
+      YellowBottle_92: -1782112717
+      YellowBottle_93: 576320669
+      YellowBottle_94: 201277954
+      YellowBottle_95: 1173357768
+      YellowBottle_96: -1769198681
+      YellowBottle_97: 1778055825
+      YellowBottle_98: -1643833971
+      YellowBottle_99: 394412039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

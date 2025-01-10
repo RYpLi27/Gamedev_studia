@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,1096 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sideAttack_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1826
+        width: 203
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e4433462ba5e499943924601f55cf
+      internalID: -156854919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1826
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5f7bc22c5c9bc49b46aaf71cb1b3d5
+      internalID: -403892713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1826
+        width: 201
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e6d3c2908ed0458ad76989434156e
+      internalID: 2006389373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_3
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1826
+        width: 200
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5990dd11507b6b7488c30f11cd4c78a3
+      internalID: 222472128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1826
+        width: 200
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e79d86572e2292419befe2ee416929c
+      internalID: 1806745540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1826
+        width: 199
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc2938976e078b49aeb88ff725a29e4
+      internalID: 2047605416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1825
+        width: 197
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd392db28bf7412409f47286b548a3fe
+      internalID: -528112478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1525
+        width: 197
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b6a5516d7ad634f843b5da14e39a2b
+      internalID: 676719538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1525
+        width: 196
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8659ff874de4e849bbb916ea3e81311
+      internalID: -1189725607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1525
+        width: 195
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf62e9fc1159e948a57e46931e6317b
+      internalID: -1310034795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_10
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1525
+        width: 194
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34269526fdc3824db953d5dfc53e023
+      internalID: -1483243453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1525
+        width: 200
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ccf42caa92b048b8ff6d3d213abcb
+      internalID: -232301887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1525
+        width: 194
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b28abf93fc7bc644adb785b9f3dede5
+      internalID: 1229495435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1526
+        width: 194
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781384e9e58b36d4a9e0d2778168de21
+      internalID: -520545785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1226
+        width: 195
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094683a726b68f4fba972bbb0148cac
+      internalID: 2019833193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1227
+        width: 197
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8b85a293cb4734ca9a90930c18d157
+      internalID: -1470216794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1227
+        width: 198
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093bff155827d4c4e8202eb6e1841c31
+      internalID: 893906381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_17
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1227
+        width: 198
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84095eb59637e14c8b6541c6b343d81
+      internalID: -1456507108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1227
+        width: 214
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c706b06080b8984e966dbe5bdb37e77
+      internalID: 423031610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1227
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cedc75edcdc39441914bf7201e5e832
+      internalID: 1684852557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_20
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1227
+        width: 228
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002120faca869954ebf660ec7228286e
+      internalID: 1429753917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 926
+        width: 231
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3b1b11bfb13bc47aeb1913a768e430
+      internalID: 396600336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 926
+        width: 219
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f06267b405ff849abc94aff2b9ba77
+      internalID: -1174167227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_23
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 926
+        width: 218
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4528a9eba400b4b9dec86ccb6c9c06
+      internalID: -1254279804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_24
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 926
+        width: 202
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62d5d4bb7f51534795942b5f493f779
+      internalID: 941653907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_25
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 926
+        width: 212
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09b8b4d919be4d4a9681b08d60ae9e7
+      internalID: 384995912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_26
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 926
+        width: 221
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdae623e389ea94a882694144695c64
+      internalID: -353856297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_27
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 926
+        width: 226
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81afbc70bd3b2454cb9037b471a498b1
+      internalID: -2091077400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 626
+        width: 225
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450072d8ed9761c45b933133d9db149b
+      internalID: -1219879386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 626
+        width: 219
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c3eee7551e9742a844866d569c15c
+      internalID: 316971238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_30
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 626
+        width: 210
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a49c4dadd449489f0698947cfed2c
+      internalID: 689889753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_31
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 626
+        width: 200
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4d9934a5d7d434bb4424a42f6497df
+      internalID: 1426483870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_32
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 626
+        width: 193
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60c916d5b48ff4ab141dfe69c0561d
+      internalID: -304830970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_33
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 626
+        width: 194
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccead5f066582944b3d35d7326edd4a
+      internalID: 1347536537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_34
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 626
+        width: 193
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56388731b8cc5d94cbd945ff779008ff
+      internalID: -1280003215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 326
+        width: 194
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b950e362666e674088121abb41a18b9
+      internalID: 1851995817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 326
+        width: 195
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b435fb749873347ad2034c0fe730d9
+      internalID: -1531576331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_37
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 326
+        width: 196
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4946b2298ecb2334c9a0c76df0494f6b
+      internalID: 1822097775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_38
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 326
+        width: 196
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e82a75770f92241ad04583e0296959
+      internalID: 1247653688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_39
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 326
+        width: 198
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97c3a2f72925a5418778f042e5dcf8c
+      internalID: -1137057277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_40
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 327
+        width: 198
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a70e9fc78bf884297437579b4f7d56
+      internalID: -2046238928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_41
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 327
+        width: 212
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d353a018a21f4c84ee5409dc1fc2f
+      internalID: -17928950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_42
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 217
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dd4001815205b4993169a96bbf2f8e
+      internalID: -416031952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_43
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 26
+        width: 231
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b52fd0412a5f504b8cc1219c97aba37
+      internalID: -214422712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_44
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 26
+        width: 244
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4efe8ed994e880408b6930ecee7c7f1
+      internalID: 1023045190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_45
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 26
+        width: 248
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843a98565f6b6434484edf0500d9045e
+      internalID: 1901663257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_46
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 26
+        width: 253
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe49836fab873c40aa0f6a7386c0896
+      internalID: 343627495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_47
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 26
+        width: 250
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71914668c8d8b84fa99a4c65570a0bb
+      internalID: -857511286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideAttack_48
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 26
+        width: 203
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61f99156d6d70d4ba533f3cf8b9d9af
+      internalID: -956532102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d7c85a4ffc634594694d226670b75418
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sideAttack_0: -156854919
+      sideAttack_1: -403892713
+      sideAttack_10: -1483243453
+      sideAttack_11: -232301887
+      sideAttack_12: 1229495435
+      sideAttack_13: -520545785
+      sideAttack_14: 2019833193
+      sideAttack_15: -1470216794
+      sideAttack_16: 893906381
+      sideAttack_17: -1456507108
+      sideAttack_18: 423031610
+      sideAttack_19: 1684852557
+      sideAttack_2: 2006389373
+      sideAttack_20: 1429753917
+      sideAttack_21: 396600336
+      sideAttack_22: -1174167227
+      sideAttack_23: -1254279804
+      sideAttack_24: 941653907
+      sideAttack_25: 384995912
+      sideAttack_26: -353856297
+      sideAttack_27: -2091077400
+      sideAttack_28: -1219879386
+      sideAttack_29: 316971238
+      sideAttack_3: 222472128
+      sideAttack_30: 689889753
+      sideAttack_31: 1426483870
+      sideAttack_32: -304830970
+      sideAttack_33: 1347536537
+      sideAttack_34: -1280003215
+      sideAttack_35: 1851995817
+      sideAttack_36: -1531576331
+      sideAttack_37: 1822097775
+      sideAttack_38: 1247653688
+      sideAttack_39: -1137057277
+      sideAttack_4: 1806745540
+      sideAttack_40: -2046238928
+      sideAttack_41: -17928950
+      sideAttack_42: -416031952
+      sideAttack_43: -214422712
+      sideAttack_44: 1023045190
+      sideAttack_45: 1901663257
+      sideAttack_46: 343627495
+      sideAttack_47: -857511286
+      sideAttack_48: -956532102
+      sideAttack_5: 2047605416
+      sideAttack_6: -528112478
+      sideAttack_7: 676719538
+      sideAttack_8: -1189725607
+      sideAttack_9: -1310034795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

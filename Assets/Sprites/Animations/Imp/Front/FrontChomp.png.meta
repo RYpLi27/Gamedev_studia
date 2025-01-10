@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,27 +34,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FrontChomp_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1239
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f894c9352c2fe4393ced0de63477db
+      internalID: -1560344641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1239
+        width: 216
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fa1cf19b5c391458a82735c743bde3
+      internalID: -308947621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_2
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1239
+        width: 218
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8397c0b89a30043819ac688b21a9d0
+      internalID: -956674527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_3
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1239
+        width: 221
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf11ddfaebeddf94285d8c56ec5518e6
+      internalID: -1317073306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_4
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1239
+        width: 222
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61488bc0ccd163849b921dad10b0aa40
+      internalID: -1664893578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 937
+        width: 224
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6408bffc0b36e7b4781b5e7c3b0e0d83
+      internalID: -1205107938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 937
+        width: 225
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bc4f0672235ed4e8e243582413a3e8
+      internalID: 758436902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 937
+        width: 227
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7391b54d787af1245ab960bf6fea37c7
+      internalID: 276453075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_8
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 937
+        width: 227
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ef10ea928c8548a5504de44cc434d
+      internalID: 2073547744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 937
+        width: 229
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4539cb0111bf1441b4c9cfc6a871bf5
+      internalID: -838463324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 635
+        width: 229
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c226ff52264aa90499b8670afaf3c0e2
+      internalID: 232154364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 635
+        width: 228
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08ad1c9e1fab034396f5e41f0c93f61
+      internalID: 843651501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_12
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 635
+        width: 229
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58851672bbec314abbc6fa095595404
+      internalID: 1223657064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_13
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 635
+        width: 228
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449f5dad396d38a4c8c3b5420a83b991
+      internalID: -861754005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_14
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 635
+        width: 229
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c2222b0d0cf164c83c2470762a0867
+      internalID: -1364041116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 333
+        width: 229
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2c77e9485d448428d8e1604478e199
+      internalID: 1573854516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 333
+        width: 227
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94987189388ace849afadbd16cf28b14
+      internalID: -281201939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_17
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 333
+        width: 227
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655184ca37242d145bae0e245acff3a7
+      internalID: 1150860265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_18
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 333
+        width: 225
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2844b95b6b45ee24ab3e6ec31926af67
+      internalID: -320412833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_19
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 333
+        width: 224
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e7db93ee6b46740a29b2c2297ad61d
+      internalID: 1560644805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 31
+        width: 222
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d21e72e9b78b9428d32421cf3bd2d0
+      internalID: -112212723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 31
+        width: 221
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc802551b0318d49abb9019b21ee072
+      internalID: -39960047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_22
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 31
+        width: 218
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22764b9569cd145854ee7096aafd08
+      internalID: 491248665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_23
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 31
+        width: 216
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e919003b57c81e540810cb53df082dc5
+      internalID: -2017430890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontChomp_24
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 31
+        width: 214
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3640dbe12c7e35946999c18c3d5013ed
+      internalID: 127790072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrontChomp_0: -1560344641
+      FrontChomp_1: -308947621
+      FrontChomp_10: 232154364
+      FrontChomp_11: 843651501
+      FrontChomp_12: 1223657064
+      FrontChomp_13: -861754005
+      FrontChomp_14: -1364041116
+      FrontChomp_15: 1573854516
+      FrontChomp_16: -281201939
+      FrontChomp_17: 1150860265
+      FrontChomp_18: -320412833
+      FrontChomp_19: 1560644805
+      FrontChomp_2: -956674527
+      FrontChomp_20: -112212723
+      FrontChomp_21: -39960047
+      FrontChomp_22: 491248665
+      FrontChomp_23: -2017430890
+      FrontChomp_24: 127790072
+      FrontChomp_3: -1317073306
+      FrontChomp_4: -1664893578
+      FrontChomp_5: -1205107938
+      FrontChomp_6: 758436902
+      FrontChomp_7: 276453075
+      FrontChomp_8: 2073547744
+      FrontChomp_9: -838463324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

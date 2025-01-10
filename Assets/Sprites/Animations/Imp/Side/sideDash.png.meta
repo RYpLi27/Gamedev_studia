@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sideDash_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1226
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826fd0339cffaaf48b51d3fd5f851089
+      internalID: -807072252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1226
+        width: 202
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996c536c83355bb4fa9dfc5b43c1b771
+      internalID: 219290314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1226
+        width: 201
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9175f8cd5efa44588bbc60f5c9fede
+      internalID: 1996482435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1225
+        width: 200
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee3e1ef78637a348b24826dfe6514f7
+      internalID: -708567247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_4
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1225
+        width: 199
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb4ada0c32a674cbd939463faa1677
+      internalID: -2032947174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 925
+        width: 198
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed3e40ce2830734aa2bbd76987149b4
+      internalID: -1400767442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 925
+        width: 197
+        height: 233
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f1f3873a6e164d8b86f3b029f8518
+      internalID: 160760926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_7
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 925
+        width: 200
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cce3a0046d03b04183a508f384afccd
+      internalID: -50593169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_8
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 926
+        width: 202
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71443088278d7fe42b566295e3c150f5
+      internalID: -1687187595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_9
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 928
+        width: 203
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d53f93ce34ea5541991a82e636a4b09
+      internalID: -1227727582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 630
+        width: 203
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3afdf65c819cb942ae43318316b4ad7
+      internalID: -724338457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 632
+        width: 204
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f2541f1905d0644a1f97fdc1e830c4
+      internalID: -2028133436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 637
+        width: 205
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bfe9acc6f90974abd29cc73232cec9
+      internalID: 482964874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_13
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 635
+        width: 205
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafa1fc94f82c7c428c851e842735e54
+      internalID: 300204540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_14
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 634
+        width: 203
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662c455b20127b44fbb613cc1ba4d869
+      internalID: 2143801238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 332
+        width: 203
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb31fa1e67532fe4baaae9a75b02352e
+      internalID: 708582346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_16
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 331
+        width: 203
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a4ba92b0448f64eaebc6f26aaa4699
+      internalID: 1847164097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 330
+        width: 204
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143648ad47564c3408d7ce97f9f6c145
+      internalID: 721051198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_18
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 330
+        width: 203
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfbe026a3a57874d9c8107bba407eff
+      internalID: -896438825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 329
+        width: 203
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2afec3125143a94daa21349fb5449e9
+      internalID: 1057207515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 203
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6fe21e8aff2654999b7e612180ee8b
+      internalID: 1892207323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_21
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 28
+        width: 203
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5901f12f71e9a40a6af79fb637a224
+      internalID: 324627579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_22
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 27
+        width: 203
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d3e699a0abf64d9ddf671f4875711
+      internalID: -424409252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_23
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 26
+        width: 203
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4868cc01a3e9e7547ac119e052922c85
+      internalID: -705604104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sideDash_24
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 26
+        width: 202
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366596777d160ca4ebb3f7c06be3816a
+      internalID: -718273440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7aa4e9c429897bc4f9fcfdcd9bd4cf69
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sideDash_0: -807072252
+      sideDash_1: 219290314
+      sideDash_10: -724338457
+      sideDash_11: -2028133436
+      sideDash_12: 482964874
+      sideDash_13: 300204540
+      sideDash_14: 2143801238
+      sideDash_15: 708582346
+      sideDash_16: 1847164097
+      sideDash_17: 721051198
+      sideDash_18: -896438825
+      sideDash_19: 1057207515
+      sideDash_2: 1996482435
+      sideDash_20: 1892207323
+      sideDash_21: 324627579
+      sideDash_22: -424409252
+      sideDash_23: -705604104
+      sideDash_24: -718273440
+      sideDash_3: -708567247
+      sideDash_4: -2032947174
+      sideDash_5: -1400767442
+      sideDash_6: 160760926
+      sideDash_7: -50593169
+      sideDash_8: -1687187595
+      sideDash_9: -1227727582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

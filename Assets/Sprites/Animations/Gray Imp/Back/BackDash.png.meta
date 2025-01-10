@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,18 +95,568 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BackDash_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1032
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2855afb67bb6574a84c78e5e405a18b
+      internalID: -1818433736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1032
+        width: 221
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4ebca6922d5e842909a99809e4cc93
+      internalID: -248933297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1032
+        width: 218
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9078483b33531f4ca7e0befe5d281a5
+      internalID: 1160905478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_3
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1031
+        width: 215
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972b466b60a3474fa77a51cc306d6c1
+      internalID: -1927670612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1031
+        width: 213
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc8933e838ebb541ab50eff03e2285a
+      internalID: 158036171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 775
+        width: 210
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3906ca0767e949bf276527783993a
+      internalID: 1406948785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 774
+        width: 208
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7882f40b6db05fd45a7bb87a7998f5e6
+      internalID: -337403893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 775
+        width: 213
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391a69907a8099418bf47a2a04131c0
+      internalID: 221103321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_8
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 777
+        width: 218
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab201c5e44ae0d841857b842cf8dce36
+      internalID: -701487281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_9
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 778
+        width: 223
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d32a71bba4f8144a80031d3a761472
+      internalID: 1309207064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 525
+        width: 226
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889617107273400438bb1573a6f8ef26
+      internalID: 475817962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_11
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 528
+        width: 230
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a0a3ffac7c7b14c9c8d47301569739
+      internalID: -286096211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_12
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 532
+        width: 232
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaefc232fa9b324459b53e7c19082f87
+      internalID: 1203194397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 531
+        width: 232
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e622d34772bbfad469317aa606987fc0
+      internalID: -1968610545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_14
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 529
+        width: 231
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2cd8983eaa5b49a87c4e5fc20c507
+      internalID: 230974120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 272
+        width: 230
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae12ceb7ceb02d54faf118c2bbfde5b6
+      internalID: -1779862658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 271
+        width: 230
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd81bffa862dd394a8918fe8c7b01633
+      internalID: 377559309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_17
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 270
+        width: 229
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810cdbe9bef388842a536ed27f44a22a
+      internalID: -1680529434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 269
+        width: 229
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689dfbda0daccb04aa8a346018720969
+      internalID: -1900537923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_19
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 268
+        width: 227
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7cc7547bbaf6c47b907594d2b170aa
+      internalID: -1463481894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 11
+        width: 227
+        height: 225
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2790081053de76489bd81b15b1e1a14
+      internalID: -927740682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 10
+        width: 226
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd3a59e938cc284aba19d33f1d09b43
+      internalID: -252061341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 10
+        width: 225
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1895d63f0b9c86498a927ab5fa57803
+      internalID: -1209582594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_23
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 9
+        width: 225
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af6036f971a6b845adf2bdfb2e4e71b
+      internalID: -618280181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackDash_24
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 8
+        width: 223
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2fb8c2edd72ca4599365fffe92b6a4
+      internalID: -765423160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d0493f56a1a48754c82a419ba1ec323f
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BackDash_0: -1818433736
+      BackDash_1: -248933297
+      BackDash_10: 475817962
+      BackDash_11: -286096211
+      BackDash_12: 1203194397
+      BackDash_13: -1968610545
+      BackDash_14: 230974120
+      BackDash_15: -1779862658
+      BackDash_16: 377559309
+      BackDash_17: -1680529434
+      BackDash_18: -1900537923
+      BackDash_19: -1463481894
+      BackDash_2: 1160905478
+      BackDash_20: -927740682
+      BackDash_21: -252061341
+      BackDash_22: -1209582594
+      BackDash_23: -618280181
+      BackDash_24: -765423160
+      BackDash_3: -1927670612
+      BackDash_4: 158036171
+      BackDash_5: 1406948785
+      BackDash_6: -337403893
+      BackDash_7: 221103321
+      BackDash_8: -701487281
+      BackDash_9: 1309207064
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

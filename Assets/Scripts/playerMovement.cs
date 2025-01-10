@@ -1,5 +1,6 @@
 using System.Diagnostics.Tracing;
 using UnityEngine;
+[System.Serializable]
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.instance.GamePaused) { return; }
+        //if (GameManager.instance.GamePaused) { return; }
         if (counter > 0)
         {
             counter -= Time.deltaTime;

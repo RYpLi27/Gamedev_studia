@@ -16,7 +16,9 @@ MonoBehaviour:
   castDelay: 0.2
   actionName: FireBall
   actionInterval: 1
+  manaCost: 0
+  gainMana: 0
   projectileSpeed: 15
   flightTime: 1.25
-  projectile: {fileID: 7893212256398326519, guid: e941df6386c2ae449a479879b5817c58,
+  projectile: {fileID: 2709685357550523248, guid: 89bfab09a709ac3449d28f3a89deb413,
     type: 3}

@@ -7,6 +7,8 @@ public class SpellStats : MonoBehaviour
     [SerializeField] private int penetrationAmount;
     [SerializeField] private bool isHeal;
     [SerializeField] private bool fromEnemy;
+    [SerializeField] private bool spawnEffectOnHit;
+    [SerializeField] private GameObject effectOnHit;
     private float value;
     private Action action;
 
@@ -47,8 +49,12 @@ public class SpellStats : MonoBehaviour
 
     private void DestroyCheck() {
         if (destroyOnPenetration != true) return;
+
+        if (spawnEffectOnHit == true) Instantiate(effectOnHit, transform.position, Quaternion.identity);
         
-        if(destroyOnCollision) { Destroy(gameObject); }
+        if (destroyOnCollision) {
+            Destroy(gameObject);
+        }
         
         if(penetrationAmount > 0) {
             penetrationAmount--;

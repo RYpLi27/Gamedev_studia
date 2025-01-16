@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: bd9cfea357ecdcb408e788974cb2ecc7
+=======
+guid: b7111e752c1b5984cb5a8cbb07d95e35
+>>>>>>> d7bbd5e (Aniamator stuff)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

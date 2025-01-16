@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6f5a2891aabcdbd459c1d055ca22739d
+=======
+guid: 61468d2768ab52647861caaa7692dea6
+>>>>>>> d7bbd5e (Aniamator stuff)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

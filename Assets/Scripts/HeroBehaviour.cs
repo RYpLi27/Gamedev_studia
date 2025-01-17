@@ -11,7 +11,7 @@ public class HeroBehaviour : MonoBehaviour
     }
 
     private bool lootFound;
-    private Transform targetedLoot;
+    public Transform targetedLoot;
     private GameManager gameManager;
     private NavMeshAgent agent;
     private SpellCasting spells;

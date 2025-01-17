@@ -4,12 +4,13 @@ using UnityEngine.AI;
 public class SpellCasting : MonoBehaviour
 {
     private bool readyToCast, approachTarget, targetInSight, tryRecast, canMove;
-    private Transform actionTarget, targetedEnemy, targetedAlly;
+    private Transform targetedEnemy, targetedAlly;
     private float approachTargetRange;
     private Action currentAction;
     private GameManager gameManager;
     private NavMeshAgent agent;
 
+    public Transform actionTarget; 
     [SerializeField] private string attackActionTag;
     [SerializeField] private string supportActionTag;
     [SerializeField] private Action[] actionListAttack;

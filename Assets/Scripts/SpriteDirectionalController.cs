@@ -23,10 +23,10 @@ public class SpriteDirectionalController : MonoBehaviour
 
         float angle = Mathf.Abs(signedAngle);
 
-        if (signedAngle >0)
-        {
-            spriteRenderer.flipX = true;
-        }
+        //if (signedAngle >0)
+        //{
+        //    spriteRenderer.flip
+        //}
         //Potem zmienie je na Switch Case dla 8 kierunków
         if (angle < backAngle)
         {

@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class MainMenuCamera : MonoBehaviour {
@@ -18,5 +17,9 @@ public class MainMenuCamera : MonoBehaviour {
 
     public void EnableCanvas(string canvasName) {
         GameObject.Find(canvasName).GetComponent<Canvas>().enabled = true;
+    }
+
+    private void SetSettingsValues(string canvasName) {
+        GameObject.Find(canvasName).GetComponent<SettingsScripts>().SetValues();
     }
 }

@@ -1,6 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq.Expressions;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
+using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using static Unity.VisualScripting.Icons;
+using static UnityEngine.Rendering.DebugUI.Table;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
+using UnityEngine.Rendering.VirtualTexturing;
 
 public class LookAtTarget : MonoBehaviour
 {
@@ -15,18 +25,19 @@ public class LookAtTarget : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //_transform.LookAt(targetTransform);
-        //spellCasting.actionTarget.
-        transform.LookAt(spellCasting.actionTarget);
-        if (GameManager.instance.EnemyCount < 1)
+        
+        if (GameManager.instance.EnemyCount > 0)
+        {
+            transform.LookAt(spellCasting.actionTarget);
+        }
+        else if (GameManager.instance.GoldPileCount > 0)
         {
             transform.LookAt(HeroBehaviour.instance.targetedLoot);
         }
         else
         {
-            transform.LookAt(spellCasting.actionTarget);
+            transform.LookAt(GameManager.instance.ExitPoint);
         }
 
     }
-
 }
